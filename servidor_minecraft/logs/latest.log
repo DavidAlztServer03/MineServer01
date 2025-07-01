@@ -304,3 +304,5 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 22:27:36.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF burned to death
 [01Jul2025 22:27:36.545] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for MirsWATF with unique ID travelersbackpack.creeper_01.07.2025-22.27.36.dat
 [01Jul2025 22:27:36.557] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
+[01Jul2025 22:31:57.578] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 22:31:57.580] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
