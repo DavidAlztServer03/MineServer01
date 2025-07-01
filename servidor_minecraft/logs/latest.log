@@ -340,3 +340,11 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 23:40:06.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel withered away
 [01Jul2025 23:40:06.114] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Manuel with unique ID travelersbackpack.fox_01.07.2025-23.40.06.dat
 [01Jul2025 23:40:06.122] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 23:43:07.659] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel has reached the goal [Fighting Nightmares]
+[01Jul2025 23:45:54.956] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 23:45:54.961] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 23:46:53.358] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod
+[01Jul2025 23:46:53.361] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
+[01Jul2025 23:47:05.857] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[01Jul2025 23:47:05.857] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 23:47:08.357] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod

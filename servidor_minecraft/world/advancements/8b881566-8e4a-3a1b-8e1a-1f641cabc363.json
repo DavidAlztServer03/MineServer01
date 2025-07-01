@@ -10964,6 +10964,12 @@
     },
     "done": true
   },
+  "repurposed_structures:mineshafts": {
+    "criteria": {
+      "in_mineshaft_ocean": "2025-07-01 23:45:08 +0000"
+    },
+    "done": false
+  },
   "iceandfire:iceandfire/kill_deathworm": {
     "criteria": {
       "killed_fire_dragon": "2025-07-01 21:34:39 +0000"
