@@ -1702,11 +1702,13 @@
       "minecraft:vindicator": "2025-06-12 08:15:33 +0000",
       "minecraft:magma_cube": "2025-06-27 19:40:28 +0000",
       "minecraft:spider": "2025-06-09 07:46:53 +0000",
+      "minecraft:creeper": "2025-07-01 22:08:02 +0000",
       "minecraft:phantom": "2025-06-16 01:38:00 +0000",
       "minecraft:witch": "2025-06-09 08:20:22 +0000",
       "minecraft:wither_skeleton": "2025-06-11 06:53:45 +0000",
       "minecraft:cave_spider": "2025-06-12 08:12:08 +0000",
       "minecraft:silverfish": "2025-06-09 07:52:57 +0000",
+      "minecraft:enderman": "2025-07-01 22:08:50 +0000",
       "minecraft:zombie": "2025-06-09 07:07:48 +0000",
       "minecraft:drowned": "2025-06-17 23:32:31 +0000",
       "minecraft:zombie_villager": "2025-06-16 01:34:57 +0000"
@@ -6947,33 +6949,9 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/dragonsteel_weapon": {
-    "criteria": {
-      "sword": "2025-07-01 21:43:21 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/deathworm_white_chestplate": {
-    "criteria": {
-      "has_item": "2025-07-01 21:55:29 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_green_leggings": {
-    "criteria": {
-      "has_item": "2025-07-01 21:39:58 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/bamboo_fence": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/deathworm_white_boots": {
-    "criteria": {
-      "has_item": "2025-07-01 21:55:29 +0000"
     },
     "done": true
   },
@@ -6995,18 +6973,6 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/deathworm_white_helmet": {
-    "criteria": {
-      "has_item": "2025-07-01 21:55:29 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/deathworm_white_leggings": {
-    "criteria": {
-      "has_item": "2025-07-01 21:55:29 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/bamboo_sign": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
@@ -7019,27 +6985,9 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/tide_trident": {
-    "criteria": {
-      "has_item": "2025-07-01 21:40:02 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/redstone/bamboo_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_green_boots": {
-    "criteria": {
-      "has_item": "2025-07-01 21:39:58 +0000"
-    },
-    "done": true
-  },
-  "iceandfire:recipes/combat/tide_green_chestplate": {
-    "criteria": {
-      "has_item": "2025-07-01 21:39:58 +0000"
     },
     "done": true
   },
@@ -7055,9 +7003,21 @@
     },
     "done": true
   },
-  "iceandfire:recipes/combat/sea_serpent_arrow": {
+  "iceandfire:recipes/combat/tide_green_leggings": {
     "criteria": {
-      "has_item": "2025-07-01 21:40:02 +0000"
+      "has_item": "2025-07-01 21:39:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_boots": {
+    "criteria": {
+      "has_item": "2025-07-01 21:39:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-01 21:39:58 +0000"
     },
     "done": true
   },
@@ -7070,6 +7030,54 @@
   "iceandfire:recipes/combat/tide_green_helmet": {
     "criteria": {
       "has_item": "2025-07-01 21:39:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_trident": {
+    "criteria": {
+      "has_item": "2025-07-01 21:40:02 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/sea_serpent_arrow": {
+    "criteria": {
+      "has_item": "2025-07-01 21:40:02 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "sword": "2025-07-01 21:43:21 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_boots": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_helmet": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_leggings": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:deceived_hopes": {
+    "criteria": {
+      "deceived_hopes_0": "2025-07-01 22:09:23 +0000"
     },
     "done": true
   },

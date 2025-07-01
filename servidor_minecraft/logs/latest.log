@@ -287,3 +287,9 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 22:07:03.490] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:35169] logged in with entity id 15282 at (479.8370874608624, 9.116905831256156, -3345.4377364003503)
 [01Jul2025 22:07:03.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
 [01Jul2025 22:09:23.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel has made the advancement [Deceived Hopes]
+[01Jul2025 22:14:38.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF has made the advancement [Where Is The Stone Pen?]
+[01Jul2025 22:16:06.405] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 22:16:06.411] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 22:16:33.155] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod
+[01Jul2025 22:16:33.166] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
+[01Jul2025 22:16:48.375] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod

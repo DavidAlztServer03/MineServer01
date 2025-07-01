@@ -11042,6 +11042,12 @@
     },
     "done": true
   },
+  "jeg:infantry_rifle": {
+    "criteria": {
+      "Item": "2025-07-01 22:14:34 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/deathworm_red_chestplate": {
     "criteria": {
       "has_item": "2025-07-01 21:34:40 +0000"
@@ -11063,6 +11069,12 @@
   "minecraft:recipes/redstone/bamboo_door": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:50 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/create_magic_tablet": {
+    "criteria": {
+      "has_magic_tablet": "2025-07-01 22:14:38 +0000"
     },
     "done": true
   },
