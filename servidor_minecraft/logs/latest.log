@@ -278,3 +278,12 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 
 [01Jul2025 21:50:41.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel> no
 [01Jul2025 21:52:52.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF has made the advancement [Paul Atreides]
+[01Jul2025 22:01:15.725] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! 0.5578084650292112,3.6067405871106644,-9.34995581505973
+[01Jul2025 22:06:28.483] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -10.311774324530859,-0.451894179043526,-2.79245051897351
+[01Jul2025 22:06:32.513] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel was kicked for floating too long!
+[01Jul2025 22:06:32.514] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Flying is not enabled on this server
+[01Jul2025 22:06:32.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 22:06:32.567] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[01Jul2025 22:07:03.490] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:35169] logged in with entity id 15282 at (479.8370874608624, 9.116905831256156, -3345.4377364003503)
+[01Jul2025 22:07:03.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[01Jul2025 22:09:23.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel has made the advancement [Deceived Hopes]
