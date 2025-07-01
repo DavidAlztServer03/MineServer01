@@ -293,3 +293,14 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 22:16:33.155] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod
 [01Jul2025 22:16:33.166] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
 [01Jul2025 22:16:48.375] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod
+[01Jul2025 22:22:23.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel was kicked for floating too long!
+[01Jul2025 22:22:23.414] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Flying is not enabled on this server
+[01Jul2025 22:22:23.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 22:26:14.370] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@33f4571e[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:47501) lost connection: Disconnected
+[01Jul2025 22:26:44.994] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:45883] logged in with entity id 22124 at (477.539498207397, -23.177008570969583, -3339.7727063576767)
+[01Jul2025 22:26:45.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[01Jul2025 22:27:26.475] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod
+[01Jul2025 22:27:26.478] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
+[01Jul2025 22:27:36.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF burned to death
+[01Jul2025 22:27:36.545] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for MirsWATF with unique ID travelersbackpack.creeper_01.07.2025-22.27.36.dat
+[01Jul2025 22:27:36.557] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
