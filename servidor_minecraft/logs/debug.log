@@ -4879,3 +4879,9 @@ Repurposed Structures: Failed to create valid structure with all required pieces
   Please report the issue to Repurposed Structures's dev with latest.log file if the structure is not cut off by world min/max y build thresholds.
 
 
+[01Jul2025 21:50:41.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Manuel> no
+[01Jul2025 21:51:57.004] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Jul2025 21:51:57.018] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Jul2025 21:52:52.260] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF has made the advancement [Paul Atreides]
+[01Jul2025 21:56:57.005] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Jul2025 21:56:57.019] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

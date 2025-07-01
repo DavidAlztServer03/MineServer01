@@ -6953,6 +6953,12 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/deathworm_white_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/tide_green_leggings": {
     "criteria": {
       "has_item": "2025-07-01 21:39:58 +0000"
@@ -6962,6 +6968,12 @@
   "minecraft:recipes/decorations/bamboo_fence": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_boots": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
     },
     "done": true
   },
@@ -6980,6 +6992,18 @@
   "minecraft:recipes/redstone/bamboo_button": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_helmet": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/deathworm_white_leggings": {
+    "criteria": {
+      "has_item": "2025-07-01 21:55:29 +0000"
     },
     "done": true
   },
