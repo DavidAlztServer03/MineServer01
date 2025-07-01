@@ -329,3 +329,14 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 23:30:51.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
 [01Jul2025 23:31:22.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
 [01Jul2025 23:31:22.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 23:32:19.425] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:43285] logged in with entity id 40328 at (40.428111033019995, -27.0, -3483.6994669202068)
+[01Jul2025 23:32:19.434] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[01Jul2025 23:34:00.210] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -3.0991465488858125,0.0,-9.553824355622965
+[01Jul2025 23:36:19.834] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! 0.48676946658438425,1.0,10.256358072923376
+[01Jul2025 23:38:15.757] [Server thread/WARN] [tombstone/]: The death event of the player MirsWATF was canceled by another mod
+[01Jul2025 23:38:15.761] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
+[01Jul2025 23:39:33.209] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 23:39:33.217] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 23:40:06.104] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel withered away
+[01Jul2025 23:40:06.114] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for Manuel with unique ID travelersbackpack.fox_01.07.2025-23.40.06.dat
+[01Jul2025 23:40:06.122] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
