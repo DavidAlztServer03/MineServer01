@@ -418,7 +418,8 @@
       "brimwood_log": "2025-06-27 18:55:16 +0000",
       "silver_birch_log": "2025-06-11 05:14:26 +0000",
       "small_oak_log": "2025-06-18 17:43:30 +0000",
-      "maple_log": "2025-06-08 17:49:52 +0000"
+      "maple_log": "2025-06-08 17:49:52 +0000",
+      "bamboo_log": "2025-07-01 21:31:40 +0000"
     },
     "done": false
   },
@@ -6935,6 +6936,66 @@
   "minecraft:recipes/building_blocks/green_terracotta": {
     "criteria": {
       "has_terracotta": "2025-07-01 02:00:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_planks": {
+    "criteria": {
+      "has_logs": "2025-07-01 21:31:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_fence": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_slab": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_button": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/bamboo_sign": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_door": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/bamboo_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_stairs": {
+    "criteria": {
+      "has_planks": "2025-07-01 21:31:46 +0000"
     },
     "done": true
   },
