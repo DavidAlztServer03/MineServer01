@@ -11000,6 +11000,12 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/redstone/redstone_from_blasting_redstone_bulb": {
+    "criteria": {
+      "has_redstone_bulb": "2025-07-01 23:00:41 +0000"
+    },
+    "done": true
+  },
   "iceandfire:recipes/combat/deathworm_red_helmet": {
     "criteria": {
       "has_item": "2025-07-01 21:34:40 +0000"
@@ -11075,6 +11081,12 @@
   "tombstone:adventure/create_magic_tablet": {
     "criteria": {
       "has_magic_tablet": "2025-07-01 22:14:38 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/redstone/redstone_from_smelting_redstone_bulb": {
+    "criteria": {
+      "has_redstone_bulb": "2025-07-01 23:00:41 +0000"
     },
     "done": true
   },
