@@ -335,6 +335,7 @@
       "cold_river": "2025-06-08 17:49:39 +0000",
       "pumpkin_fields": "2025-06-29 04:41:03 +0000",
       "pine_slopes": "2025-06-18 17:44:21 +0000",
+      "baobab_savanna": "2025-07-01 21:42:38 +0000",
       "old_growth_bayou": "2025-06-29 06:01:24 +0000",
       "grassland": "2025-06-20 02:37:20 +0000",
       "gravel_beach": "2025-06-08 17:51:28 +0000",
@@ -377,6 +378,7 @@
       "cold_river": "2025-06-08 17:49:39 +0000",
       "pumpkin_fields": "2025-06-29 04:41:03 +0000",
       "pine_slopes": "2025-06-18 17:44:21 +0000",
+      "baobab_savanna": "2025-07-01 21:42:38 +0000",
       "old_growth_bayou": "2025-06-29 06:01:24 +0000",
       "grassland": "2025-06-20 02:37:20 +0000",
       "gravel_beach": "2025-06-08 17:51:28 +0000",
@@ -6945,6 +6947,18 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "sword": "2025-07-01 21:43:21 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_leggings": {
+    "criteria": {
+      "has_item": "2025-07-01 21:39:58 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/bamboo_fence": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
@@ -6981,9 +6995,27 @@
     },
     "done": true
   },
+  "iceandfire:recipes/combat/tide_trident": {
+    "criteria": {
+      "has_item": "2025-07-01 21:40:02 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/bamboo_trapdoor": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_boots": {
+    "criteria": {
+      "has_item": "2025-07-01 21:39:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_chestplate": {
+    "criteria": {
+      "has_item": "2025-07-01 21:39:58 +0000"
     },
     "done": true
   },
@@ -6996,6 +7028,24 @@
   "minecraft:recipes/building_blocks/bamboo_stairs": {
     "criteria": {
       "has_planks": "2025-07-01 21:31:46 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/sea_serpent_arrow": {
+    "criteria": {
+      "has_item": "2025-07-01 21:40:02 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/building_blocks/sea_serpent_scales_green_to_sea_serpent_scale_block_green": {
+    "criteria": {
+      "has_sea_serpent_scales_green": "2025-07-01 21:39:58 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:recipes/combat/tide_green_helmet": {
+    "criteria": {
+      "has_item": "2025-07-01 21:39:58 +0000"
     },
     "done": true
   },

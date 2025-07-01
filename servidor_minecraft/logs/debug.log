@@ -4857,3 +4857,25 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [01Jul2025 21:38:48.903] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [01Jul2025 21:39:21.258] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
 [01Jul2025 21:39:21.264] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 21:41:57.032] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Jul2025 21:41:57.050] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Jul2025 21:42:59.388] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! 9.480171365466646,0.21148383573333263,-3.383345893510068
+[01Jul2025 21:43:07.941] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! 9.460596694228855,0.7939131991832369,-4.465442947830979
+[01Jul2025 21:43:21.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel has made the advancement [Draconic Evolution]
+[01Jul2025 21:45:18.424] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 21:45:18.427] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 21:45:26.458] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 21:45:26.460] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 21:46:57.111] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Jul2025 21:46:57.127] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Jul2025 21:48:52.157] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
+[01Jul2025 21:48:52.164] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 21:49:57.604] [Worker-Main-3/ERROR] [com.telepathicgrunt.repurposedstructures.RepurposedStructures/]: 
+-------------------------------------------------------------------
+Repurposed Structures: Failed to create valid structure with all required pieces starting from this pool file: repurposed_structures:cities/overworld/start_pool. Required pieces failed to generate the required amount are: [repurposed_structures:cities/overworld/fat_tower_top=1]
+  This can happen if a structure has a required piece but the structure size is set too low.
+  However, this is most likely caused by a structure unable to spawn properly due to hitting the world's min y or max y build thresholds or a broken RS datapack.
+  Try teleporting to: BlockPos{x=-2007, y=64, z=839} and see if the structure generated fine with the required structure piece or if it is indeed missing it.
+  Please report the issue to Repurposed Structures's dev with latest.log file if the structure is not cut off by world min/max y build thresholds.
+
+
