@@ -306,3 +306,8 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 22:27:36.557] [Server thread/INFO] [tombstone/]: The player MirsWATF has successfully been saved
 [01Jul2025 22:31:57.578] [Server thread/WARN] [tombstone/]: The death event of the player Manuel was canceled by another mod
 [01Jul2025 22:31:57.580] [Server thread/INFO] [tombstone/]: The player Manuel has successfully been saved
+[01Jul2025 22:51:32.707] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[01Jul2025 22:51:32.707] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 22:53:07.307] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76c3a3da[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:57043) lost connection: Timed out
+[01Jul2025 22:53:30.430] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:33667] logged in with entity id 29163 at (308.61360216123154, -19.0, -3436.2770585212133)
+[01Jul2025 22:53:30.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
