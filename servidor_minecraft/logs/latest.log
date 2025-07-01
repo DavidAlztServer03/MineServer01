@@ -311,3 +311,21 @@ Repurposed Structures: Failed to create valid structure with all required pieces
 [01Jul2025 22:53:07.307] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@76c3a3da[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:57043) lost connection: Timed out
 [01Jul2025 22:53:30.430] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:33667] logged in with entity id 29163 at (308.61360216123154, -19.0, -3436.2770585212133)
 [01Jul2025 22:53:30.439] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[01Jul2025 23:18:15.064] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
+[01Jul2025 23:19:25.607] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel was kicked for floating too long!
+[01Jul2025 23:19:25.657] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Flying is not enabled on this server
+[01Jul2025 23:19:25.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 23:20:18.265] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@32907195[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:34087) lost connection: Disconnected
+[01Jul2025 23:20:54.956] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@7f85bcc1[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:36625) lost connection: Disconnected
+[01Jul2025 23:21:31.557] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@af75f20[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:33713) lost connection: Disconnected
+[01Jul2025 23:22:10.309] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@216660b7[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:60653) lost connection: Disconnected
+[01Jul2025 23:22:53.908] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@679588de[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:58299) lost connection: Disconnected
+[01Jul2025 23:23:13.185] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:41709] logged in with entity id 38166 at (127.77567656192501, -31.04880002937317, -3556.800785702116)
+[01Jul2025 23:23:13.193] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[01Jul2025 23:29:31.041] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! 0.5853176767491561,0.0,-10.132005825170381
+[01Jul2025 23:29:43.807] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[01Jul2025 23:29:43.808] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[01Jul2025 23:30:51.877] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:38219] logged in with entity id 40169 at (40.428111033019995, -27.0, -3483.6994669202068)
+[01Jul2025 23:30:51.885] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[01Jul2025 23:31:22.006] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[01Jul2025 23:31:22.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
