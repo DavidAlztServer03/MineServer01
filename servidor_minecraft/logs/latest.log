@@ -256,3 +256,4 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 18:20:23.850] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
 [02Jul2025 18:20:23.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
 [02Jul2025 18:22:09.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Splintering II]
+[02Jul2025 18:45:00.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A large Graveyard horde of undead appeared at 334 64 394.
