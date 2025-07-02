@@ -226,3 +226,101 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 01:02:40.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF left the game
 [02Jul2025 01:02:57.099] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MirsWATF[/127.137.229.16:50399] logged in with entity id 4742 at (925.850511008036, 93.0, -1364.5565779803294)
 [02Jul2025 01:02:57.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF joined the game
+[02Jul2025 01:12:19.399] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheKingDeath[/127.198.239.183:37755] logged in with entity id 7232 at (737.6851890213557, 64.0, 433.71435023424107)
+[02Jul2025 01:12:19.408] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath joined the game
+[02Jul2025 01:12:20.292] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -4.471189240740387,-1.6785598452797217,8.86061734480404
+[02Jul2025 01:21:44.402] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [My Name is Nobody]
+[02Jul2025 01:21:45.268] [Server thread/WARN] [tombstone/]: The death event of the player TheKingDeath was canceled by another mod
+[02Jul2025 01:21:45.281] [Server thread/INFO] [tombstone/]: The player TheKingDeath has successfully been saved
+[02Jul2025 01:22:01.428] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath was slain by Cyclops
+[02Jul2025 01:22:01.438] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for TheKingDeath with unique ID travelersbackpack.gold_02.07.2025-01.22.01.dat
+[02Jul2025 01:28:48.680] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 01:28:48.680] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 01:28:48.727] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[02Jul2025 01:29:32.423] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:45879] logged in with entity id 20000 at (959.6544844095777, 93.0, -1365.79128027811)
+[02Jul2025 01:29:32.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 01:31:53.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [The day of the Dead]
+[02Jul2025 01:32:35.180] [Worker-Main-13/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[02Jul2025 01:32:35.180] [Worker-Main-13/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id 
+[02Jul2025 01:33:28.190] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -9.794936061485373,2.2620717041977088,-2.9088272654653338
+[02Jul2025 01:33:36.789] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -10.061269987153196,-0.9959729174385927,3.056788046520751
+[02Jul2025 01:34:06.739] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -8.73386119557233,0.0,4.8751270123680115
+[02Jul2025 01:34:25.447] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -9.98211172207698,0.0,1.1072346678429312
+[02Jul2025 01:34:34.512] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -5.646095890178458,-0.8172762317861526,-8.267884899608816
+[02Jul2025 01:34:46.037] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -9.58814611947787,0.0,-2.9784090356224624
+[02Jul2025 01:35:33.771] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -9.537162700561908,-2.0784000015258783,-3.032838365266116
+[02Jul2025 01:35:58.766] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -8.761778364566794,0.0,-4.9607332397001755
+[02Jul2025 01:36:22.900] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:grizzly_bear
+[02Jul2025 01:36:22.900] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:grizzly_bear
+[02Jul2025 01:36:44.217] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -8.795685465189308,-0.5542684489433327,-4.7968711703586
+[02Jul2025 01:38:07.983] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2025ms or 40 ticks behind
+[02Jul2025 01:38:28.868] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
+[02Jul2025 01:38:34.568] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -6.156109026789295,-6.0,-5.166169897729787
+[02Jul2025 01:38:56.252] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel was kicked for floating too long!
+[02Jul2025 01:38:56.290] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Flying is not enabled on this server
+[02Jul2025 01:38:56.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 01:39:54.408] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@56b1e22f[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:33849) lost connection: Disconnected
+[02Jul2025 01:40:11.847] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:60821] logged in with entity id 28800 at (500.7677853826238, 99.39860578312641, -1541.5532316832325)
+[02Jul2025 01:40:11.856] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 01:40:36.816] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -3.8255047886627835,4.783659468824524,-8.0
+[02Jul2025 01:40:40.102] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Skipping Entity with id alexsmobs:crow
+[02Jul2025 01:40:41.919] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 01:40:41.919] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 01:42:39.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Voluntary Exile]
+[02Jul2025 01:43:11.648] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:35567] logged in with entity id 31191 at (494.24861612582447, 102.29537596723175, -1557.5348733760654)
+[02Jul2025 01:43:11.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 01:43:31.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has reached the goal [Fortuitous Militia]
+[02Jul2025 01:43:38.683] [Server thread/WARN] [tombstone/]: The death event of the player TheKingDeath was canceled by another mod
+[02Jul2025 01:43:38.795] [Server thread/INFO] [tombstone/]: The player TheKingDeath has successfully been saved
+[02Jul2025 01:43:41.786] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 01:43:41.786] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 01:43:51.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath was slain by Zombie
+[02Jul2025 01:43:51.988] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for TheKingDeath with unique ID travelersbackpack.gold_02.07.2025-01.43.51.dat
+[02Jul2025 01:45:02.695] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:55789] logged in with entity id 33034 at (494.24861612582447, 102.0, -1557.5348733760654)
+[02Jul2025 01:45:02.706] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 01:45:32.789] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 01:45:32.790] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 01:46:48.779] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66c21883[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:51441) lost connection: Disconnected
+[02Jul2025 01:48:00.696] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:39567] logged in with entity id 34459 at (494.24861612582447, 102.0, -1557.5348733760654)
+[02Jul2025 01:48:00.704] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 01:48:30.789] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 01:48:30.789] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 01:50:30.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[02Jul2025 01:50:30.268] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[02Jul2025 01:50:30.303] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheKingDeath lost connection: Server closed
+[02Jul2025 01:50:30.304] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath left the game
+[02Jul2025 01:50:30.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[02Jul2025 01:50:30.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[02Jul2025 01:50:34.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[02Jul2025 01:50:34.348] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[02Jul2025 01:50:34.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[02Jul2025 01:50:34.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[02Jul2025 01:50:34.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[02Jul2025 01:50:34.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[02Jul2025 01:50:34.351] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[02Jul2025 01:50:34.352] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[02Jul2025 01:50:34.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[02Jul2025 01:50:34.353] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[02Jul2025 01:50:34.354] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[02Jul2025 01:50:34.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[02Jul2025 01:50:34.355] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[02Jul2025 01:50:34.356] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[02Jul2025 01:50:34.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[02Jul2025 01:50:34.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[02Jul2025 01:50:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[02Jul2025 01:50:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[02Jul2025 01:50:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[02Jul2025 01:50:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[02Jul2025 01:50:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[02Jul2025 01:50:34.471] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[02Jul2025 01:50:34.749] [Server thread/INFO] [Framework/]: Unloading server configs...
+[02Jul2025 01:50:34.750] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[02Jul2025 01:50:34.754] [Server thread/INFO] [Framework/]: Finished unloading server configs

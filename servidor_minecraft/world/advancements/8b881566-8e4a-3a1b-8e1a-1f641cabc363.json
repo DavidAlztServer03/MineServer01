@@ -11150,5 +11150,17 @@
     },
     "done": false
   },
+  "regions_unexplored:recipes/decorations/magnolia_shrub": {
+    "criteria": {
+      "has_magnolia_sapling": "2025-07-02 01:12:27 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/white_magnolia_shrub": {
+    "criteria": {
+      "has_white_magnolia_sapling": "2025-07-02 01:12:38 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
