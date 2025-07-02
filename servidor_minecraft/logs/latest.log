@@ -221,3 +221,16 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 17:50:48.287] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
 [02Jul2025 17:51:18.398] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
 [02Jul2025 17:51:18.398] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 17:52:49.919] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:41603] logged in with entity id 2093 at (494.24861612582447, 102.0, -1557.5348733760654)
+[02Jul2025 17:52:49.935] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 17:53:20.000] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 17:53:20.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 17:54:58.698] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@40d37f5e[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:55773) lost connection: Disconnected
+[02Jul2025 17:55:17.169] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:42587] logged in with entity id 3296 at (494.24861612582447, 102.0, -1557.5348733760654)
+[02Jul2025 17:55:17.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 17:55:44.772] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Magic Repairing]
+[02Jul2025 17:55:47.300] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 17:55:47.300] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 17:57:02.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6f2baf00[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:34923) lost connection: Disconnected
+[02Jul2025 17:57:26.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:37501] logged in with entity id 4056 at (494.24861612582447, 102.0, -1557.5348733760654)
+[02Jul2025 17:57:26.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
