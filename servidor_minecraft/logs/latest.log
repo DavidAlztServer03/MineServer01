@@ -259,3 +259,13 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 18:45:00.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: A large Graveyard horde of undead appeared at 334 64 394.
 [02Jul2025 19:08:14.389] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheKingDeath lost connection: Disconnected
 [02Jul2025 19:08:14.389] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath left the game
+[02Jul2025 19:14:14.551] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TheKingDeath[/127.198.239.183:40421] logged in with entity id 17008 at (734.7513918604434, 64.0, 434.7832486447659)
+[02Jul2025 19:14:14.560] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath joined the game
+[02Jul2025 19:17:01.201] [Server thread/WARN] [tombstone/]: The death event of the player TheKingDeath was canceled by another mod
+[02Jul2025 19:17:01.208] [Server thread/INFO] [tombstone/]: The player TheKingDeath has successfully been saved
+[02Jul2025 19:17:07.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath was slain by Sea Serpent
+[02Jul2025 19:17:07.924] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for TheKingDeath with unique ID travelersbackpack.gold_02.07.2025-19.17.07.dat
+[02Jul2025 19:29:21.742] [Server thread/WARN] [tombstone/]: The death event of the player TheKingDeath was canceled by another mod
+[02Jul2025 19:29:21.746] [Server thread/INFO] [tombstone/]: The player TheKingDeath has successfully been saved
+[02Jul2025 19:29:28.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath was decimated by Stray
+[02Jul2025 19:29:28.302] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for TheKingDeath with unique ID travelersbackpack.gold_02.07.2025-19.29.28.dat
