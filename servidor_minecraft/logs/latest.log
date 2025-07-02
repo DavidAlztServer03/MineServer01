@@ -222,3 +222,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 00:54:02.136] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2278ms or 45 ticks behind
 [02Jul2025 00:56:04.775] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MirsWATF[/127.137.229.16:42993] logged in with entity id 1595 at (916.9230111010879, 82.0, -1377.1270593705187)
 [02Jul2025 00:56:04.819] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF joined the game
+[02Jul2025 01:02:40.930] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MirsWATF lost connection: Disconnected
+[02Jul2025 01:02:40.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF left the game
+[02Jul2025 01:02:57.099] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MirsWATF[/127.137.229.16:50399] logged in with entity id 4742 at (925.850511008036, 93.0, -1364.5565779803294)
+[02Jul2025 01:02:57.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF joined the game
