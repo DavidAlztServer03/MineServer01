@@ -7228,5 +7228,11 @@
     },
     "done": true
   },
+  "paraglider:pray_to_the_goddess": {
+    "criteria": {
+      "bargain": "2025-07-02 18:02:39 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

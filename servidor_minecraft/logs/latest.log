@@ -234,3 +234,10 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 17:57:02.492] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6f2baf00[id=<null>,name=Manuel,properties={},legacy=false] (/127.6.88.14:34923) lost connection: Disconnected
 [02Jul2025 17:57:26.313] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:37501] logged in with entity id 4056 at (494.24861612582447, 102.0, -1557.5348733760654)
 [02Jul2025 17:57:26.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 18:01:43.731] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel moved too quickly! -9.934274518868506,2.5,0.8131324044800294
+[02Jul2025 18:02:39.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel has reached the goal [Pray to the Goddess]
+[02Jul2025 18:05:12.089] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 18:05:12.090] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 18:08:32.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:41599] logged in with entity id 6639 at (734.3052549337748, 64.0, 434.3110635772046)
+[02Jul2025 18:08:32.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 18:10:03.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Magic Disenchantment]
