@@ -275,3 +275,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 19:33:47.948] [Server thread/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Created new backpack backup file for TheKingDeath with unique ID travelersbackpack.gold_02.07.2025-19.33.47.dat
 [02Jul2025 19:37:05.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The Faction Lost Souls has started a raid at BlockPos{x=2502, y=93, z=-5670}!
 [02Jul2025 19:38:24.038] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Villager'/22934, l='ServerLevel[world]', x=2611.62, y=74.94, z=-5748.80] died, message: 'Villager was struck with lightning by Lightning Dragon'
+[02Jul2025 19:50:23.837] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The Faction Lost Souls has been defeated!
+[02Jul2025 19:57:22.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has reached the goal [Dark Creator]
+[02Jul2025 19:58:10.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Source of Evil]
+[02Jul2025 19:58:56.638] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/26921, l='ServerLevel[world]', x=2518.31, y=65.00, z=-5902.50] died, message: 'Leatherworker was energized by Lightning Dragon'
+[02Jul2025 19:59:36.491] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/26948, l='ServerLevel[world]', x=2526.51, y=65.00, z=-5899.23] died, message: 'Cleric was struck with lightning by Lightning Dragon'
