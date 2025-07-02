@@ -281,3 +281,6 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 19:58:56.638] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Leatherworker'/26921, l='ServerLevel[world]', x=2518.31, y=65.00, z=-5902.50] died, message: 'Leatherworker was energized by Lightning Dragon'
 [02Jul2025 19:59:36.491] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Cleric'/26948, l='ServerLevel[world]', x=2526.51, y=65.00, z=-5899.23] died, message: 'Cleric was struck with lightning by Lightning Dragon'
 [02Jul2025 20:35:25.960] [Worker-Main-131/ERROR] [net.minecraft.world.entity.animal.allay.Allay/]: No key selector in MapLike[{event_delay:0,event_distance:0.0f,range:16,source:{source_entity:[I;-12717329,-1471723623,-1908530992,507571752],type:"minecraft:entity",y_offset:0.36f}}]
+[02Jul2025 20:59:12.612] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: You whisper to TheKingDeath: estas jugando aun ? xd
+[02Jul2025 21:04:27.288] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheKingDeath lost connection: Disconnected
+[02Jul2025 21:04:27.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath left the game
