@@ -6962,3 +6962,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 21:03:09.173] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [02Jul2025 21:04:27.288] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheKingDeath lost connection: Disconnected
 [02Jul2025 21:04:27.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath left the game
+[02Jul2025 21:08:09.142] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[02Jul2025 21:08:09.157] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[02Jul2025 21:13:09.163] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[02Jul2025 21:13:09.180] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
