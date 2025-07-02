@@ -241,3 +241,18 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [02Jul2025 18:08:32.713] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:41599] logged in with entity id 6639 at (734.3052549337748, 64.0, 434.3110635772046)
 [02Jul2025 18:08:32.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
 [02Jul2025 18:10:03.756] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Magic Disenchantment]
+[02Jul2025 18:15:33.699] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 18:15:33.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 18:16:18.857] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:35057] logged in with entity id 8719 at (925.5, 94.35489329934836, -1360.5)
+[02Jul2025 18:16:18.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 18:16:48.951] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 18:16:48.951] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 18:18:33.611] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:36513] logged in with entity id 9118 at (925.5, 94.35489329934836, -1360.5)
+[02Jul2025 18:18:33.620] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 18:19:03.701] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 18:19:03.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 18:19:53.707] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Manuel[/127.6.88.14:53487] logged in with entity id 9556 at (925.5, 94.35489329934836, -1360.5)
+[02Jul2025 18:19:53.716] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel joined the game
+[02Jul2025 18:20:23.850] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Manuel lost connection: Timed out
+[02Jul2025 18:20:23.850] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
+[02Jul2025 18:22:09.691] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Splintering II]
