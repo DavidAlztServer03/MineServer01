@@ -6627,6 +6627,18 @@
     },
     "done": true
   },
+  "tombstone:adventure/use_magic_impregnation": {
+    "criteria": {
+      "coded_trigger": "2025-07-03 03:42:03 +0000"
+    },
+    "done": true
+  },
+  "born_in_chaos_v1:dark_forging": {
+    "criteria": {
+      "dark_forging_0": "2025-07-03 03:34:01 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/misc/blue_dye_from_meadow_sage": {
     "criteria": {
       "has_meadow_sage": "2025-07-03 03:20:56 +0000"
