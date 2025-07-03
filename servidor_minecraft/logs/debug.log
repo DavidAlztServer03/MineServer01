@@ -5431,3 +5431,13 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [03Jul2025 04:38:24.769] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [03Jul2025 04:43:24.756] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [03Jul2025 04:43:24.770] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Jul2025 04:48:24.767] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Jul2025 04:48:24.781] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Jul2025 04:53:24.756] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Jul2025 04:53:24.770] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Jul2025 04:55:23.082] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Got action SORT slot 52
+[03Jul2025 04:55:23.083] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Slot mapping {[]=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=54, e=80}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=81, e=89}, com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca=InventoryMapping{i=com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca, c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=0, e=53}}
+[03Jul2025 04:55:23.083] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca, c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=0, e=53}
+[03Jul2025 04:55:23.344] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Got action SORT slot 52
+[03Jul2025 04:55:23.344] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Slot mapping {[]=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=54, e=80}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=81, e=89}, com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca=InventoryMapping{i=com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca, c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=0, e=53}}
+[03Jul2025 04:55:23.344] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca, c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=0, e=53}
