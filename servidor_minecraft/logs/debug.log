@@ -5441,3 +5441,52 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [03Jul2025 04:55:23.344] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Got action SORT slot 52
 [03Jul2025 04:55:23.344] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Slot mapping {[]=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=54, e=80}, []=InventoryMapping{i=[], c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=81, e=89}, com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca=InventoryMapping{i=com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca, c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=0, e=53}}
 [03Jul2025 04:55:23.344] [Server thread/DEBUG] [cpw.mods.inventorysorter.InventorySorter/]: Action slot InventoryMapping{i=com.lion.graveyard.blockentities.SarcophagusBlockEntity@621526ca, c=net.minecraft.world.inventory.ChestMenu@37e81ff8, b=0, e=53}
+[03Jul2025 04:58:24.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Jul2025 04:58:24.764] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Jul2025 05:03:08.220] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MirsWATF lost connection: Disconnected
+[03Jul2025 05:03:08.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF left the game
+[03Jul2025 05:03:24.724] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Jul2025 05:03:24.737] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Jul2025 05:03:33.267] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[03Jul2025 05:03:33.311] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[03Jul2025 05:03:33.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[03Jul2025 05:03:33.313] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[03Jul2025 05:03:33.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03Jul2025 05:03:33.521] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[03Jul2025 05:03:33.523] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03Jul2025 05:03:33.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[03Jul2025 05:03:33.526] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[03Jul2025 05:03:33.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[03Jul2025 05:03:33.528] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[03Jul2025 05:03:33.530] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[03Jul2025 05:03:33.532] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[03Jul2025 05:03:33.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[03Jul2025 05:03:33.533] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[03Jul2025 05:03:33.535] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[03Jul2025 05:03:33.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[03Jul2025 05:03:33.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[03Jul2025 05:03:33.539] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[03Jul2025 05:03:33.585] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[03Jul2025 05:03:33.597] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[03Jul2025 05:03:33.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03Jul2025 05:03:33.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[03Jul2025 05:03:33.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03Jul2025 05:03:33.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[03Jul2025 05:03:33.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[03Jul2025 05:03:33.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[03Jul2025 05:03:33.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[03Jul2025 05:03:33.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[03Jul2025 05:03:33.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[03Jul2025 05:03:33.662] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03Jul2025 05:03:33.690] [Server thread/INFO] [Framework/]: Unloading server configs...
+[03Jul2025 05:03:33.691] [Server thread/DEBUG] [Framework/]: Stopped watching config: /workspaces/MineServer01/servidor_minecraft/config/goblintraders-entities.toml
+[03Jul2025 05:03:33.692] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[03Jul2025 05:03:33.696] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[03Jul2025 05:03:33.696] [Server thread/DEBUG] [Framework/]: Stopping config watcher
+[03Jul2025 05:03:33.696] [Server thread/DEBUG] [net.minecraftforge.fml.config.ConfigTracker/CONFIG]: Unloading configs type SERVER
