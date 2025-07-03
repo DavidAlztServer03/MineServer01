@@ -262,3 +262,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [03Jul2025 03:31:08.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Manuel left the game
 [03Jul2025 03:34:01.538] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Dark Forging]
 [03Jul2025 03:42:03.806] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [Magic Impregnation]
+[03Jul2025 04:08:05.982] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath has made the advancement [An Ear-Shattering Roar]
+[03Jul2025 04:12:49.293] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <MirsWATF> ya vuelvo xd
+[03Jul2025 04:13:27.827] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TheKingDeath lost connection: Disconnected
+[03Jul2025 04:13:27.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TheKingDeath left the game

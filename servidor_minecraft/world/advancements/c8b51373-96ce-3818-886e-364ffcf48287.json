@@ -6633,6 +6633,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_horn": {
+    "criteria": {
+      "bestiary": "2025-07-03 04:08:05 +0000"
+    },
+    "done": true
+  },
   "born_in_chaos_v1:dark_forging": {
     "criteria": {
       "dark_forging_0": "2025-07-03 03:34:01 +0000"
