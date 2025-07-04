@@ -1,8 +1,8 @@
-[01:28:43] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[01:28:43] [INIT] Loaded plugins:
-[01:28:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[01:28:44] [INFO] Loaded script startup_scripts:nerf_hacha.js in 0.1 s
-[01:28:44] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[01:28:44] [INFO] Loaded script startup_scripts:example.js in 0.006 s
-[01:28:44] [INFO] Loaded 2/2 KubeJS startup scripts in 0.751 s with 0 errors and 0 warnings
-[01:28:50] [ERROR] ! nerf_hacha.js#8: Error in 'ItemEvents.modification': TypeError: Cannot find function setAttributeModifiers in object supreme_measure.
+[01:32:24] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:32:24] [INIT] Loaded plugins:
+[01:32:24] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:32:25] [INFO] Loaded script startup_scripts:nerf_hacha.js in 0.079 s
+[01:32:25] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[01:32:25] [INFO] Loaded script startup_scripts:example.js in 0.002 s
+[01:32:25] [INFO] Loaded 2/2 KubeJS startup scripts in 0.596 s with 0 errors and 0 warnings
+[01:32:32] [ERROR] ! nerf_hacha.js#7: Error in 'ItemEvents.modification': TypeError: Cannot call method "add" of undefined
