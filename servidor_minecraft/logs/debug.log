@@ -4621,3 +4621,15 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [04Jul2025 04:30:26.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
 [04Jul2025 04:31:16.559] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
 [04Jul2025 04:31:19.642] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Wooden Axe] to MirsWATF]
+[04Jul2025 04:32:58.685] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Jul2025 04:32:58.696] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Jul2025 04:33:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Wooden Axe] to MirsWATF]
+[04Jul2025 04:35:37.142] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Wooden Axe] to MirsWATF]
+[04Jul2025 04:35:53.442] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Wooden Axe] to MirsWATF]
+[04Jul2025 04:36:43.592] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Wooden Axe] to MirsWATF]
+[04Jul2025 04:37:09.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[04Jul2025 04:37:43.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[04Jul2025 04:37:58.682] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Jul2025 04:37:58.695] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Jul2025 04:38:42.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[04Jul2025 04:39:25.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
