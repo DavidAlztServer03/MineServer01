@@ -243,3 +243,93 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [04Jul2025 04:37:43.750] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
 [04Jul2025 04:38:42.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
 [04Jul2025 04:39:25.148] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[04Jul2025 04:44:13.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[04Jul2025 04:44:14.238] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Jul2025 04:44:14.238] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Jul2025 04:44:14.239] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[04Jul2025 04:44:14.273] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.commands.Commands.m_230957_(Commands.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_139665_(DedicatedServer.java:298) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:284) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23217!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[04Jul2025 04:44:14.289] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[04Jul2025 04:44:14.296] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[04Jul2025 04:44:14.321] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[04Jul2025 04:44:14.333] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[04Jul2025 04:44:14.338] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[04Jul2025 04:44:14.357] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[04Jul2025 04:44:14.366] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[04Jul2025 04:44:14.369] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[04Jul2025 04:44:14.379] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[04Jul2025 04:44:17.436] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3845ms or 76 ticks behind
+[04Jul2025 04:44:39.849] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MirsWATF lost connection: Disconnected
+[04Jul2025 04:44:39.849] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF left the game
+[04Jul2025 04:45:00.921] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MirsWATF[/127.137.229.16:41641] logged in with entity id 7490 at (940.3438949206376, 106.0, -1366.2153328780112)
+[04Jul2025 04:45:00.941] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF joined the game
+[04Jul2025 04:45:39.301] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MirsWATF lost connection: Disconnected
+[04Jul2025 04:45:39.301] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF left the game
+[04Jul2025 04:45:44.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[04Jul2025 04:45:44.793] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Jul2025 04:45:44.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Jul2025 04:45:44.794] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Jul2025 04:45:44.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[04Jul2025 04:45:44.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[04Jul2025 04:45:44.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[04Jul2025 04:45:44.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[04Jul2025 04:45:44.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[04Jul2025 04:45:44.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[04Jul2025 04:45:44.995] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[04Jul2025 04:45:44.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[04Jul2025 04:45:44.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[04Jul2025 04:45:44.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[04Jul2025 04:45:44.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[04Jul2025 04:45:45.000] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[04Jul2025 04:45:45.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[04Jul2025 04:45:45.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[04Jul2025 04:45:45.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[04Jul2025 04:45:45.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[04Jul2025 04:45:45.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[04Jul2025 04:45:45.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[04Jul2025 04:45:45.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[04Jul2025 04:45:45.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[04Jul2025 04:45:45.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[04Jul2025 04:45:45.130] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[04Jul2025 04:45:45.131] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[04Jul2025 04:45:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Jul2025 04:45:45.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[04Jul2025 04:45:45.160] [Server thread/INFO] [Framework/]: Unloading server configs...
+[04Jul2025 04:45:45.161] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[04Jul2025 04:45:45.164] [Server thread/INFO] [Framework/]: Finished unloading server configs

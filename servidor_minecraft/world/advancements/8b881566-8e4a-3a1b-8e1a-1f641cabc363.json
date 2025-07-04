@@ -11180,5 +11180,11 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/enderman_smithing": {
+    "criteria": {
+      "has_enderman": "2025-07-04 04:39:02 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
