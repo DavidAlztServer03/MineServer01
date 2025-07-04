@@ -4592,3 +4592,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [04Jul2025 04:08:41.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
 [04Jul2025 04:09:00.043] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Supreme Measure (Modificada)] to MirsWATF]
 [04Jul2025 04:10:00.365] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[04Jul2025 04:12:58.689] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Jul2025 04:12:58.702] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Jul2025 04:14:20.848] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[04Jul2025 04:15:16.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Supreme Measure (Modificada)] to MirsWATF]
+[04Jul2025 04:15:40.463] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[04Jul2025 04:17:58.705] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[04Jul2025 04:17:58.719] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[04Jul2025 04:19:17.797] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[04Jul2025 04:20:47.942] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [@: Gave 1 [Wooden Axe] to MirsWATF]
+[04Jul2025 04:21:04.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[04Jul2025 04:21:25.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
