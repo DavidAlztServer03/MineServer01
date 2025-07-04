@@ -1,62 +1,8 @@
-[01:21:21] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
-[01:21:21] [INIT] Loaded plugins:
-[01:21:21] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
-[01:21:22] [INFO] Loaded script startup_scripts:nerf_hacha.js in 0.06 s
-[01:21:22] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
-[01:21:22] [INFO] Loaded script startup_scripts:example.js in 0.005 s
-[01:21:22] [INFO] Loaded 2/2 KubeJS startup scripts in 0.538 s with 0 errors and 0 warnings
-[01:21:29] [ERROR] ! nerf_hacha.js#6: Error in 'ItemEvents.modification': Java class "net.mcreator.borninchaosv.item.SupremeMeasureItem" has no public instance field or method named "enchantability".
-[01:21:29] [ERROR] ! …rhino.EvaluatorException: Java class "net.mcreator.borninchaosv.item.SupremeMeasureItem" has no public instance field or method named "enchantability". (startup_scripts:nerf_hacha.js#6)
-[01:21:29] [ERROR] !   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
-[01:21:29] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:133)
-[01:21:29] [ERROR] !   at …rhino.Context.reportRuntimeError(Context.java:173)
-[01:21:29] [ERROR] !   at …rhino.Context.reportRuntimeError2(Context.java:150)
-[01:21:29] [ERROR] !   at …rhino.JavaMembers.reportMemberNotFound(JavaMembers.java:866)
-[01:21:29] [ERROR] !   at …rhino.JavaMembers.put(JavaMembers.java:319)
-[01:21:29] [ERROR] !   at …rhino.NativeJavaObject.put(NativeJavaObject.java:701)
-[01:21:29] [ERROR] !   at …rhino.ScriptableObject.putProperty(ScriptableObject.java:1088)
-[01:21:29] [ERROR] !   at …rhino.ScriptRuntime.setObjectProp(ScriptRuntime.java:1357)
-[01:21:29] [ERROR] !   at …rhino.ScriptRuntime.setObjectProp(ScriptRuntime.java:1353)
-[01:21:29] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:796)
-[01:21:29] [ERROR] !   at script(startup_scripts:nerf_hacha.js:6)
-[01:21:29] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[01:21:29] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[01:21:29] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[01:21:29] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[01:21:29] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[01:21:29] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[01:21:29] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[01:21:29] [ERROR] !   at jdk.proxy1/jdk.proxy1.$Proxy82.accept(Unknown Source)
-[01:21:29] [ERROR] !   at …kubejs.item.ItemModificationEventJS.modify(ItemModificationEventJS.java:22)
-[01:21:29] [ERROR] !   at java.lang.reflect.Method.invoke(Method.java:569)
-[01:21:29] [ERROR] !   at …rhino.MemberBox.invoke(MemberBox.java:160)
-[01:21:29] [ERROR] !   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
-[01:21:29] [ERROR] !   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
-[01:21:29] [ERROR] !   at script(startup_scripts:nerf_hacha.js:4)
-[01:21:29] [ERROR] !   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[01:21:29] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[01:21:29] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[01:21:29] [ERROR] !   at …rhino.Context.doTopCall(Context.java:1374)
-[01:21:29] [ERROR] !   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
-[01:21:29] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[01:21:29] [ERROR] !   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[01:21:29] [ERROR] !   at …rhino.Context.callSync(Context.java:1357)
-[01:21:29] [ERROR] !   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[01:21:29] [ERROR] !   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[01:21:29] [ERROR] !   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy68.onEvent(Unknown Source)
-[01:21:29] [ERROR] !   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
-[01:21:29] [ERROR] !   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
-[01:21:29] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:272)
-[01:21:29] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:226)
-[01:21:29] [ERROR] !   at …kubejs.event.EventHandler.post(EventHandler.java:189)
-[01:21:29] [ERROR] !   at …kubejs.util.UtilsJS.postModificationEvents(UtilsJS.java:523)
-[01:21:29] [ERROR] !   at …kubejs.KubeJS.loadComplete(KubeJS.java:208)
-[01:21:29] [ERROR] !   at …kubejs.forge.KubeJSForge.loadComplete(KubeJSForge.java:135)
-[01:21:29] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260)
-[01:21:29] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252)
-[01:21:29] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[01:21:29] [ERROR] !   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[01:21:29] [ERROR] !   at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114)
-[01:21:29] [ERROR] !   at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125)
-[01:21:29] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
-[01:21:29] [ERROR] !   at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
+[01:28:43] [INIT] KubeJS 2001.6.5-build.16; MC 2001 forge
+[01:28:43] [INIT] Loaded plugins:
+[01:28:43] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[01:28:44] [INFO] Loaded script startup_scripts:nerf_hacha.js in 0.1 s
+[01:28:44] [INFO] example.js#5: Hello, World! (Loaded startup scripts)
+[01:28:44] [INFO] Loaded script startup_scripts:example.js in 0.006 s
+[01:28:44] [INFO] Loaded 2/2 KubeJS startup scripts in 0.751 s with 0 errors and 0 warnings
+[01:28:50] [ERROR] ! nerf_hacha.js#8: Error in 'ItemEvents.modification': TypeError: Cannot find function setAttributeModifiers in object supreme_measure.

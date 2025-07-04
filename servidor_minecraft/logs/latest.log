@@ -1,69 +1,69 @@
-[04Jul2025 01:21:05.444] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[04Jul2025 01:21:05.449] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[04Jul2025 01:21:06.168] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[04Jul2025 01:21:06.227] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MineServer01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[04Jul2025 01:21:06.594] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 01:21:06.596] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 01:21:06.597] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 01:21:06.598] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[04Jul2025 01:21:06.808] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[04Jul2025 01:21:06.810] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[04Jul2025 01:21:09.269] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[04Jul2025 01:21:09.476] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[04Jul2025 01:21:09.536] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jul2025 01:21:09.553] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jul2025 01:21:09.555] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jul2025 01:21:09.708] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jul2025 01:21:09.716] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[04Jul2025 01:21:09.839] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
-[04Jul2025 01:21:09.839] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
-[04Jul2025 01:21:11.767] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[04Jul2025 01:21:13.215] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zja000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[04Jul2025 01:21:17.958] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[04Jul2025 01:28:26.330] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[04Jul2025 01:28:26.334] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[04Jul2025 01:28:27.023] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[04Jul2025 01:28:27.098] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MineServer01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[04Jul2025 01:28:27.475] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 01:28:27.477] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 01:28:27.478] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 01:28:27.490] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[04Jul2025 01:28:27.736] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[04Jul2025 01:28:27.738] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[04Jul2025 01:28:30.229] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[04Jul2025 01:28:30.455] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[04Jul2025 01:28:30.515] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2025 01:28:30.540] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2025 01:28:30.542] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2025 01:28:30.771] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2025 01:28:30.777] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[04Jul2025 01:28:30.912] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
+[04Jul2025 01:28:30.915] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
+[04Jul2025 01:28:32.930] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[04Jul2025 01:28:34.344] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zja000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[04Jul2025 01:28:39.360] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[04Jul2025 01:21:18.662] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[04Jul2025 01:21:18.690] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[04Jul2025 01:21:19.119] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[04Jul2025 01:21:19.586] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[04Jul2025 01:21:19.587] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[04Jul2025 01:21:20.718] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[04Jul2025 01:21:20.894] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
-[04Jul2025 01:21:21.071] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[04Jul2025 01:21:21.118] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
-[04Jul2025 01:21:21.121] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
-[04Jul2025 01:21:21.141] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
-[04Jul2025 01:21:21.150] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
-[04Jul2025 01:21:21.169] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
-[04Jul2025 01:21:21.172] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
-[04Jul2025 01:21:21.179] [modloading-worker-0/INFO] [KubeJS/]: Done in 37.30 ms
-[04Jul2025 01:21:21.498] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
-[04Jul2025 01:21:21.504] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
-[04Jul2025 01:21:21.511] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
-[04Jul2025 01:21:21.805] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.304 s
-[04Jul2025 01:21:22.340] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:nerf_hacha.js in 0.06 s
-[04Jul2025 01:21:22.341] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
-[04Jul2025 01:21:22.345] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.005 s
-[04Jul2025 01:21:22.353] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 2/2 KubeJS startup scripts in 0.538 s with 0 errors and 0 warnings
-[04Jul2025 01:21:22.411] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
-[04Jul2025 01:21:22.414] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
-[04Jul2025 01:21:23.039] [main/INFO] [BasicNetherOres/]: BNO - Block Registered
-[04Jul2025 01:21:26.653] [main/INFO] [BasicNetherOres/]: BNO - Block Items Registered
-[04Jul2025 01:21:26.800] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
-[04Jul2025 01:21:27.894] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[04Jul2025 01:21:27.907] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[04Jul2025 01:21:27.911] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[04Jul2025 01:21:27.915] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[04Jul2025 01:21:28.085] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[04Jul2025 01:21:28.100] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[04Jul2025 01:21:28.287] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[04Jul2025 01:21:28.296] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
-[04Jul2025 01:21:28.333] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[04Jul2025 01:21:28.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
-[04Jul2025 01:21:28.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[04Jul2025 01:21:28.453] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[04Jul2025 01:21:28.557] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
-[04Jul2025 01:21:28.561] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
-[04Jul2025 01:21:28.578] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[04Jul2025 01:28:40.050] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[04Jul2025 01:28:40.083] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[04Jul2025 01:28:40.502] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[04Jul2025 01:28:41.057] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[04Jul2025 01:28:41.058] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[04Jul2025 01:28:42.184] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[04Jul2025 01:28:42.417] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
+[04Jul2025 01:28:42.636] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[04Jul2025 01:28:42.701] [modloading-worker-0/INFO] [KubeJS/]: Loaded common.properties
+[04Jul2025 01:28:42.702] [modloading-worker-0/INFO] [KubeJS/]: Loaded dev.properties
+[04Jul2025 01:28:42.711] [modloading-worker-0/INFO] [KubeJS/]: Looking for KubeJS plugins...
+[04Jul2025 01:28:42.722] [modloading-worker-0/INFO] [KubeJS/]: Found plugin source kubejs
+[04Jul2025 01:28:42.731] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin does not load on server side, skipping
+[04Jul2025 01:28:42.732] [modloading-worker-0/WARN] [KubeJS/]: Plugin dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration does not have required mod gamestages loaded, skipping
+[04Jul2025 01:28:42.740] [modloading-worker-0/INFO] [KubeJS/]: Done in 28.24 ms
+[04Jul2025 01:28:43.075] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading Rhino Minecraft remapper...
+[04Jul2025 01:28:43.076] [modloading-worker-0/INFO] [dev.latvian.mods.rhino.mod.util.RhinoProperties/]: Rhino properties loaded.
+[04Jul2025 01:28:43.078] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Loading mappings for 1.20.1
+[04Jul2025 01:28:43.293] [modloading-worker-0/INFO] [Rhino Script Remapper/]: Done in 0.218 s
+[04Jul2025 01:28:44.038] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:nerf_hacha.js in 0.1 s
+[04Jul2025 01:28:44.040] [modloading-worker-0/INFO] [KubeJS Startup/]: example.js#5: Hello, World! (Loaded startup scripts)
+[04Jul2025 01:28:44.044] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded script startup_scripts:example.js in 0.006 s
+[04Jul2025 01:28:44.052] [modloading-worker-0/INFO] [KubeJS Startup/]: Loaded 2/2 KubeJS startup scripts in 0.751 s with 0 errors and 0 warnings
+[04Jul2025 01:28:44.131] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:send_data_from_client
+[04Jul2025 01:28:44.142] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id kubejs:first_click
+[04Jul2025 01:28:44.666] [main/INFO] [BasicNetherOres/]: BNO - Block Registered
+[04Jul2025 01:28:48.421] [main/INFO] [BasicNetherOres/]: BNO - Block Items Registered
+[04Jul2025 01:28:48.570] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
+[04Jul2025 01:28:49.532] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[04Jul2025 01:28:49.546] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[04Jul2025 01:28:49.550] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[04Jul2025 01:28:49.552] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[04Jul2025 01:28:49.687] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[04Jul2025 01:28:49.702] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[04Jul2025 01:28:49.934] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[04Jul2025 01:28:49.947] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[04Jul2025 01:28:49.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[04Jul2025 01:28:50.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
+[04Jul2025 01:28:50.146] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[04Jul2025 01:28:50.177] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[04Jul2025 01:28:50.264] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[04Jul2025 01:28:50.279] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[04Jul2025 01:28:50.292] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -78,97 +78,41 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[04Jul2025 01:21:28.580] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Starting version check at https://api.modrinth.com/updates/UMmSTwE0/forge_updates.json
-[04Jul2025 01:21:28.668] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[04Jul2025 01:21:28.668] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[04Jul2025 01:21:28.669] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[04Jul2025 01:21:28.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Found status: OUTDATED Current: 1.2 Target: 1.2+mod
-[04Jul2025 01:21:28.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[04Jul2025 01:21:28.693] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[04Jul2025 01:21:28.693] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[04Jul2025 01:21:28.693] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[04Jul2025 01:21:28.693] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[04Jul2025 01:21:28.711] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[04Jul2025 01:21:28.713] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[04Jul2025 01:21:28.714] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[04Jul2025 01:21:28.713] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
-[04Jul2025 01:21:28.716] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[04Jul2025 01:21:28.716] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
-[04Jul2025 01:21:28.739] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[04Jul2025 01:21:28.740] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[04Jul2025 01:21:28.740] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[04Jul2025 01:21:28.740] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[04Jul2025 01:21:28.751] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
-[04Jul2025 01:21:28.752] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[04Jul2025 01:21:28.759] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[04Jul2025 01:21:28.759] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[04Jul2025 01:21:28.759] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
-[04Jul2025 01:21:28.760] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
-[04Jul2025 01:21:28.760] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
-[04Jul2025 01:21:28.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[04Jul2025 01:21:28.971] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[04Jul2025 01:21:29.014] [modloading-worker-0/ERROR] [KubeJS Startup/]: nerf_hacha.js#6: Error in 'ItemEvents.modification': Java class "net.mcreator.borninchaosv.item.SupremeMeasureItem" has no public instance field or method named "enchantability".
-[04Jul2025 01:21:29.017] [modloading-worker-0/ERROR] [KubeJS Startup/]: …rhino.EvaluatorException: Java class "net.mcreator.borninchaosv.item.SupremeMeasureItem" has no public instance field or method named "enchantability". (startup_scripts:nerf_hacha.js#6)
-[04Jul2025 01:21:29.024] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.DefaultErrorReporter.runtimeError(DefaultErrorReporter.java:67)
-[04Jul2025 01:21:29.026] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.reportRuntimeError(Context.java:133)
-[04Jul2025 01:21:29.027] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.reportRuntimeError(Context.java:173)
-[04Jul2025 01:21:29.028] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.reportRuntimeError2(Context.java:150)
-[04Jul2025 01:21:29.029] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.JavaMembers.reportMemberNotFound(JavaMembers.java:866)
-[04Jul2025 01:21:29.030] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.JavaMembers.put(JavaMembers.java:319)
-[04Jul2025 01:21:29.030] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.NativeJavaObject.put(NativeJavaObject.java:701)
-[04Jul2025 01:21:29.031] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.ScriptableObject.putProperty(ScriptableObject.java:1088)
-[04Jul2025 01:21:29.033] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.ScriptRuntime.setObjectProp(ScriptRuntime.java:1357)
-[04Jul2025 01:21:29.034] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.ScriptRuntime.setObjectProp(ScriptRuntime.java:1353)
-[04Jul2025 01:21:29.036] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Interpreter.interpretLoop(Interpreter.java:796)
-[04Jul2025 01:21:29.037] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at script(startup_scripts:nerf_hacha.js:6)
-[04Jul2025 01:21:29.038] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[04Jul2025 01:21:29.039] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[04Jul2025 01:21:29.041] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.callSync(Context.java:1357)
-[04Jul2025 01:21:29.045] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[04Jul2025 01:21:29.045] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.callSync(Context.java:1357)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at jdk.proxy1/jdk.proxy1.$Proxy82.accept(Unknown Source)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.item.ItemModificationEventJS.modify(ItemModificationEventJS.java:22)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at java.lang.reflect.Method.invoke(Method.java:569)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.MemberBox.invoke(MemberBox.java:160)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
-[04Jul2025 01:21:29.046] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Interpreter.interpretLoop(Interpreter.java:986)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at script(startup_scripts:nerf_hacha.js:4)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Interpreter.interpret(Interpreter.java:370)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.InterpretedFunction.call(InterpretedFunction.java:72)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.callSync(Context.java:1357)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.doTopCall(Context.java:1374)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.InterpretedFunction.call(InterpretedFunction.java:70)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.callSync(Context.java:1357)
-[04Jul2025 01:21:29.047] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.ArrowFunction.call(ArrowFunction.java:42)
-[04Jul2025 01:21:29.048] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.Context.callSync(Context.java:1357)
-[04Jul2025 01:21:29.048] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
-[04Jul2025 01:21:29.048] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
-[04Jul2025 01:21:29.048] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy68.onEvent(Unknown Source)
-[04Jul2025 01:21:29.048] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
-[04Jul2025 01:21:29.053] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.event.EventHandler.postToHandlers(EventHandler.java:304)
-[04Jul2025 01:21:29.053] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.event.EventHandler.post(EventHandler.java:272)
-[04Jul2025 01:21:29.053] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.event.EventHandler.post(EventHandler.java:226)
-[04Jul2025 01:21:29.068] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.event.EventHandler.post(EventHandler.java:189)
-[04Jul2025 01:21:29.068] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.util.UtilsJS.postModificationEvents(UtilsJS.java:523)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.KubeJS.loadComplete(KubeJS.java:208)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at …kubejs.forge.KubeJSForge.loadComplete(KubeJSForge.java:135)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.doCastFilter(EventBus.java:260)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.lambda$addListener$11(EventBus.java:252)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:114)
-[04Jul2025 01:21:29.069] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at net.minecraftforge.fml.ModContainer.lambda$buildTransitionHandler$4(ModContainer.java:125)
-[04Jul2025 01:21:29.070] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
-[04Jul2025 01:21:29.070] [modloading-worker-0/ERROR] [KubeJS Startup/]:   at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796)
-[04Jul2025 01:21:29.249] [modloading-worker-0/ERROR] [KubeJS/]: Startup script errors:
-1) nerf_hacha.js#6: Error in 'ItemEvents.modification': Java class "net.mcreator.borninchaosv.item.SupremeMeasureItem" has no public instance field or method named "enchantability".
-[04Jul2025 01:21:29.260] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: There were KubeJS startup script syntax errors! See logs/kubejs/startup.log for more info
+[04Jul2025 01:28:50.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Starting version check at https://api.modrinth.com/updates/UMmSTwE0/forge_updates.json
+[04Jul2025 01:28:50.420] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[04Jul2025 01:28:50.421] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[04Jul2025 01:28:50.421] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[04Jul2025 01:28:50.448] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[04Jul2025 01:28:50.448] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[04Jul2025 01:28:50.449] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[04Jul2025 01:28:50.449] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[04Jul2025 01:28:50.478] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[04Jul2025 01:28:50.478] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[04Jul2025 01:28:50.479] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[04Jul2025 01:28:50.479] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[04Jul2025 01:28:50.481] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[04Jul2025 01:28:50.481] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[04Jul2025 01:28:50.482] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[04Jul2025 01:28:50.483] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[04Jul2025 01:28:50.487] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Found status: OUTDATED Current: 1.2 Target: 1.2+mod
+[04Jul2025 01:28:50.489] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[04Jul2025 01:28:50.505] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[04Jul2025 01:28:50.505] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[04Jul2025 01:28:50.506] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[04Jul2025 01:28:50.506] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[04Jul2025 01:28:50.506] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[04Jul2025 01:28:50.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
+[04Jul2025 01:28:50.540] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
+[04Jul2025 01:28:50.650] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
+[04Jul2025 01:28:50.651] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[04Jul2025 01:28:50.737] [modloading-worker-0/ERROR] [KubeJS Startup/]: nerf_hacha.js#8: Error in 'ItemEvents.modification': TypeError: Cannot find function setAttributeModifiers in object supreme_measure.
+[04Jul2025 01:28:50.830] [modloading-worker-0/ERROR] [KubeJS/]: Startup script errors:
+1) nerf_hacha.js#8: Error in 'ItemEvents.modification': TypeError: Cannot find function setAttributeModifiers in object supreme_measure.
+[04Jul2025 01:28:50.831] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: There were KubeJS startup script syntax errors! See logs/kubejs/startup.log for more info
 	Index: 1
 	Listeners:
 		0: LOW
-		1: net.minecraftforge.eventbus.EventBus$$Lambda$4210/0x00007605e0b12948@28358466
+		1: net.minecraftforge.eventbus.EventBus$$Lambda$4185/0x00007a26a8b0c6d0@48e3d388
 java.lang.RuntimeException: There were KubeJS startup script syntax errors! See logs/kubejs/startup.log for more info
 	at TRANSFORMER/kubejs@2001.6.5-build.16/dev.latvian.mods.kubejs.KubeJS.loadComplete(KubeJS.java:226)
 	at TRANSFORMER/kubejs@2001.6.5-build.16/dev.latvian.mods.kubejs.forge.KubeJSForge.loadComplete(KubeJSForge.java:135)
@@ -186,7 +130,7 @@ java.lang.RuntimeException: There were KubeJS startup script syntax errors! See 
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
 
-[04Jul2025 01:21:29.264] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event FMLLoadCompleteEvent dispatch for modid kubejs
+[04Jul2025 01:28:50.835] [modloading-worker-0/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event FMLLoadCompleteEvent dispatch for modid kubejs
 java.lang.RuntimeException: There were KubeJS startup script syntax errors! See logs/kubejs/startup.log for more info
 	at dev.latvian.mods.kubejs.KubeJS.loadComplete(KubeJS.java:226) ~[kubejs-forge-2001.6.5-build.16.jar%23193!/:2001.6.5-build.16]
 	at dev.latvian.mods.kubejs.forge.KubeJSForge.loadComplete(KubeJSForge.java:135) ~[kubejs-forge-2001.6.5-build.16.jar%23193!/:2001.6.5-build.16]
@@ -203,15 +147,13 @@ java.lang.RuntimeException: There were KubeJS startup script syntax errors! See 
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[04Jul2025 01:21:29.317] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event COMPLETE, 1 errors found
-[04Jul2025 01:21:29.415] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[04Jul2025 01:21:29.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
-[04Jul2025 01:21:29.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.3.0 Target: 5.4.2
-[04Jul2025 01:21:29.439] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[04Jul2025 01:21:29.804] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 9d24ae53-1ee5-481a-9dea-33be16e7b988
-[04Jul2025 01:21:29.824] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-07-04_01.21.29-fml.txt
-[04Jul2025 01:21:29.851] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 6155ce02-f286-4a78-8225-0f841b83e24c
-[04Jul2025 01:21:29.861] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+[04Jul2025 01:28:50.848] [main/FATAL] [net.minecraftforge.fml.ModLoader/LOADING]: Failed to complete lifecycle event COMPLETE, 1 errors found
+[04Jul2025 01:28:50.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[04Jul2025 01:28:50.859] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[04Jul2025 01:28:51.031] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d2085f94-4a39-409b-b2dd-5dfc0ca2a8af
+[04Jul2025 01:28:51.037] [main/FATAL] [net.minecraftforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2025-07-04_01.28.50-fml.txt
+[04Jul2025 01:28:51.075] [main/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID ca4fc1ab-9c46-4a13-ae05-57a3cd33ae39
+[04Jul2025 01:28:51.083] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
 	KubeJS (kubejs) encountered an error during the complete event phase
 §7java.lang.RuntimeException: There were KubeJS startup script syntax errors! See logs/kubejs/startup.log for more info
@@ -240,12 +182,16 @@ net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[04Jul2025 01:21:29.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[04Jul2025 01:21:29.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
-[04Jul2025 01:21:29.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
-[04Jul2025 01:21:29.903] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[04Jul2025 01:21:30.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
-[04Jul2025 01:21:30.034] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
-[04Jul2025 01:21:30.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
-[04Jul2025 01:21:30.062] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
-[04Jul2025 01:21:30.092] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[04Jul2025 01:28:51.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[04Jul2025 01:28:51.170] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[04Jul2025 01:28:51.191] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.3.0 Target: 5.4.2
+[04Jul2025 01:28:51.193] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[04Jul2025 01:28:51.400] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[04Jul2025 01:28:51.401] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
+[04Jul2025 01:28:51.435] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
+[04Jul2025 01:28:51.436] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[04Jul2025 01:28:51.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
+[04Jul2025 01:28:51.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[04Jul2025 01:28:51.466] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
+[04Jul2025 01:28:51.467] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[04Jul2025 01:28:51.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
