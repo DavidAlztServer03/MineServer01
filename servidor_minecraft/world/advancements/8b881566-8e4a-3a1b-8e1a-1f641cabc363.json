@@ -11168,15 +11168,15 @@
     },
     "done": true
   },
-  "jeg:hollenfire_mk2": {
-    "criteria": {
-      "Item": "2025-07-03 04:58:43 +0000"
-    },
-    "done": true
-  },
   "iceandfire:iceandfire/dragon_horn": {
     "criteria": {
       "bestiary": "2025-07-03 03:29:31 +0000"
+    },
+    "done": true
+  },
+  "jeg:hollenfire_mk2": {
+    "criteria": {
+      "Item": "2025-07-03 04:58:43 +0000"
     },
     "done": true
   },
