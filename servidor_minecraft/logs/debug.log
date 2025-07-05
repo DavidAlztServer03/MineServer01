@@ -5955,3 +5955,149 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [05Jul2025 19:07:20.789] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [05Jul2025 19:12:20.786] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [05Jul2025 19:12:20.800] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Jul2025 19:17:20.782] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Jul2025 19:17:20.796] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Jul2025 19:22:20.771] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Jul2025 19:22:20.785] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Jul2025 19:23:19.209] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made MirsWATF a server operator
+[05Jul2025 19:23:24.602] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[05Jul2025 19:23:46.646] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[05Jul2025 19:25:09.788] [Server thread/DEBUG] [mixin/]: Mixing FilePackResourcesAccessor from creativecore.mixins.json into net.minecraft.server.packs.FilePackResources
+[05Jul2025 19:25:09.789] [Server thread/DEBUG] [mixin/]: Renaming @Invoker method callGetPathFromLocation(Lnet/minecraft/server/packs/PackType;Lnet/minecraft/resources/ResourceLocation;)Ljava/lang/String; to callGetPathFromLocation_$md$30965a$0 in creativecore.mixins.json:FilePackResourcesAccessor
+[05Jul2025 19:25:09.793] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:inventorysorter for mod file /workspaces/MineServer01/servidor_minecraft/mods/inventorysorter-1.20.1-23.0.8.jar
+[05Jul2025 19:25:09.793] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:kuma_api for mod file 
+[05Jul2025 19:25:09.793] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:cgm for mod file /workspaces/MineServer01/servidor_minecraft/mods/CGM-Unofficial-1.4.18+Forge+1.20.1.jar
+[05Jul2025 19:25:09.793] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:geckolib for mod file /workspaces/MineServer01/servidor_minecraft/mods/geckolib-forge-1.20.1-4.7.1.2.jar
+[05Jul2025 19:25:09.793] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:botarium for mod file /workspaces/MineServer01/servidor_minecraft/mods/botarium-forge-1.20.1-2.3.4.jar
+[05Jul2025 19:25:09.793] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:jeg for mod file /workspaces/MineServer01/servidor_minecraft/mods/JustEnoughGuns-0.12.0-1.20.1.jar
+[05Jul2025 19:25:09.794] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:graveyard for mod file /workspaces/MineServer01/servidor_minecraft/mods/The_Graveyard_3.1_(FORGE)_for_1.20.1.jar
+[05Jul2025 19:25:09.794] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:configlibtxf for mod file 
+[05Jul2025 19:25:09.794] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:libraryferret for mod file /workspaces/MineServer01/servidor_minecraft/mods/libraryferret-forge-1.20.1-4.0.0.jar
+[05Jul2025 19:25:09.794] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:goblintraders for mod file /workspaces/MineServer01/servidor_minecraft/mods/goblintraders-forge-1.20.1-1.9.3.jar
+[05Jul2025 19:25:09.794] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:mr_blossom_blade for mod file /workspaces/MineServer01/servidor_minecraft/mods/blossom.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:waystones for mod file /workspaces/MineServer01/servidor_minecraft/mods/waystones-forge-1.20.1-14.1.13.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:citadel for mod file /workspaces/MineServer01/servidor_minecraft/mods/citadel-2.6.1-1.20.1.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:travelersbackpack for mod file /workspaces/MineServer01/servidor_minecraft/mods/travelersbackpack-forge-1.20.1-9.1.38.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:yungsapi for mod file /workspaces/MineServer01/servidor_minecraft/mods/YungsApi-1.20-Forge-4.0.6.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:bno for mod file /workspaces/MineServer01/servidor_minecraft/mods/BasicNetherOres-forge-1.20.1-9.1.1.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:mixinextras for mod file 
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:mr_veinminer for mod file /workspaces/MineServer01/servidor_minecraft/mods/veinminer-1.1.0.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:gamma_creatures for mod file /workspaces/MineServer01/servidor_minecraft/mods/Gamma_creatures-1.2.2_forge_1.20.1.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:voltaic for mod file /workspaces/MineServer01/servidor_minecraft/mods/Voltaic-1.20.1-1.0.0-5.jar
+[05Jul2025 19:25:09.795] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:iceandfire for mod file /workspaces/MineServer01/servidor_minecraft/mods/iceandfire-2.1.13-1.20.1-beta-5.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:balm for mod file /workspaces/MineServer01/servidor_minecraft/mods/balm-forge-1.20.1-7.3.31-all.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:walljump for mod file /workspaces/MineServer01/servidor_minecraft/mods/walljump-1.20.1-1.3.5-forge.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:carryon for mod file /workspaces/MineServer01/servidor_minecraft/mods/carryon-forge-1.20.1-2.1.2.7.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:formations for mod file /workspaces/MineServer01/servidor_minecraft/mods/formations-1.0.3-forge-mc1.20.2.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:paraglider for mod file /workspaces/MineServer01/servidor_minecraft/mods/Paraglider-forge-20.1.3.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:forge for mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/forge/1.20.1-47.3.7/forge-1.20.1-47.3.7-universal.jar
+[05Jul2025 19:25:09.796] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:structure_gel for mod file /workspaces/MineServer01/servidor_minecraft/mods/structure_gel-1.20.1-2.16.2.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:explorations for mod file /workspaces/MineServer01/servidor_minecraft/mods/explorations-forge-1.20.1-1.6.1.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:awesomedungeonocean for mod file /workspaces/MineServer01/servidor_minecraft/mods/awesomedungeonocean-forge-1.20.1-3.3.0.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:formationsoverworld for mod file /workspaces/MineServer01/servidor_minecraft/mods/formationsoverworld-1.0.4.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:rpg_companions_tiny_dragons for mod file /workspaces/MineServer01/servidor_minecraft/mods/rpg_companions_tiny_dragons-0.0.5-forge-1.20.1.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:tenshilib for mod file /workspaces/MineServer01/servidor_minecraft/mods/tenshilib-1.20.1-1.7.6-forge.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:alexscaves for mod file /workspaces/MineServer01/servidor_minecraft/mods/alexscaves-2.0.2.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:repurposed_structures for mod file /workspaces/MineServer01/servidor_minecraft/mods/repurposed_structures-7.1.15+1.20.1-forge.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:terrablender for mod file /workspaces/MineServer01/servidor_minecraft/mods/TerraBlender-forge-1.20.1-3.0.1.10.jar
+[05Jul2025 19:25:09.797] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:regions_unexplored for mod file /workspaces/MineServer01/servidor_minecraft/mods/RegionsUnexploredForge-0.5.6+1.20.1.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:creativecore for mod file /workspaces/MineServer01/servidor_minecraft/mods/CreativeCore_FORGE_v2.12.32_mc1.20.1.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:clay for mod file /workspaces/MineServer01/servidor_minecraft/mods/clay-1.0.0-forge-1.20.1-1.20.4.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:resourcefulconfig for mod file /workspaces/MineServer01/servidor_minecraft/mods/resourcefulconfig-forge-1.20.1-2.1.3.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:born_in_chaos_v1 for mod file /workspaces/MineServer01/servidor_minecraft/mods/born_in_chaos_[Forge]1.20.1_1.7.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:eyesinthedarkness for mod file /workspaces/MineServer01/servidor_minecraft/mods/EyesInTheDarkness-1.20.1-1.3.10.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:dungeons_enhanced for mod file /workspaces/MineServer01/servidor_minecraft/mods/dungeons_enhanced-1.20.1-5.3.0.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:ribbits for mod file /workspaces/MineServer01/servidor_minecraft/mods/Ribbits-1.20.1-Forge-3.0.4.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:curios for mod file /workspaces/MineServer01/servidor_minecraft/mods/curios-forge-5.14.1+1.20.1.jar
+[05Jul2025 19:25:09.798] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:spartanshields for mod file /workspaces/MineServer01/servidor_minecraft/mods/SpartanShields-1.20.1-forge-3.1.1.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:moreplayermodels for mod file /workspaces/MineServer01/servidor_minecraft/mods/MorePlayerModels-1.20.1.20240409.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:simplehats for mod file /workspaces/MineServer01/servidor_minecraft/mods/simplehats-forge-1.20.1-0.3.2.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:securitycraft for mod file /workspaces/MineServer01/servidor_minecraft/mods/[1.20.1] SecurityCraft v1.10.0.1.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:crittersandcompanions for mod file /workspaces/MineServer01/servidor_minecraft/mods/crittersandcompanions-forge-2.2.2.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:tombstone for mod file /workspaces/MineServer01/servidor_minecraft/mods/tombstone-1.20.1-8.9.6.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:customnpcs for mod file /workspaces/MineServer01/servidor_minecraft/mods/CustomNPCs-GBPort-Unofficial-1.20.1.20250628.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:resourcefullib for mod file /workspaces/MineServer01/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[05Jul2025 19:25:09.799] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:wabi_sabi_structures for mod file /workspaces/MineServer01/servidor_minecraft/mods/Wabi-Sabi-Structures-2.0.0-1.20-Forge.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:architectury for mod file /workspaces/MineServer01/servidor_minecraft/mods/architectury-9.2.14-forge.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:justhammers for mod file /workspaces/MineServer01/servidor_minecraft/mods/justhammers-forge-2.0.3+mc1.20.1.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:globalxp for mod file /workspaces/MineServer01/servidor_minecraft/mods/globalxp-forge-1.20.1-1.12.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:framework for mod file /workspaces/MineServer01/servidor_minecraft/mods/framework-forge-1.20.1-0.7.15.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:fallingtree for mod file /workspaces/MineServer01/servidor_minecraft/mods/FallingTree-1.20.1-4.3.4.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:ballistix for mod file /workspaces/MineServer01/servidor_minecraft/mods/Ballistix-1.20.1-0.7.3.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:toms_storage for mod file /workspaces/MineServer01/servidor_minecraft/mods/toms_storage-1.20-1.7.1.jar
+[05Jul2025 19:25:09.800] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:t_and_t for mod file /workspaces/MineServer01/servidor_minecraft/mods/Towns-and-Towers-1.12-Fabric+Forge.jar
+[05Jul2025 19:25:09.801] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:improvedmobs for mod file /workspaces/MineServer01/servidor_minecraft/mods/improvedmobs-1.20.1-1.13.5-forge.jar
+[05Jul2025 19:25:09.801] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:playerrevive for mod file /workspaces/MineServer01/servidor_minecraft/mods/PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar
+[05Jul2025 19:25:09.801] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:cristellib for mod file /workspaces/MineServer01/servidor_minecraft/mods/cristellib-1.1.6-forge.jar
+[05Jul2025 19:25:09.801] [Server thread/DEBUG] [net.minecraftforge.server.ServerLifecycleHooks/CORE]: Generating PackInfo named mod:ad_astra for mod file /workspaces/MineServer01/servidor_minecraft/mods/ad_astra-forge-1.20.1-1.15.20.jar
+[05Jul2025 19:25:09.802] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[05Jul2025 19:25:10.015] [Worker-Main-30/DEBUG] [mixin/]: Mixing ItemInputMixin from tombstone.mixins.json into net.minecraft.commands.arguments.item.ItemInput
+[05Jul2025 19:25:10.620] [Worker-Main-47/DEBUG] [tombstone/]: Updating LootTables
+[05Jul2025 19:25:10.698] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:25:10.699] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:25:10.699] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:25:10.745] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.commands.Commands.m_230957_(Commands.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_139665_(DedicatedServer.java:298) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:284) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05Jul2025 19:25:10.771] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[05Jul2025 19:25:10.772] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[05Jul2025 19:25:10.779] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:25:10.825] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:25:10.850] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:25:10.857] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:25:10.890] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[05Jul2025 19:25:10.904] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[05Jul2025 19:25:10.908] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[05Jul2025 19:25:10.914] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[05Jul2025 19:25:14.234] [Server thread/DEBUG] [Paraglider/]: Start adding village structures
+[05Jul2025 19:25:14.235] [Server thread/DEBUG] [Paraglider/]: Added 2 elements to template pool 'minecraft:village/desert/houses'
+[05Jul2025 19:25:14.235] [Server thread/DEBUG] [Paraglider/]: Added 2 elements to template pool 'minecraft:village/plains/houses'
+[05Jul2025 19:25:14.235] [Server thread/DEBUG] [Paraglider/]: Added 2 elements to template pool 'minecraft:village/savanna/houses'
+[05Jul2025 19:25:14.235] [Server thread/DEBUG] [Paraglider/]: Added 1 elements to template pool 'minecraft:village/snowy/houses'
+[05Jul2025 19:25:14.235] [Server thread/DEBUG] [Paraglider/]: Added 2 elements to template pool 'minecraft:village/taiga/houses'
+[05Jul2025 19:25:14.235] [Server thread/DEBUG] [Paraglider/]: Finished adding village structures
+[05Jul2025 19:25:14.262] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4440ms or 88 ticks behind
