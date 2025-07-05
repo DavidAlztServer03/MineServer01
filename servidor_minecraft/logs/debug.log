@@ -5937,3 +5937,12 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 [05Jul2025 18:44:42.371] [Server thread/DEBUG] [Paraglider/]: Finished adding village structures
 [05Jul2025 18:44:42.432] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF joined the game
 [05Jul2025 18:44:43.029] [Server thread/DEBUG] [io.netty.util.internal.ThreadLocalRandom/]: -Dio.netty.initialSeedUniquifier: 0xf4704165424d8183
+[05Jul2025 18:47:09.879] [Worker-Main-15/DEBUG] [mixin/]: Mixing ChunkRegionAccessor from graveyard-common.mixins.json into net.minecraft.server.level.WorldGenRegion
+[05Jul2025 18:47:09.880] [Worker-Main-15/DEBUG] [mixin/]: Mixing gen.WorldGenRegionMixin from iceandfire.mixins.json into net.minecraft.server.level.WorldGenRegion
+[05Jul2025 18:47:09.880] [Worker-Main-15/DEBUG] [mixin/]: Mixing world.WorldGenRegionAccessor from repurposed_structures-common.mixins.json into net.minecraft.server.level.WorldGenRegion
+[05Jul2025 18:47:10.495] [Worker-Main-23/DEBUG] [mixin/]: Mixing BeardifierMixin from yungsapi.mixins.json into net.minecraft.world.level.levelgen.Beardifier
+[05Jul2025 18:47:10.497] [Worker-Main-23/DEBUG] [mixin/]: Mixing accessor.BeardifierAccessor from yungsapi.mixins.json into net.minecraft.world.level.levelgen.Beardifier
+[05Jul2025 18:47:20.854] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Jul2025 18:47:20.878] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[05Jul2025 18:52:20.821] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[05Jul2025 18:52:20.839] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
