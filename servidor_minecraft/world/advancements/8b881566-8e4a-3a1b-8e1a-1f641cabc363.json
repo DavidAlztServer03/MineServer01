@@ -11186,27 +11186,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/mangrove_planks": {
-    "criteria": {
-      "has_logs": "2025-07-05 19:14:15 +0000"
-    },
-    "done": true
-  },
-  "regions_unexplored:recipes/decorations/mangrove_branch_from_mangrove_log": {
-    "criteria": {
-      "has_log": "2025-07-05 19:14:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/acacia_wood": {
     "criteria": {
       "has_log": "2025-07-05 19:11:45 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/mangrove_wood": {
-    "criteria": {
-      "has_log": "2025-07-05 19:14:15 +0000"
     },
     "done": true
   },
@@ -11219,6 +11201,60 @@
   "regions_unexplored:recipes/decorations/acacia_branch_from_acacia_log": {
     "criteria": {
       "has_log": "2025-07-05 19:11:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_planks": {
+    "criteria": {
+      "has_logs": "2025-07-05 19:14:15 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/decorations/mangrove_branch_from_mangrove_log": {
+    "criteria": {
+      "has_log": "2025-07-05 19:14:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/mangrove_wood": {
+    "criteria": {
+      "has_log": "2025-07-05 19:14:15 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-07-05 19:33:18 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/rito_goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-07-05 19:33:18 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/kakariko_goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-07-05 19:33:18 +0000"
+    },
+    "done": true
+  },
+  "paraglider:recipes/misc/cosmetic/goron_goddess_statue": {
+    "criteria": {
+      "has_goddess_statue": "2025-07-05 19:33:18 +0000"
+    },
+    "done": true
+  },
+  "paraglider:all_vessels": {
+    "criteria": {
+      "code_triggered": "2025-07-05 19:35:04 +0000"
+    },
+    "done": true
+  },
+  "paraglider:statues_bargain": {
+    "criteria": {
+      "bargain": "2025-07-05 19:40:18 +0000"
     },
     "done": true
   },

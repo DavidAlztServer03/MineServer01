@@ -1213,3 +1213,271 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [05Jul2025 19:25:10.908] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
 [05Jul2025 19:25:10.914] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
 [05Jul2025 19:25:14.262] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4440ms or 88 ticks behind
+[05Jul2025 19:32:57.344] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[05Jul2025 19:34:26.037] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[05Jul2025 19:35:04.685] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF has completed the challenge [Hero of Hyrule]
+[05Jul2025 19:38:53.093] [Server thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack file/limit_health_datapack.zip
+[05Jul2025 19:38:53.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Reloading!]
+[05Jul2025 19:38:53.919] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:38:53.919] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:38:53.919] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:38:53.966] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_246958_(ServerGamePacketListenerImpl.java:1244) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_244885_(ServerGamePacketListenerImpl.java:1221) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18693_(BlockableEventLoop.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05Jul2025 19:38:53.992] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[05Jul2025 19:38:53.992] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[05Jul2025 19:38:54.001] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:38:54.046] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:38:54.067] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:38:54.076] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:38:54.114] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[05Jul2025 19:38:54.127] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[05Jul2025 19:38:54.131] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[05Jul2025 19:38:54.134] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[05Jul2025 19:38:57.238] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4116ms or 82 ticks behind
+[05Jul2025 19:39:44.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
+[05Jul2025 19:39:59.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Survival Mode]
+[05Jul2025 19:40:18.986] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF has reached the goal [Statue's Bargain]
+[05Jul2025 19:45:38.492] [Server thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack file/limit_health_datapack_v2.zip
+[05Jul2025 19:45:38.501] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[05Jul2025 19:45:39.216] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:45:39.217] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:45:39.217] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:45:39.263] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.commands.Commands.m_230957_(Commands.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_139665_(DedicatedServer.java:298) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:284) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05Jul2025 19:45:39.286] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[05Jul2025 19:45:39.287] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[05Jul2025 19:45:39.295] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:45:39.332] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:45:39.351] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:45:39.358] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:45:39.390] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[05Jul2025 19:45:39.401] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[05Jul2025 19:45:39.404] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[05Jul2025 19:45:39.409] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[05Jul2025 19:45:42.754] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4232ms or 84 ticks behind
+[05Jul2025 19:49:23.987] [Server thread/WARN] [net.minecraft.server.packs.repository.Pack/]: Missing metadata in pack file/limit_health_scoreboard.zip
+[05Jul2025 19:49:23.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[05Jul2025 19:49:24.622] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:49:24.622] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:49:24.622] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:49:24.661] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.commands.Commands.m_230957_(Commands.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_139665_(DedicatedServer.java:298) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:284) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05Jul2025 19:49:24.683] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[05Jul2025 19:49:24.683] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[05Jul2025 19:49:24.691] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:49:24.724] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:49:24.744] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:49:24.750] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:49:24.778] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[05Jul2025 19:49:24.787] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[05Jul2025 19:49:24.790] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[05Jul2025 19:49:24.794] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[05Jul2025 19:49:27.809] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3787ms or 75 ticks behind
+[05Jul2025 19:55:56.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Reloading!
+[05Jul2025 19:55:57.192] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:55:57.192] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:55:57.192] [Server thread/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[05Jul2025 19:55:57.227] [Server thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_129861_(MinecraftServer.java:1345) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_138235_(ReloadCommand.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.commands.ReloadCommand.m_287964_(ReloadCommand.java:53) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:264) ~[brigadier-1.1.8.jar%2376!/:?]
+	at net.minecraft.commands.Commands.m_242674_(Commands.java:257) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.commands.Commands.m_230957_(Commands.java:237) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_139665_(DedicatedServer.java:298) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:284) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:814) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:661) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[05Jul2025 19:55:57.250] [Server thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[05Jul2025 19:55:57.251] [Server thread/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
+	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 6 more
+[05Jul2025 19:55:57.259] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:55:57.288] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:55:57.304] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[05Jul2025 19:55:57.311] [Server thread/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[05Jul2025 19:55:57.342] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[05Jul2025 19:55:57.352] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[05Jul2025 19:55:57.356] [Server thread/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[05Jul2025 19:55:57.361] [Server thread/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[05Jul2025 19:56:00.684] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4112ms or 82 ticks behind
+[05Jul2025 19:56:59.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [MirsWATF: Set own game mode to Creative Mode]
