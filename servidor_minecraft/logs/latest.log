@@ -1,250 +1,1683 @@
-[05Jul2025 04:25:07.893] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[05Jul2025 04:25:07.897] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[05Jul2025 04:25:08.536] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[05Jul2025 04:25:08.602] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MineServer01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[05Jul2025 04:25:09.030] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[05Jul2025 04:25:09.031] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Jul2025 04:25:09.036] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Jul2025 04:25:09.038] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[05Jul2025 04:25:09.239] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[05Jul2025 04:25:09.241] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[05Jul2025 04:25:11.628] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[05Jul2025 04:25:11.853] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[05Jul2025 04:25:11.957] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Jul2025 04:25:11.980] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Jul2025 04:25:11.984] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Jul2025 04:25:12.148] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Jul2025 04:25:12.162] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[05Jul2025 04:25:12.296] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
-[05Jul2025 04:25:12.297] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
-[05Jul2025 04:25:14.268] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[05Jul2025 04:25:15.574] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zja000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[05Jul2025 04:25:20.079] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[05Jul2025 04:53:26.542] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05Jul2025 04:53:26.546] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[05Jul2025 04:53:27.188] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Jul2025 04:53:27.232] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MineServer01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Jul2025 04:53:27.585] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[05Jul2025 04:53:27.587] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Jul2025 04:53:27.588] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Jul2025 04:53:27.590] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Jul2025 04:53:27.803] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[05Jul2025 04:53:27.805] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[05Jul2025 04:53:30.196] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Jul2025 04:53:30.349] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[05Jul2025 04:53:30.424] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 04:53:30.440] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 04:53:30.443] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 04:53:30.608] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 04:53:30.622] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Jul2025 04:53:30.730] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
+[05Jul2025 04:53:30.732] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
+[05Jul2025 04:53:32.719] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[05Jul2025 04:53:34.098] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zja000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[05Jul2025 04:53:39.008] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[05Jul2025 04:25:20.636] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[05Jul2025 04:25:20.657] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[05Jul2025 04:25:21.044] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[05Jul2025 04:25:21.607] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[05Jul2025 04:25:21.608] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[05Jul2025 04:25:23.113] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[05Jul2025 04:25:23.271] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
-[05Jul2025 04:25:23.602] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[05Jul2025 04:25:25.662] [main/INFO] [BasicNetherOres/]: BNO - Block Registered
-[05Jul2025 04:25:29.672] [main/INFO] [BasicNetherOres/]: BNO - Block Items Registered
-[05Jul2025 04:25:29.828] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
-[05Jul2025 04:25:30.735] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[05Jul2025 04:25:30.749] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[05Jul2025 04:25:30.751] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[05Jul2025 04:25:30.753] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[05Jul2025 04:25:30.894] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[05Jul2025 04:25:30.914] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[05Jul2025 04:25:31.126] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[05Jul2025 04:25:31.136] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
-[05Jul2025 04:25:31.250] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[05Jul2025 04:25:31.311] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[05Jul2025 04:25:31.323] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
-[05Jul2025 04:25:31.324] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[05Jul2025 04:25:31.525] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
-[05Jul2025 04:25:31.527] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
-[05Jul2025 04:25:31.597] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[05Jul2025 04:53:39.544] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[05Jul2025 04:53:39.563] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[05Jul2025 04:53:40.005] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[05Jul2025 04:53:40.319] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[05Jul2025 04:53:40.320] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[05Jul2025 04:53:41.748] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[05Jul2025 04:53:41.952] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
+[05Jul2025 04:53:42.367] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[05Jul2025 04:53:44.267] [main/INFO] [BasicNetherOres/]: BNO - Block Registered
+[05Jul2025 04:53:48.428] [main/INFO] [BasicNetherOres/]: BNO - Block Items Registered
+[05Jul2025 04:53:48.711] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
+[05Jul2025 04:53:49.613] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[05Jul2025 04:53:49.625] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[05Jul2025 04:53:49.628] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[05Jul2025 04:53:49.630] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[05Jul2025 04:53:49.779] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[05Jul2025 04:53:49.802] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[05Jul2025 04:53:49.981] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[05Jul2025 04:53:49.992] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[05Jul2025 04:53:50.046] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[05Jul2025 04:53:50.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
+[05Jul2025 04:53:50.121] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[05Jul2025 04:53:50.179] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[05Jul2025 04:53:50.213] [Thread-2/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
+[05Jul2025 04:53:50.275] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[05Jul2025 04:53:50.279] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[05Jul2025 04:53:50.310] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:969) ~[gson-2.10.jar%2372!/:?]
-	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23228!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.20.1-47.3.7.jar%23220!/:?]
 	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23228!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) ~[fmlcore-1.20.1-47.3.7.jar%23220!/:?]
 Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:393) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:182) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[05Jul2025 04:25:31.598] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Starting version check at https://api.modrinth.com/updates/UMmSTwE0/forge_updates.json
-[05Jul2025 04:25:31.671] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[05Jul2025 04:25:31.671] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[05Jul2025 04:25:31.671] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[05Jul2025 04:25:31.689] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[05Jul2025 04:25:31.689] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[05Jul2025 04:25:31.689] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[05Jul2025 04:25:31.690] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[05Jul2025 04:25:31.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Found status: OUTDATED Current: 1.2 Target: 1.2+mod
-[05Jul2025 04:25:31.699] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[05Jul2025 04:25:31.722] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[05Jul2025 04:25:31.722] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[05Jul2025 04:25:31.723] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[05Jul2025 04:25:31.723] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[05Jul2025 04:25:31.726] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[05Jul2025 04:25:31.727] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[05Jul2025 04:25:31.728] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[05Jul2025 04:25:31.730] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[05Jul2025 04:25:31.748] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
-[05Jul2025 04:25:31.749] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
-[05Jul2025 04:25:31.760] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[05Jul2025 04:25:31.760] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[05Jul2025 04:25:31.760] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
-[05Jul2025 04:25:31.760] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
-[05Jul2025 04:25:31.761] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
-[05Jul2025 04:25:31.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
-[05Jul2025 04:25:31.835] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[05Jul2025 04:25:31.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[05Jul2025 04:25:31.963] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[05Jul2025 04:25:32.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[05Jul2025 04:25:32.286] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
-[05Jul2025 04:25:32.298] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.3.0 Target: 5.4.2
-[05Jul2025 04:25:32.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[05Jul2025 04:25:32.696] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[05Jul2025 04:25:32.698] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
-[05Jul2025 04:25:32.735] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
-[05Jul2025 04:25:32.736] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[05Jul2025 04:25:32.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
-[05Jul2025 04:25:32.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
-[05Jul2025 04:25:32.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
-[05Jul2025 04:25:32.778] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
-[05Jul2025 04:25:33.440] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
-[05Jul2025 04:25:43.433] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[05Jul2025 04:25:43.650] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
-customnpcs (version 1.20.1.20250628 -> MISSING)
+[05Jul2025 04:53:50.314] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Starting version check at https://api.modrinth.com/updates/UMmSTwE0/forge_updates.json
+[05Jul2025 04:53:50.370] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[05Jul2025 04:53:50.370] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[05Jul2025 04:53:50.370] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[05Jul2025 04:53:50.386] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[05Jul2025 04:53:50.386] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[05Jul2025 04:53:50.386] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[05Jul2025 04:53:50.386] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[05Jul2025 04:53:50.404] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[05Jul2025 04:53:50.404] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[05Jul2025 04:53:50.404] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[05Jul2025 04:53:50.405] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[05Jul2025 04:53:50.406] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[05Jul2025 04:53:50.407] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[05Jul2025 04:53:50.407] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[05Jul2025 04:53:50.408] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[05Jul2025 04:53:50.434] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[05Jul2025 04:53:50.434] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[05Jul2025 04:53:50.434] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[05Jul2025 04:53:50.435] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[05Jul2025 04:53:50.435] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[05Jul2025 04:53:50.501] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Found status: OUTDATED Current: 1.2 Target: 1.2+mod
+[05Jul2025 04:53:50.502] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[05Jul2025 04:53:50.566] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
+[05Jul2025 04:53:50.567] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
+[05Jul2025 04:53:50.672] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
+[05Jul2025 04:53:50.673] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Jul2025 04:53:50.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[05Jul2025 04:53:50.897] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[05Jul2025 04:53:51.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[05Jul2025 04:53:51.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[05Jul2025 04:53:51.256] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.3.0 Target: 5.4.2
+[05Jul2025 04:53:51.257] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[05Jul2025 04:53:52.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[05Jul2025 04:53:52.429] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
+[05Jul2025 04:53:52.491] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
+[05Jul2025 04:53:52.492] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[05Jul2025 04:53:52.513] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
+[05Jul2025 04:53:52.514] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[05Jul2025 04:53:52.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
+[05Jul2025 04:53:52.538] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[05Jul2025 04:53:52.614] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[05Jul2025 04:54:01.434] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Jul2025 04:54:01.708] [main/WARN] [net.minecraftforge.common.ForgeHooks/WP]: The following mods have version differences that were not resolved:
+gamma_creatures (version 1.2.2 -> MISSING)
+improvedmobs (version 1.20.1-1.13.5 -> MISSING)
+sonicraft_lively_zones (version 0.2.0 -> MISSING)
+tenshilib (version 1.20.1-1.7.6 -> MISSING)
 Things may not work well.
-[05Jul2025 04:25:43.920] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
-	customnpcs:npcborder: 4750
-	customnpcs:npcbuilderblock: 4753
-	customnpcs:npccarpentybench: 4755
-	customnpcs:npccopyblock: 4754
-	customnpcs:npcmailbox: 4746
-	customnpcs:npcmailbox2: 4747
-	customnpcs:npcmailbox3: 4748
-	customnpcs:npcredstoneblock: 4745
-	customnpcs:npcscripted: 4751
-	customnpcs:npcscripteddoor: 4752
-	customnpcs:npcwaypoint: 4749
+[05Jul2025 04:54:01.928] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:block
+	gamma_creatures:acid: 3790
+	gamma_creatures:activador_raid: 3834
+	gamma_creatures:adamite_block: 3793
+	gamma_creatures:adamite_ore: 3792
+	gamma_creatures:almandine: 3733
+	gamma_creatures:almandine_slab: 3735
+	gamma_creatures:almandine_stairs: 3734
+	gamma_creatures:amanita: 3784
+	gamma_creatures:ancient_granite_block: 3723
+	gamma_creatures:b_1: 3814
+	gamma_creatures:b_10: 3823
+	gamma_creatures:b_11: 3824
+	gamma_creatures:b_12: 3825
+	gamma_creatures:b_13: 3826
+	gamma_creatures:b_14: 3827
+	gamma_creatures:b_15: 3828
+	gamma_creatures:b_16: 3829
+	gamma_creatures:b_17: 3830
+	gamma_creatures:b_18: 3831
+	gamma_creatures:b_19: 3832
+	gamma_creatures:b_2: 3815
+	gamma_creatures:b_20: 3833
+	gamma_creatures:b_3: 3816
+	gamma_creatures:b_4: 3817
+	gamma_creatures:b_5: 3818
+	gamma_creatures:b_6: 3819
+	gamma_creatures:b_7: 3820
+	gamma_creatures:b_8: 3821
+	gamma_creatures:b_9: 3822
+	gamma_creatures:black_stone: 3794
+	gamma_creatures:blue_mushroom: 3781
+	gamma_creatures:blue_mushroom_2: 3782
+	gamma_creatures:blue_mushroom_3: 3789
+	gamma_creatures:catalpa_button: 3774
+	gamma_creatures:catalpa_door: 3776
+	gamma_creatures:catalpa_fence: 3771
+	gamma_creatures:catalpa_fence_gate: 3772
+	gamma_creatures:catalpa_leaves: 3768
+	gamma_creatures:catalpa_log: 3766
+	gamma_creatures:catalpa_planks: 3767
+	gamma_creatures:catalpa_pressure_plate: 3773
+	gamma_creatures:catalpa_slab: 3770
+	gamma_creatures:catalpa_stairs: 3769
+	gamma_creatures:catalpa_trapdoor: 3777
+	gamma_creatures:catalpa_wood: 3765
+	gamma_creatures:chiseled_scolecite: 3801
+	gamma_creatures:coal_sabugalite_ore: 3797
+	gamma_creatures:cobbled_almandine: 3732
+	gamma_creatures:cobbled_almandine_slab: 3737
+	gamma_creatures:cobbled_almandine_stairs: 3736
+	gamma_creatures:copper_plate_block: 3813
+	gamma_creatures:corrupt_dirt: 3764
+	gamma_creatures:corrupt_dirt_2: 3783
+	gamma_creatures:crystal: 3720
+	gamma_creatures:dahlia: 3779
+	gamma_creatures:deepslate_prehnite_ore: 3729
+	gamma_creatures:diamond_block_spawn: 3721
+	gamma_creatures:diamond_sabugalite: 3795
+	gamma_creatures:dirt: 3786
+	gamma_creatures:epider_egg: 3722
+	gamma_creatures:flat_scolecite: 3802
+	gamma_creatures:flat_scolite_stairs: 3805
+	gamma_creatures:fluorite_block: 3728
+	gamma_creatures:fluorite_ore: 3727
+	gamma_creatures:gamma_chest: 3788
+	gamma_creatures:gamma_dimension_portal: 3717
+	gamma_creatures:gold_plate_block: 3811
+	gamma_creatures:gold_sabugalite_ore: 3798
+	gamma_creatures:green_chrysanthemum: 3778
+	gamma_creatures:iron_plate_block: 3810
+	gamma_creatures:mortar_and_pestle: 3719
+	gamma_creatures:plate_maker: 3809
+	gamma_creatures:plate_maker_1: 3724
+	gamma_creatures:polished_scolecite: 3800
+	gamma_creatures:polished_scolecite_stairs: 3803
+	gamma_creatures:prehnite_block: 3726
+	gamma_creatures:prehnite_ore: 3725
+	gamma_creatures:radioactive_muscari: 3785
+	gamma_creatures:radioactive_mushrooms: 3780
+	gamma_creatures:red_maple_button: 3747
+	gamma_creatures:red_maple_fence: 3744
+	gamma_creatures:red_maple_fence_gate: 3745
+	gamma_creatures:red_maple_leaves: 3741
+	gamma_creatures:red_maple_log: 3739
+	gamma_creatures:red_maple_planks: 3740
+	gamma_creatures:red_maple_pressure_plate: 3746
+	gamma_creatures:red_maple_slab: 3743
+	gamma_creatures:red_maple_stairs: 3742
+	gamma_creatures:red_maple_trap: 3750
+	gamma_creatures:red_maple_wood: 3738
+	gamma_creatures:redmaple_door: 3749
+	gamma_creatures:redstone_plate_block: 3812
+	gamma_creatures:redstone_sabugalite_ore: 3796
+	gamma_creatures:redthunder_egg: 3718
+	gamma_creatures:rock_crystal: 3791
+	gamma_creatures:rock_rot: 3806
+	gamma_creatures:rot: 3807
+	gamma_creatures:rot_crystal: 3808
+	gamma_creatures:sabugalita: 3730
+	gamma_creatures:sabugalita_cobble: 3731
+	gamma_creatures:saggiupale_button: 3760
+	gamma_creatures:saggiupale_door: 3762
+	gamma_creatures:saggiupale_fence: 3757
+	gamma_creatures:saggiupale_fence_gate: 3758
+	gamma_creatures:saggiupale_leaves: 3754
+	gamma_creatures:saggiupale_log: 3752
+	gamma_creatures:saggiupale_planks: 3753
+	gamma_creatures:saggiupale_pressure_plate: 3759
+	gamma_creatures:saggiupale_slab: 3756
+	gamma_creatures:saggiupale_stairs: 3755
+	gamma_creatures:saggiupale_trapdoor: 3763
+	gamma_creatures:saggiupale_wood: 3751
+	gamma_creatures:scolecite_block: 3799
+	gamma_creatures:scolecite_brick: 3804
+	gamma_creatures:stripped_catalpa_log: 3775
+	gamma_creatures:stripped_maple_wood: 3748
+	gamma_creatures:stripped_saggiupale_log: 3761
+	gamma_creatures:venus_flytraps: 3787
 
-[05Jul2025 04:25:43.927] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
-	customnpcs:customnpc: 820
-	customnpcs:customnpc64x32: 821
-	customnpcs:customnpcalex: 822
-	customnpcs:customnpcchairmount: 824
-	customnpcs:customnpcclassic: 823
-	customnpcs:customnpcprojectile: 825
-	customnpcs:npccrystal: 816
-	customnpcs:npcdragon: 818
-	customnpcs:npcgolem: 819
-	customnpcs:npcpony: 815
-	customnpcs:npcslime: 817
+[05Jul2025 04:54:01.935] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:entity_type
+	gamma_creatures:alubis: 390
+	gamma_creatures:banndu: 186
+	gamma_creatures:basic_turret: 374
+	gamma_creatures:big_piglin: 232
+	gamma_creatures:bomb: 537
+	gamma_creatures:careyatros: 197
+	gamma_creatures:cg_001: 242
+	gamma_creatures:cg_001_cd: 243
+	gamma_creatures:cg_002: 244
+	gamma_creatures:cg_002_cd: 246
+	gamma_creatures:cg_003: 247
+	gamma_creatures:cg_003_cd: 248
+	gamma_creatures:cg_004: 249
+	gamma_creatures:cg_004_cd: 250
+	gamma_creatures:cg_005: 251
+	gamma_creatures:cg_005_cd: 253
+	gamma_creatures:cg_005_gs: 254
+	gamma_creatures:cg_006: 255
+	gamma_creatures:cg_006_cd: 257
+	gamma_creatures:cg_007: 258
+	gamma_creatures:cg_007_cd: 259
+	gamma_creatures:cg_008: 260
+	gamma_creatures:cg_008_cd: 261
+	gamma_creatures:cg_009: 274
+	gamma_creatures:cg_009_cd: 276
+	gamma_creatures:cg_010: 277
+	gamma_creatures:cg_010_cd: 278
+	gamma_creatures:cg_011: 279
+	gamma_creatures:cg_011_cd: 281
+	gamma_creatures:cg_015_cd: 349
+	gamma_creatures:cg_022: 221
+	gamma_creatures:cg_0222: 363
+	gamma_creatures:cg_023: 227
+	gamma_creatures:cg_030: 399
+	gamma_creatures:cg_030_cd: 400
+	gamma_creatures:cg_031: 401
+	gamma_creatures:cg_031_cd: 530
+	gamma_creatures:crasu: 211
+	gamma_creatures:darknix: 215
+	gamma_creatures:diamond_golem: 201
+	gamma_creatures:dogishi: 204
+	gamma_creatures:dosmo: 203
+	gamma_creatures:drazor: 213
+	gamma_creatures:fabricator: 538
+	gamma_creatures:flying_hoglin: 233
+	gamma_creatures:gc_012: 282
+	gamma_creatures:gc_012_cd: 283
+	gamma_creatures:gc_013: 284
+	gamma_creatures:gc_013_cd: 285
+	gamma_creatures:gc_014: 286
+	gamma_creatures:gc_014_cd: 287
+	gamma_creatures:gc_015: 288
+	gamma_creatures:gc_016: 351
+	gamma_creatures:gc_016_cd: 352
+	gamma_creatures:gc_017: 353
+	gamma_creatures:gc_017_cd: 354
+	gamma_creatures:gc_018: 355
+	gamma_creatures:gc_018_cd: 356
+	gamma_creatures:gc_019: 214
+	gamma_creatures:gc_020: 358
+	gamma_creatures:gc_021: 361
+	gamma_creatures:gc_021_cd: 362
+	gamma_creatures:gc_024: 217
+	gamma_creatures:gc_025: 218
+	gamma_creatures:gc_026: 378
+	gamma_creatures:gc_026_cd: 391
+	gamma_creatures:gc_027: 392
+	gamma_creatures:gc_027_cd: 393
+	gamma_creatures:gc_028: 394
+	gamma_creatures:gc_028_cd: 396
+	gamma_creatures:gc_029: 397
+	gamma_creatures:gc_029_cd: 398
+	gamma_creatures:gc_032: 541
+	gamma_creatures:gc_032_cd: 542
+	gamma_creatures:gc_20_cd: 360
+	gamma_creatures:golem_attack: 252
+	gamma_creatures:grudels: 210
+	gamma_creatures:gusnow: 208
+	gamma_creatures:juvex: 357
+	gamma_creatures:lennat: 226
+	gamma_creatures:ltoloxa: 536
+	gamma_creatures:meloron: 223
+	gamma_creatures:molluto: 200
+	gamma_creatures:muba: 212
+	gamma_creatures:mutant_hoglin: 231
+	gamma_creatures:mutant_hoglin_0: 370
+	gamma_creatures:mutant_warden: 234
+	gamma_creatures:mutant_warden_0: 373
+	gamma_creatures:owl: 395
+	gamma_creatures:pangolin: 199
+	gamma_creatures:projectile_banndu: 196
+	gamma_creatures:projectile_bubbles_projectile: 245
+	gamma_creatures:projectile_bullet: 532
+	gamma_creatures:projectile_energy_gamma: 534
+	gamma_creatures:projectile_flash_lightning_projectile: 262
+	gamma_creatures:projectile_gamma_abeam_projectile: 350
+	gamma_creatures:projectile_gamma_wave_proyectile: 256
+	gamma_creatures:projectile_honey_proyectile: 531
+	gamma_creatures:projectile_mega_sonic_boom: 371
+	gamma_creatures:projectile_meloron: 224
+	gamma_creatures:projectile_red_fire_projectile: 359
+	gamma_creatures:projectile_red_ray: 365
+	gamma_creatures:projectile_spear_narcotic_projectile: 368
+	gamma_creatures:projectile_spear_projectile: 367
+	gamma_creatures:projectile_spine_projectile: 275
+	gamma_creatures:projectile_tela_projectile: 280
+	gamma_creatures:projectile_turret_projectile: 375
+	gamma_creatures:projectile_watermelon_seed: 533
+	gamma_creatures:radio_active_zombie_0: 369
+	gamma_creatures:radioactive_bear: 207
+	gamma_creatures:radioactive_bee: 219
+	gamma_creatures:radioactive_hyena: 225
+	gamma_creatures:radioactive_owl: 222
+	gamma_creatures:radioactive_shark: 220
+	gamma_creatures:radioactive_wolf: 539
+	gamma_creatures:radioactive_zombie: 228
+	gamma_creatures:redthunder: 366
+	gamma_creatures:sculk_silverfish: 236
+	gamma_creatures:sculk_spider: 235
+	gamma_creatures:shecko: 198
+	gamma_creatures:skinno: 209
+	gamma_creatures:snovy: 364
+	gamma_creatures:sonic_wave: 372
+	gamma_creatures:spider: 206
+	gamma_creatures:sppinto: 205
+	gamma_creatures:taru: 540
+	gamma_creatures:toixic_creeper: 230
+	gamma_creatures:toxic_slime: 238
+	gamma_creatures:toxic_zombie: 229
+	gamma_creatures:tree: 535
+	gamma_creatures:trefish: 237
+	gamma_creatures:turlan: 216
+	gamma_creatures:vigilant_enderman: 240
+	gamma_creatures:wild_wolf: 239
+	gamma_creatures:xendah: 377
+	gamma_creatures:zatlah: 202
+	gamma_creatures:zombie_06: 376
+	gamma_creatures:zombie_06_f_1: 241
 
-[05Jul2025 04:25:43.931] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
-	customnpcs:nbt_book: 7151
-	customnpcs:npcborder: 7157
-	customnpcs:npcbuilderblock: 7160
-	customnpcs:npccarpentybench: 7162
-	customnpcs:npccopyblock: 7161
-	customnpcs:npcmailbox: 7153
-	customnpcs:npcmailbox2: 7154
-	customnpcs:npcmailbox3: 7155
-	customnpcs:npcmobcloner: 7143
-	customnpcs:npcmounter: 7146
-	customnpcs:npcmovingpath: 7145
-	customnpcs:npcredstoneblock: 7152
-	customnpcs:npcscripted: 7158
-	customnpcs:npcscripteddoortool: 7159
-	customnpcs:npcscripter: 7144
-	customnpcs:npcsoulstoneempty: 7148
-	customnpcs:npcsoulstonefilled: 7149
-	customnpcs:npcteleporter: 7147
-	customnpcs:npcwand: 7142
-	customnpcs:npcwaypoint: 7156
-	customnpcs:scripted_item: 7150
+[05Jul2025 04:54:01.939] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:fluid
+	gamma_creatures:acid: 27
+	gamma_creatures:flowing_acid: 28
 
-[05Jul2025 04:25:43.936] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+[05Jul2025 04:54:01.941] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:item
+	gamma_creatures:acid_bucket: 5830
+	gamma_creatures:activador_raid: 5920
+	gamma_creatures:adamite: 5707
+	gamma_creatures:adamite_block: 5833
+	gamma_creatures:adamite_ore: 5832
+	gamma_creatures:almandine: 5773
+	gamma_creatures:almandine_slab: 5775
+	gamma_creatures:almandine_stairs: 5774
+	gamma_creatures:alubin_saddle: 5670
+	gamma_creatures:alubis_spawn_egg: 5923
+	gamma_creatures:amanita: 5824
+	gamma_creatures:ancient_granite_block: 5763
+	gamma_creatures:b_1: 5900
+	gamma_creatures:b_10: 5909
+	gamma_creatures:b_11: 5910
+	gamma_creatures:b_12: 5911
+	gamma_creatures:b_13: 5912
+	gamma_creatures:b_14: 5913
+	gamma_creatures:b_15: 5914
+	gamma_creatures:b_16: 5915
+	gamma_creatures:b_17: 5916
+	gamma_creatures:b_18: 5917
+	gamma_creatures:b_19: 5918
+	gamma_creatures:b_2: 5901
+	gamma_creatures:b_20: 5919
+	gamma_creatures:b_3: 5902
+	gamma_creatures:b_4: 5903
+	gamma_creatures:b_5: 5904
+	gamma_creatures:b_6: 5905
+	gamma_creatures:b_7: 5906
+	gamma_creatures:b_8: 5907
+	gamma_creatures:b_9: 5908
+	gamma_creatures:banndu_saddle: 2616
+	gamma_creatures:banndu_spawn_egg: 5712
+	gamma_creatures:basic_crystalball: 2593
+	gamma_creatures:big_piglin_spawn_egg: 5748
+	gamma_creatures:bird_thigh: 2609
+	gamma_creatures:black_stone: 5834
+	gamma_creatures:blue_mushroom: 5821
+	gamma_creatures:blue_mushroom_2: 5822
+	gamma_creatures:blue_mushroom_3: 5829
+	gamma_creatures:blue_mushroom_item: 5684
+	gamma_creatures:book: 2590
+	gamma_creatures:careyatros_saddle: 2618
+	gamma_creatures:careyatros_spawn_egg: 5713
+	gamma_creatures:catalpa_button: 5814
+	gamma_creatures:catalpa_door: 5816
+	gamma_creatures:catalpa_fence: 5811
+	gamma_creatures:catalpa_fence_gate: 5812
+	gamma_creatures:catalpa_leaves: 5808
+	gamma_creatures:catalpa_log: 5806
+	gamma_creatures:catalpa_planks: 5807
+	gamma_creatures:catalpa_pressure_plate: 5813
+	gamma_creatures:catalpa_slab: 5810
+	gamma_creatures:catalpa_stairs: 5809
+	gamma_creatures:catalpa_trapdoor: 5817
+	gamma_creatures:catalpa_wood: 5805
+	gamma_creatures:cg_001_cd_spawn_egg: 5848
+	gamma_creatures:cg_001_spawn_egg: 5847
+	gamma_creatures:cg_002_cd_spawn_egg: 5850
+	gamma_creatures:cg_002_spawn_egg: 5849
+	gamma_creatures:cg_003_cd_spawn_egg: 5852
+	gamma_creatures:cg_003_spawn_egg: 5851
+	gamma_creatures:cg_004_cd_spawn_egg: 5854
+	gamma_creatures:cg_004_spawn_egg: 5853
+	gamma_creatures:cg_005_cd_spawn_egg: 5857
+	gamma_creatures:cg_005_spawn_egg: 5855
+	gamma_creatures:cg_006_cd_spawn_egg: 5859
+	gamma_creatures:cg_006_spawn_egg: 5858
+	gamma_creatures:cg_007_cd_spawn_egg: 5861
+	gamma_creatures:cg_007_spawn_egg: 5860
+	gamma_creatures:cg_008_cd_spawn_egg: 5863
+	gamma_creatures:cg_008_spawn_egg: 5862
+	gamma_creatures:cg_009_cd_spawn_egg: 5866
+	gamma_creatures:cg_009_spawn_egg: 5864
+	gamma_creatures:cg_010_cd_spawn_egg: 5868
+	gamma_creatures:cg_010_spawn_egg: 5867
+	gamma_creatures:cg_011_cd_spawn_egg: 5870
+	gamma_creatures:cg_011_spawn_egg: 5869
+	gamma_creatures:cg_015_cd_spawn_egg: 5879
+	gamma_creatures:cg_0222_spawn_egg: 5892
+	gamma_creatures:cg_022_spawn_egg: 5737
+	gamma_creatures:cg_023_spawn_egg: 5742
+	gamma_creatures:cg_030_cd_spawn_egg: 5932
+	gamma_creatures:cg_030_spawn_egg: 5931
+	gamma_creatures:cg_031_cd_spawn_egg: 5934
+	gamma_creatures:cg_031_spawn_egg: 5933
+	gamma_creatures:chiseled_scolecite: 5841
+	gamma_creatures:coal_nugget: 5678
+	gamma_creatures:coal_sabugalite_ore: 5837
+	gamma_creatures:cobbled_almandine: 5772
+	gamma_creatures:cobbled_almandine_slab: 5777
+	gamma_creatures:cobbled_almandine_stairs: 5776
+	gamma_creatures:controlling_wand: 2606
+	gamma_creatures:cooked_bird_thigh: 2610
+	gamma_creatures:cooked_meat: 2612
+	gamma_creatures:cooked_salmon_steak: 2614
+	gamma_creatures:copper_plate: 5682
+	gamma_creatures:copper_plate_block: 5899
+	gamma_creatures:corrupt_dirt: 5804
+	gamma_creatures:corrupt_dirt_2: 5823
+	gamma_creatures:crasu_saddle: 5669
+	gamma_creatures:crasu_spawn_egg: 5727
+	gamma_creatures:crystal: 5760
+	gamma_creatures:crystal_item: 5675
+	gamma_creatures:crystalball: 2596
+	gamma_creatures:dahlia: 5819
+	gamma_creatures:darknix_saddle: 5663
+	gamma_creatures:darknix_spawn_egg: 5731
+	gamma_creatures:deepslate_prehnite_ore: 5769
+	gamma_creatures:diamond_block_spawn: 5761
+	gamma_creatures:diamond_golem_saddle: 2619
+	gamma_creatures:diamond_golem_spawn_egg: 5717
+	gamma_creatures:diamond_sabugalite: 5835
+	gamma_creatures:dirt: 5826
+	gamma_creatures:dogishi_saddle: 2628
+	gamma_creatures:dogishi_spawn_egg: 5720
+	gamma_creatures:dosmo_saddle: 2620
+	gamma_creatures:dosmo_spawn_egg: 5719
+	gamma_creatures:drazor_saddle: 5661
+	gamma_creatures:drazor_spawn_egg: 5729
+	gamma_creatures:epider_egg: 5762
+	gamma_creatures:fabricator_spawn_egg: 5937
+	gamma_creatures:fertilized_poisonous_potato: 2602
+	gamma_creatures:fertilized_rotten_flesh: 2603
+	gamma_creatures:fiber: 2607
+	gamma_creatures:flat_scolecite: 5842
+	gamma_creatures:flat_scolite_stairs: 5845
+	gamma_creatures:fluorite_armor_0_boots: 5706
+	gamma_creatures:fluorite_armor_0_chestplate: 5704
+	gamma_creatures:fluorite_armor_0_helmet: 5703
+	gamma_creatures:fluorite_armor_0_leggings: 5705
+	gamma_creatures:fluorite_axe: 5700
+	gamma_creatures:fluorite_block: 5768
+	gamma_creatures:fluorite_hoe: 5702
+	gamma_creatures:fluorite_ingot: 5697
+	gamma_creatures:fluorite_ore: 5767
+	gamma_creatures:fluorite_pickaxe: 5699
+	gamma_creatures:fluorite_shovel: 5701
+	gamma_creatures:fluorite_sword: 5698
+	gamma_creatures:flying_hoglin_spawn_egg: 5749
+	gamma_creatures:fur: 2597
+	gamma_creatures:gamma_chest: 5828
+	gamma_creatures:gamma_reactor: 2592
+	gamma_creatures:gc_012_cd_spawn_egg: 5873
+	gamma_creatures:gc_012_spawn_egg: 5871
+	gamma_creatures:gc_013_cd_spawn_egg: 5875
+	gamma_creatures:gc_013_spawn_egg: 5874
+	gamma_creatures:gc_014_cd_spawn_egg: 5877
+	gamma_creatures:gc_014_spawn_egg: 5876
+	gamma_creatures:gc_015_spawn_egg: 5878
+	gamma_creatures:gc_016_cd_spawn_egg: 5881
+	gamma_creatures:gc_016_spawn_egg: 5880
+	gamma_creatures:gc_017_cd_spawn_egg: 5883
+	gamma_creatures:gc_017_spawn_egg: 5882
+	gamma_creatures:gc_018_cd_spawn_egg: 5885
+	gamma_creatures:gc_018_spawn_egg: 5884
+	gamma_creatures:gc_019_spawn_egg: 5730
+	gamma_creatures:gc_020_spawn_egg: 5887
+	gamma_creatures:gc_021_cd_spawn_egg: 5891
+	gamma_creatures:gc_021_spawn_egg: 5889
+	gamma_creatures:gc_024_spawn_egg: 5733
+	gamma_creatures:gc_025_spawn_egg: 5734
+	gamma_creatures:gc_026_cd_spawn_egg: 5924
+	gamma_creatures:gc_026_spawn_egg: 5922
+	gamma_creatures:gc_027_cd_spawn_egg: 5926
+	gamma_creatures:gc_027_spawn_egg: 5925
+	gamma_creatures:gc_028_cd_spawn_egg: 5928
+	gamma_creatures:gc_028_spawn_egg: 5927
+	gamma_creatures:gc_029_cd_spawn_egg: 5930
+	gamma_creatures:gc_029_spawn_egg: 5929
+	gamma_creatures:gc_032_cd_spawn_egg: 5941
+	gamma_creatures:gc_032_spawn_egg: 5940
+	gamma_creatures:gc_20_cd_spawn_egg: 5888
+	gamma_creatures:gold_plate: 5680
+	gamma_creatures:gold_plate_block: 5897
+	gamma_creatures:gold_sabugalite_ore: 5838
+	gamma_creatures:golden_berries: 2598
+	gamma_creatures:golden_cake: 2600
+	gamma_creatures:green_chrysanthemum: 5818
+	gamma_creatures:green_mushroom: 5685
+	gamma_creatures:grudels_saddle: 2621
+	gamma_creatures:grudels_spawn_egg: 5726
+	gamma_creatures:gusnow_saddle: 2630
+	gamma_creatures:gusnow_spawn_egg: 5724
+	gamma_creatures:icon: 5846
+	gamma_creatures:iron_plate: 5679
+	gamma_creatures:iron_plate_block: 5896
+	gamma_creatures:juvex_saddle: 5665
+	gamma_creatures:juvex_spawn_egg: 5886
+	gamma_creatures:lenat_saddle: 5666
+	gamma_creatures:lennat_spawn_egg: 5741
+	gamma_creatures:ltoloxa_spawn_egg: 5936
+	gamma_creatures:meat: 2611
+	gamma_creatures:mega_crystalball: 2595
+	gamma_creatures:meloron_saddle: 5672
+	gamma_creatures:meloron_spawn_egg: 5739
+	gamma_creatures:molluto_saddle: 2615
+	gamma_creatures:molluto_spawn_egg: 5716
+	gamma_creatures:mortar_and_pestle: 5759
+	gamma_creatures:muba_saddle: 2629
+	gamma_creatures:muba_spawn_egg: 5728
+	gamma_creatures:mutant_hoglin_spawn_egg: 5747
+	gamma_creatures:mutant_warden_spawn_egg: 5750
+	gamma_creatures:narcotic_spear: 2605
+	gamma_creatures:narcotics: 2601
+	gamma_creatures:pangolin_saddle: 2623
+	gamma_creatures:pangolin_spawn_egg: 5715
+	gamma_creatures:plate_maker: 5895
+	gamma_creatures:plate_maker_1: 5764
+	gamma_creatures:polished_scolecite: 5840
+	gamma_creatures:polished_scolecite_stairs: 5843
+	gamma_creatures:pomace: 5676
+	gamma_creatures:prehnite: 5686
+	gamma_creatures:prehnite_armor_boots: 5690
+	gamma_creatures:prehnite_armor_chestplate: 5688
+	gamma_creatures:prehnite_armor_helmet: 5687
+	gamma_creatures:prehnite_armor_leggings: 5689
+	gamma_creatures:prehnite_axe: 5692
+	gamma_creatures:prehnite_block: 5766
+	gamma_creatures:prehnite_hoe: 5694
+	gamma_creatures:prehnite_ore: 5765
+	gamma_creatures:prehnite_pickaxe: 5693
+	gamma_creatures:prehnite_shovel: 5695
+	gamma_creatures:prehnite_sword: 5691
+	gamma_creatures:protective_suit_boots: 5711
+	gamma_creatures:protective_suit_chestplate: 5709
+	gamma_creatures:protective_suit_helmet: 5708
+	gamma_creatures:protective_suit_leggings: 5710
+	gamma_creatures:radioactive_bear_saddle: 2617
+	gamma_creatures:radioactive_bear_spawn_egg: 5723
+	gamma_creatures:radioactive_bee_saddle: 5667
+	gamma_creatures:radioactive_bee_spawn_egg: 5735
+	gamma_creatures:radioactive_hyena_spawn_egg: 5740
+	gamma_creatures:radioactive_muscari: 5825
+	gamma_creatures:radioactive_mushrooms: 5820
+	gamma_creatures:radioactive_owl_saddle: 5671
+	gamma_creatures:radioactive_owl_spawn_egg: 5738
+	gamma_creatures:radioactive_shark_saddle: 5668
+	gamma_creatures:radioactive_shark_spawn_egg: 5736
+	gamma_creatures:radioactive_wolf_spawn_egg: 5938
+	gamma_creatures:radioactive_zombie_spawn_egg: 5744
+	gamma_creatures:radioative_hyena_saddle: 5673
+	gamma_creatures:raw_fluorite: 5696
+	gamma_creatures:red_maple_button: 5787
+	gamma_creatures:red_maple_fence: 5784
+	gamma_creatures:red_maple_fence_gate: 5785
+	gamma_creatures:red_maple_leaves: 5781
+	gamma_creatures:red_maple_log: 5779
+	gamma_creatures:red_maple_planks: 5780
+	gamma_creatures:red_maple_pressure_plate: 5786
+	gamma_creatures:red_maple_slab: 5783
+	gamma_creatures:red_maple_stairs: 5782
+	gamma_creatures:red_maple_trap: 5790
+	gamma_creatures:red_maple_wood: 5778
+	gamma_creatures:red_pomace: 5677
+	gamma_creatures:redmaple_door: 5789
+	gamma_creatures:redstone_plate: 5681
+	gamma_creatures:redstone_plate_block: 5898
+	gamma_creatures:redstone_sabugalite_ore: 5836
+	gamma_creatures:redthunder_egg: 5743
+	gamma_creatures:redthunder_saddle: 5664
+	gamma_creatures:redthunder_spawn_egg: 5894
+	gamma_creatures:rock_crystal: 5831
+	gamma_creatures:rock_rot: 5856
+	gamma_creatures:rot: 5872
+	gamma_creatures:rot_crystal: 5890
+	gamma_creatures:sabugalita: 5770
+	gamma_creatures:sabugalita_cobble: 5771
+	gamma_creatures:saddle_template: 5674
+	gamma_creatures:saggiupale_button: 5800
+	gamma_creatures:saggiupale_door: 5802
+	gamma_creatures:saggiupale_fence: 5797
+	gamma_creatures:saggiupale_fence_gate: 5798
+	gamma_creatures:saggiupale_leaves: 5794
+	gamma_creatures:saggiupale_log: 5792
+	gamma_creatures:saggiupale_planks: 5793
+	gamma_creatures:saggiupale_pressure_plate: 5799
+	gamma_creatures:saggiupale_slab: 5796
+	gamma_creatures:saggiupale_stairs: 5795
+	gamma_creatures:saggiupale_trapdoor: 5803
+	gamma_creatures:saggiupale_wood: 5791
+	gamma_creatures:salmon_steak: 2613
+	gamma_creatures:scolecite_block: 5839
+	gamma_creatures:scolecite_brick: 5844
+	gamma_creatures:sculk_silverfish_spawn_egg: 5752
+	gamma_creatures:sculk_spider_spawn_egg: 5751
+	gamma_creatures:shecko_saddle: 2624
+	gamma_creatures:shecko_spawn_egg: 5714
+	gamma_creatures:skinno_saddle: 2625
+	gamma_creatures:skinno_spawn_egg: 5725
+	gamma_creatures:snovy_spawn_egg: 5893
+	gamma_creatures:spear: 2604
+	gamma_creatures:special_seed: 2599
+	gamma_creatures:spider_saddle: 2626
+	gamma_creatures:spider_spawn_egg: 5722
+	gamma_creatures:spine: 5865
+	gamma_creatures:sppinto_saddle: 2627
+	gamma_creatures:sppinto_spawn_egg: 5721
+	gamma_creatures:stamina_capsule: 2591
+	gamma_creatures:stripped_catalpa_log: 5815
+	gamma_creatures:stripped_maple_wood: 5788
+	gamma_creatures:stripped_saggiupale_log: 5801
+	gamma_creatures:super_crystalball: 2594
+	gamma_creatures:taru_saddle: 5942
+	gamma_creatures:taru_spawn_egg: 5939
+	gamma_creatures:toixic_creeper_spawn_egg: 5746
+	gamma_creatures:toxic_slime_spawn_egg: 5755
+	gamma_creatures:toxic_zombie_spawn_egg: 5745
+	gamma_creatures:treasure_key: 2608
+	gamma_creatures:tree_spawn_egg: 5935
+	gamma_creatures:treefish_bucket: 5754
+	gamma_creatures:trefish_spawn_egg: 5753
+	gamma_creatures:turlan_saddle: 5662
+	gamma_creatures:turlan_spawn_egg: 5732
+	gamma_creatures:venus_flytraps: 5827
+	gamma_creatures:vigilant_enderman_spawn_egg: 5757
+	gamma_creatures:wild_wolf_spawn_egg: 5756
+	gamma_creatures:xendah_spawn_egg: 5921
+	gamma_creatures:yellow_mushroom: 5683
+	gamma_creatures:zatlah_saddle: 2622
+	gamma_creatures:zatlah_spawn_egg: 5718
+	gamma_creatures:zombie_06_f_1_spawn_egg: 5758
 
-There are 43 missing entries in this save.
+[05Jul2025 04:54:01.948] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:mob_effect
+	gamma_creatures:bloqueador: 53
+	gamma_creatures:dream: 54
+	gamma_creatures:drowning: 47
+	gamma_creatures:frog_attack: 57
+	gamma_creatures:gamma_abeam_potion: 49
+	gamma_creatures:headmost: 58
+	gamma_creatures:honeyed: 56
+	gamma_creatures:inmune: 46
+	gamma_creatures:redstone_potion: 48
+	gamma_creatures:rompe_piedra: 45
+	gamma_creatures:romper_bloque: 52
+	gamma_creatures:run_punch: 50
+	gamma_creatures:runner: 44
+	gamma_creatures:stamine_potion: 55
+	gamma_creatures:toxicity: 51
+
+[05Jul2025 04:54:01.948] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:point_of_interest_type
+	gamma_creatures:gamma_dimension_portal: 22
+
+[05Jul2025 04:54:01.949] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: Unidentified mapping from registry minecraft:sound_event
+	gamma_creatures:aleteo3: 2013
+	gamma_creatures:aleteo_lento: 1868
+	gamma_creatures:aleteo_medio: 1998
+	gamma_creatures:aleteo_n: 1988
+	gamma_creatures:aleteo_rapido: 1902
+	gamma_creatures:alubis_cd: 2014
+	gamma_creatures:alubisin_golpe: 2002
+	gamma_creatures:alubisin_quieto: 2003
+	gamma_creatures:arana_tela2: 1891
+	gamma_creatures:arana_tela_1: 1890
+	gamma_creatures:axo_golpe: 2023
+	gamma_creatures:axo_quieto: 2024
+	gamma_creatures:banndu_at: 1909
+	gamma_creatures:banndu_cd: 1932
+	gamma_creatures:banndu_golpe: 1939
+	gamma_creatures:banndu_quieto: 1940
+	gamma_creatures:battle1: 1993
+	gamma_creatures:battle2: 1994
+	gamma_creatures:battle3: 1995
+	gamma_creatures:bear_cd: 1896
+	gamma_creatures:bear_golpe: 1965
+	gamma_creatures:bear_habilidad2: 1903
+	gamma_creatures:bear_quieto: 1966
+	gamma_creatures:bee_golpe: 2006
+	gamma_creatures:bee_quieto: 2007
+	gamma_creatures:bloque_placas_audio: 1916
+	gamma_creatures:bosses_0: 1989
+	gamma_creatures:buho_cd: 2015
+	gamma_creatures:buho_golpe: 2010
+	gamma_creatures:buho_quieto: 2011
+	gamma_creatures:caida: 1996
+	gamma_creatures:careyatros_at: 1910
+	gamma_creatures:careyatros_golpe: 1941
+	gamma_creatures:careyatros_pasos: 1942
+	gamma_creatures:careyatros_quieto: 1943
+	gamma_creatures:casu_golpe: 1944
+	gamma_creatures:cayeratros_cd: 1933
+	gamma_creatures:comer_audio: 1858
+	gamma_creatures:comer_audio2: 1864
+	gamma_creatures:crasu_quieto: 1945
+	gamma_creatures:creatures_jump: 1999
+	gamma_creatures:darknix_golpe: 1971
+	gamma_creatures:darknix_habilidad: 1997
+	gamma_creatures:darknix_quieto: 1972
+	gamma_creatures:dogishi_cd: 1931
+	gamma_creatures:dogishi_golpe: 1946
+	gamma_creatures:dogishi_quieto: 1947
+	gamma_creatures:dosmo_cd: 1930
+	gamma_creatures:dosmo_golpe: 1948
+	gamma_creatures:dosmo_quieto: 1949
+	gamma_creatures:drazor_cd: 1924
+	gamma_creatures:drazor_golpe: 1973
+	gamma_creatures:drazor_quieto: 1974
+	gamma_creatures:dropitem: 1918
+	gamma_creatures:egg_spider: 1893
+	gamma_creatures:energia_golpe: 1895
+	gamma_creatures:energy: 2000
+	gamma_creatures:estamina_audio: 1857
+	gamma_creatures:flap: 1901
+	gamma_creatures:giro_golpe_effect: 1899
+	gamma_creatures:golemd_at: 1866
+	gamma_creatures:golemd_cd: 1934
+	gamma_creatures:golemd_golpe: 1952
+	gamma_creatures:golemd_pasos: 1953
+	gamma_creatures:golemd_quieto: 1954
+	gamma_creatures:golpe_creatures: 1867
+	gamma_creatures:grudels_attack: 1904
+	gamma_creatures:grudels_cd: 1929
+	gamma_creatures:grudels_golpe: 1963
+	gamma_creatures:grudels_quieto: 1964
+	gamma_creatures:gusnow_at: 1911
+	gamma_creatures:gusnow_cd: 1936
+	gamma_creatures:gusnow_golpe: 1955
+	gamma_creatures:gusnow_quieto: 1956
+	gamma_creatures:hyena_golpe: 2018
+	gamma_creatures:hyena_quieto: 2019
+	gamma_creatures:juvex_golpe: 1975
+	gamma_creatures:juvex_quieto: 1976
+	gamma_creatures:lennat_at: 2001
+	gamma_creatures:lennat_golpe: 2020
+	gamma_creatures:lennat_quieto: 2021
+	gamma_creatures:meloron_golpe: 2016
+	gamma_creatures:meloron_quieto: 2017
+	gamma_creatures:molluto_cd: 1928
+	gamma_creatures:molluto_golpe: 1957
+	gamma_creatures:molluto_habilidad: 1865
+	gamma_creatures:molluto_quieto: 1958
+	gamma_creatures:montura_noti: 1900
+	gamma_creatures:morter: 1917
+	gamma_creatures:muba_golpe: 1959
+	gamma_creatures:muba_quieto: 1960
+	gamma_creatures:mutanta_zombie_golpe: 1990
+	gamma_creatures:mutanta_zombie_quieto: 1991
+	gamma_creatures:nargacuga_ataque: 1897
+	gamma_creatures:noti_tameo: 1860
+	gamma_creatures:pangolin_cd: 1927
+	gamma_creatures:pangolin_giro2: 1863
+	gamma_creatures:pangolin_golpe: 1961
+	gamma_creatures:pangolin_quieto: 1962
+	gamma_creatures:pasos1: 2012
+	gamma_creatures:poke_off: 1914
+	gamma_creatures:poke_on: 1915
+	gamma_creatures:redthunder_at: 1912
+	gamma_creatures:redthunder_golpe: 1978
+	gamma_creatures:redthunder_quieto: 1977
+	gamma_creatures:robot_ataque: 2025
+	gamma_creatures:robot_quieto: 2026
+	gamma_creatures:robot_step: 2027
+	gamma_creatures:sabugalita_hit: 1985
+	gamma_creatures:sabugalita_picar: 1986
+	gamma_creatures:sabugalita_romper: 1987
+	gamma_creatures:salto: 1888
+	gamma_creatures:salto1: 1886
+	gamma_creatures:salto2: 1885
+	gamma_creatures:salto3: 1887
+	gamma_creatures:salto_voladores: 1861
+	gamma_creatures:shecko_attack: 1905
+	gamma_creatures:shecko_cd: 1925
+	gamma_creatures:shecko_golpe: 1921
+	gamma_creatures:shecko_quieto: 1922
+	gamma_creatures:silencio: 1894
+	gamma_creatures:skinno_attack: 1906
+	gamma_creatures:skinno_cd: 1926
+	gamma_creatures:skinno_habilidad: 1907
+	gamma_creatures:skkino_golpe: 1967
+	gamma_creatures:skkino_habilidad: 1898
+	gamma_creatures:skkino_quieto: 1968
+	gamma_creatures:snovy_golpe: 1981
+	gamma_creatures:snovy_quieto: 1982
+	gamma_creatures:snovymini_golpe: 1979
+	gamma_creatures:snovyminio_quieto: 1980
+	gamma_creatures:spider_at: 1892
+	gamma_creatures:spider_cd: 1938
+	gamma_creatures:spider_golpe: 1919
+	gamma_creatures:spider_quieto: 1920
+	gamma_creatures:spinto_at: 1889
+	gamma_creatures:sppinto_at: 1913
+	gamma_creatures:sppinto_cd: 1935
+	gamma_creatures:sppinto_golpe: 1969
+	gamma_creatures:sppinto_quieto: 1970
+	gamma_creatures:taru_golpe: 2028
+	gamma_creatures:taru_quieto: 2029
+	gamma_creatures:tiburon_golpe: 2008
+	gamma_creatures:tiburon_quieto: 2009
+	gamma_creatures:turlan_cd: 1923
+	gamma_creatures:turlan_golpe: 1983
+	gamma_creatures:turlan_quieto: 1984
+	gamma_creatures:viento: 1862
+	gamma_creatures:vuelo_bee: 2022
+	gamma_creatures:wand: 1859
+	gamma_creatures:warden_atack: 1992
+	gamma_creatures:xendah_golpe: 2004
+	gamma_creatures:xendah_quieto: 2005
+	gamma_creatures:zatlah_at: 1908
+	gamma_creatures:zatlah_cd: 1937
+	gamma_creatures:zatlah_golpe: 1950
+	gamma_creatures:zatlah_quieto: 1951
+
+[05Jul2025 04:54:01.954] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Forge Mod Loader detected missing registry entries.
+
+There are 754 missing entries in this save.
 If you continue the missing entries will get removed.
 A world backup will be automatically created in your saves directory.
 
 
-[05Jul2025 04:25:43.937] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:item:
-    customnpcs:nbt_book
-    customnpcs:npcborder
-    customnpcs:npcbuilderblock
-    customnpcs:npccarpentybench
-    customnpcs:npccopyblock
-    customnpcs:npcmailbox
-    customnpcs:npcmailbox2
-    customnpcs:npcmailbox3
-    customnpcs:npcmobcloner
-    customnpcs:npcmounter
-    customnpcs:npcmovingpath
-    customnpcs:npcredstoneblock
-    customnpcs:npcscripted
-    customnpcs:npcscripteddoortool
-    customnpcs:npcscripter
-    customnpcs:npcsoulstoneempty
-    customnpcs:npcsoulstonefilled
-    customnpcs:npcteleporter
-    customnpcs:npcwand
-    customnpcs:npcwaypoint
-    customnpcs:scripted_item
+[05Jul2025 04:54:01.955] [main/WARN] [net.minecraftforge.registries.GameData/REGISTRIES]: Missing minecraft:sound_event:
+    gamma_creatures:aleteo3
+    gamma_creatures:aleteo_lento
+    gamma_creatures:aleteo_medio
+    gamma_creatures:aleteo_n
+    gamma_creatures:aleteo_rapido
+    gamma_creatures:alubis_cd
+    gamma_creatures:alubisin_golpe
+    gamma_creatures:alubisin_quieto
+    gamma_creatures:arana_tela2
+    gamma_creatures:arana_tela_1
+    gamma_creatures:axo_golpe
+    gamma_creatures:axo_quieto
+    gamma_creatures:banndu_at
+    gamma_creatures:banndu_cd
+    gamma_creatures:banndu_golpe
+    gamma_creatures:banndu_quieto
+    gamma_creatures:battle1
+    gamma_creatures:battle2
+    gamma_creatures:battle3
+    gamma_creatures:bear_cd
+    gamma_creatures:bear_golpe
+    gamma_creatures:bear_habilidad2
+    gamma_creatures:bear_quieto
+    gamma_creatures:bee_golpe
+    gamma_creatures:bee_quieto
+    gamma_creatures:bloque_placas_audio
+    gamma_creatures:bosses_0
+    gamma_creatures:buho_cd
+    gamma_creatures:buho_golpe
+    gamma_creatures:buho_quieto
+    gamma_creatures:caida
+    gamma_creatures:careyatros_at
+    gamma_creatures:careyatros_golpe
+    gamma_creatures:careyatros_pasos
+    gamma_creatures:careyatros_quieto
+    gamma_creatures:casu_golpe
+    gamma_creatures:cayeratros_cd
+    gamma_creatures:comer_audio
+    gamma_creatures:comer_audio2
+    gamma_creatures:crasu_quieto
+    gamma_creatures:creatures_jump
+    gamma_creatures:darknix_golpe
+    gamma_creatures:darknix_habilidad
+    gamma_creatures:darknix_quieto
+    gamma_creatures:dogishi_cd
+    gamma_creatures:dogishi_golpe
+    gamma_creatures:dogishi_quieto
+    gamma_creatures:dosmo_cd
+    gamma_creatures:dosmo_golpe
+    gamma_creatures:dosmo_quieto
+    gamma_creatures:drazor_cd
+    gamma_creatures:drazor_golpe
+    gamma_creatures:drazor_quieto
+    gamma_creatures:dropitem
+    gamma_creatures:egg_spider
+    gamma_creatures:energia_golpe
+    gamma_creatures:energy
+    gamma_creatures:estamina_audio
+    gamma_creatures:flap
+    gamma_creatures:giro_golpe_effect
+    gamma_creatures:golemd_at
+    gamma_creatures:golemd_cd
+    gamma_creatures:golemd_golpe
+    gamma_creatures:golemd_pasos
+    gamma_creatures:golemd_quieto
+    gamma_creatures:golpe_creatures
+    gamma_creatures:grudels_attack
+    gamma_creatures:grudels_cd
+    gamma_creatures:grudels_golpe
+    gamma_creatures:grudels_quieto
+    gamma_creatures:gusnow_at
+    gamma_creatures:gusnow_cd
+    gamma_creatures:gusnow_golpe
+    gamma_creatures:gusnow_quieto
+    gamma_creatures:hyena_golpe
+    gamma_creatures:hyena_quieto
+    gamma_creatures:juvex_golpe
+    gamma_creatures:juvex_quieto
+    gamma_creatures:lennat_at
+    gamma_creatures:lennat_golpe
+    gamma_creatures:lennat_quieto
+    gamma_creatures:meloron_golpe
+    gamma_creatures:meloron_quieto
+    gamma_creatures:molluto_cd
+    gamma_creatures:molluto_golpe
+    gamma_creatures:molluto_habilidad
+    gamma_creatures:molluto_quieto
+    gamma_creatures:montura_noti
+    gamma_creatures:morter
+    gamma_creatures:muba_golpe
+    gamma_creatures:muba_quieto
+    gamma_creatures:mutanta_zombie_golpe
+    gamma_creatures:mutanta_zombie_quieto
+    gamma_creatures:nargacuga_ataque
+    gamma_creatures:noti_tameo
+    gamma_creatures:pangolin_cd
+    gamma_creatures:pangolin_giro2
+    gamma_creatures:pangolin_golpe
+    gamma_creatures:pangolin_quieto
+    gamma_creatures:pasos1
+    gamma_creatures:poke_off
+    gamma_creatures:poke_on
+    gamma_creatures:redthunder_at
+    gamma_creatures:redthunder_golpe
+    gamma_creatures:redthunder_quieto
+    gamma_creatures:robot_ataque
+    gamma_creatures:robot_quieto
+    gamma_creatures:robot_step
+    gamma_creatures:sabugalita_hit
+    gamma_creatures:sabugalita_picar
+    gamma_creatures:sabugalita_romper
+    gamma_creatures:salto
+    gamma_creatures:salto1
+    gamma_creatures:salto2
+    gamma_creatures:salto3
+    gamma_creatures:salto_voladores
+    gamma_creatures:shecko_attack
+    gamma_creatures:shecko_cd
+    gamma_creatures:shecko_golpe
+    gamma_creatures:shecko_quieto
+    gamma_creatures:silencio
+    gamma_creatures:skinno_attack
+    gamma_creatures:skinno_cd
+    gamma_creatures:skinno_habilidad
+    gamma_creatures:skkino_golpe
+    gamma_creatures:skkino_habilidad
+    gamma_creatures:skkino_quieto
+    gamma_creatures:snovy_golpe
+    gamma_creatures:snovy_quieto
+    gamma_creatures:snovymini_golpe
+    gamma_creatures:snovyminio_quieto
+    gamma_creatures:spider_at
+    gamma_creatures:spider_cd
+    gamma_creatures:spider_golpe
+    gamma_creatures:spider_quieto
+    gamma_creatures:spinto_at
+    gamma_creatures:sppinto_at
+    gamma_creatures:sppinto_cd
+    gamma_creatures:sppinto_golpe
+    gamma_creatures:sppinto_quieto
+    gamma_creatures:taru_golpe
+    gamma_creatures:taru_quieto
+    gamma_creatures:tiburon_golpe
+    gamma_creatures:tiburon_quieto
+    gamma_creatures:turlan_cd
+    gamma_creatures:turlan_golpe
+    gamma_creatures:turlan_quieto
+    gamma_creatures:viento
+    gamma_creatures:vuelo_bee
+    gamma_creatures:wand
+    gamma_creatures:warden_atack
+    gamma_creatures:xendah_golpe
+    gamma_creatures:xendah_quieto
+    gamma_creatures:zatlah_at
+    gamma_creatures:zatlah_cd
+    gamma_creatures:zatlah_golpe
+    gamma_creatures:zatlah_quieto
+
+Missing minecraft:item:
+    gamma_creatures:acid_bucket
+    gamma_creatures:activador_raid
+    gamma_creatures:adamite
+    gamma_creatures:adamite_block
+    gamma_creatures:adamite_ore
+    gamma_creatures:almandine
+    gamma_creatures:almandine_slab
+    gamma_creatures:almandine_stairs
+    gamma_creatures:alubin_saddle
+    gamma_creatures:alubis_spawn_egg
+    gamma_creatures:amanita
+    gamma_creatures:ancient_granite_block
+    gamma_creatures:b_1
+    gamma_creatures:b_10
+    gamma_creatures:b_11
+    gamma_creatures:b_12
+    gamma_creatures:b_13
+    gamma_creatures:b_14
+    gamma_creatures:b_15
+    gamma_creatures:b_16
+    gamma_creatures:b_17
+    gamma_creatures:b_18
+    gamma_creatures:b_19
+    gamma_creatures:b_2
+    gamma_creatures:b_20
+    gamma_creatures:b_3
+    gamma_creatures:b_4
+    gamma_creatures:b_5
+    gamma_creatures:b_6
+    gamma_creatures:b_7
+    gamma_creatures:b_8
+    gamma_creatures:b_9
+    gamma_creatures:banndu_saddle
+    gamma_creatures:banndu_spawn_egg
+    gamma_creatures:basic_crystalball
+    gamma_creatures:big_piglin_spawn_egg
+    gamma_creatures:bird_thigh
+    gamma_creatures:black_stone
+    gamma_creatures:blue_mushroom
+    gamma_creatures:blue_mushroom_2
+    gamma_creatures:blue_mushroom_3
+    gamma_creatures:blue_mushroom_item
+    gamma_creatures:book
+    gamma_creatures:careyatros_saddle
+    gamma_creatures:careyatros_spawn_egg
+    gamma_creatures:catalpa_button
+    gamma_creatures:catalpa_door
+    gamma_creatures:catalpa_fence
+    gamma_creatures:catalpa_fence_gate
+    gamma_creatures:catalpa_leaves
+    gamma_creatures:catalpa_log
+    gamma_creatures:catalpa_planks
+    gamma_creatures:catalpa_pressure_plate
+    gamma_creatures:catalpa_slab
+    gamma_creatures:catalpa_stairs
+    gamma_creatures:catalpa_trapdoor
+    gamma_creatures:catalpa_wood
+    gamma_creatures:cg_001_cd_spawn_egg
+    gamma_creatures:cg_001_spawn_egg
+    gamma_creatures:cg_002_cd_spawn_egg
+    gamma_creatures:cg_002_spawn_egg
+    gamma_creatures:cg_003_cd_spawn_egg
+    gamma_creatures:cg_003_spawn_egg
+    gamma_creatures:cg_004_cd_spawn_egg
+    gamma_creatures:cg_004_spawn_egg
+    gamma_creatures:cg_005_cd_spawn_egg
+    gamma_creatures:cg_005_spawn_egg
+    gamma_creatures:cg_006_cd_spawn_egg
+    gamma_creatures:cg_006_spawn_egg
+    gamma_creatures:cg_007_cd_spawn_egg
+    gamma_creatures:cg_007_spawn_egg
+    gamma_creatures:cg_008_cd_spawn_egg
+    gamma_creatures:cg_008_spawn_egg
+    gamma_creatures:cg_009_cd_spawn_egg
+    gamma_creatures:cg_009_spawn_egg
+    gamma_creatures:cg_010_cd_spawn_egg
+    gamma_creatures:cg_010_spawn_egg
+    gamma_creatures:cg_011_cd_spawn_egg
+    gamma_creatures:cg_011_spawn_egg
+    gamma_creatures:cg_015_cd_spawn_egg
+    gamma_creatures:cg_0222_spawn_egg
+    gamma_creatures:cg_022_spawn_egg
+    gamma_creatures:cg_023_spawn_egg
+    gamma_creatures:cg_030_cd_spawn_egg
+    gamma_creatures:cg_030_spawn_egg
+    gamma_creatures:cg_031_cd_spawn_egg
+    gamma_creatures:cg_031_spawn_egg
+    gamma_creatures:chiseled_scolecite
+    gamma_creatures:coal_nugget
+    gamma_creatures:coal_sabugalite_ore
+    gamma_creatures:cobbled_almandine
+    gamma_creatures:cobbled_almandine_slab
+    gamma_creatures:cobbled_almandine_stairs
+    gamma_creatures:controlling_wand
+    gamma_creatures:cooked_bird_thigh
+    gamma_creatures:cooked_meat
+    gamma_creatures:cooked_salmon_steak
+    gamma_creatures:copper_plate
+    gamma_creatures:copper_plate_block
+    gamma_creatures:corrupt_dirt
+    gamma_creatures:corrupt_dirt_2
+    gamma_creatures:crasu_saddle
+    gamma_creatures:crasu_spawn_egg
+    gamma_creatures:crystal
+    gamma_creatures:crystal_item
+    gamma_creatures:crystalball
+    gamma_creatures:dahlia
+    gamma_creatures:darknix_saddle
+    gamma_creatures:darknix_spawn_egg
+    gamma_creatures:deepslate_prehnite_ore
+    gamma_creatures:diamond_block_spawn
+    gamma_creatures:diamond_golem_saddle
+    gamma_creatures:diamond_golem_spawn_egg
+    gamma_creatures:diamond_sabugalite
+    gamma_creatures:dirt
+    gamma_creatures:dogishi_saddle
+    gamma_creatures:dogishi_spawn_egg
+    gamma_creatures:dosmo_saddle
+    gamma_creatures:dosmo_spawn_egg
+    gamma_creatures:drazor_saddle
+    gamma_creatures:drazor_spawn_egg
+    gamma_creatures:epider_egg
+    gamma_creatures:fabricator_spawn_egg
+    gamma_creatures:fertilized_poisonous_potato
+    gamma_creatures:fertilized_rotten_flesh
+    gamma_creatures:fiber
+    gamma_creatures:flat_scolecite
+    gamma_creatures:flat_scolite_stairs
+    gamma_creatures:fluorite_armor_0_boots
+    gamma_creatures:fluorite_armor_0_chestplate
+    gamma_creatures:fluorite_armor_0_helmet
+    gamma_creatures:fluorite_armor_0_leggings
+    gamma_creatures:fluorite_axe
+    gamma_creatures:fluorite_block
+    gamma_creatures:fluorite_hoe
+    gamma_creatures:fluorite_ingot
+    gamma_creatures:fluorite_ore
+    gamma_creatures:fluorite_pickaxe
+    gamma_creatures:fluorite_shovel
+    gamma_creatures:fluorite_sword
+    gamma_creatures:flying_hoglin_spawn_egg
+    gamma_creatures:fur
+    gamma_creatures:gamma_chest
+    gamma_creatures:gamma_reactor
+    gamma_creatures:gc_012_cd_spawn_egg
+    gamma_creatures:gc_012_spawn_egg
+    gamma_creatures:gc_013_cd_spawn_egg
+    gamma_creatures:gc_013_spawn_egg
+    gamma_creatures:gc_014_cd_spawn_egg
+    gamma_creatures:gc_014_spawn_egg
+    gamma_creatures:gc_015_spawn_egg
+    gamma_creatures:gc_016_cd_spawn_egg
+    gamma_creatures:gc_016_spawn_egg
+    gamma_creatures:gc_017_cd_spawn_egg
+    gamma_creatures:gc_017_spawn_egg
+    gamma_creatures:gc_018_cd_spawn_egg
+    gamma_creatures:gc_018_spawn_egg
+    gamma_creatures:gc_019_spawn_egg
+    gamma_creatures:gc_020_spawn_egg
+    gamma_creatures:gc_021_cd_spawn_egg
+    gamma_creatures:gc_021_spawn_egg
+    gamma_creatures:gc_024_spawn_egg
+    gamma_creatures:gc_025_spawn_egg
+    gamma_creatures:gc_026_cd_spawn_egg
+    gamma_creatures:gc_026_spawn_egg
+    gamma_creatures:gc_027_cd_spawn_egg
+    gamma_creatures:gc_027_spawn_egg
+    gamma_creatures:gc_028_cd_spawn_egg
+    gamma_creatures:gc_028_spawn_egg
+    gamma_creatures:gc_029_cd_spawn_egg
+    gamma_creatures:gc_029_spawn_egg
+    gamma_creatures:gc_032_cd_spawn_egg
+    gamma_creatures:gc_032_spawn_egg
+    gamma_creatures:gc_20_cd_spawn_egg
+    gamma_creatures:gold_plate
+    gamma_creatures:gold_plate_block
+    gamma_creatures:gold_sabugalite_ore
+    gamma_creatures:golden_berries
+    gamma_creatures:golden_cake
+    gamma_creatures:green_chrysanthemum
+    gamma_creatures:green_mushroom
+    gamma_creatures:grudels_saddle
+    gamma_creatures:grudels_spawn_egg
+    gamma_creatures:gusnow_saddle
+    gamma_creatures:gusnow_spawn_egg
+    gamma_creatures:icon
+    gamma_creatures:iron_plate
+    gamma_creatures:iron_plate_block
+    gamma_creatures:juvex_saddle
+    gamma_creatures:juvex_spawn_egg
+    gamma_creatures:lenat_saddle
+    gamma_creatures:lennat_spawn_egg
+    gamma_creatures:ltoloxa_spawn_egg
+    gamma_creatures:meat
+    gamma_creatures:mega_crystalball
+    gamma_creatures:meloron_saddle
+    gamma_creatures:meloron_spawn_egg
+    gamma_creatures:molluto_saddle
+    gamma_creatures:molluto_spawn_egg
+    gamma_creatures:mortar_and_pestle
+    gamma_creatures:muba_saddle
+    gamma_creatures:muba_spawn_egg
+    gamma_creatures:mutant_hoglin_spawn_egg
+    gamma_creatures:mutant_warden_spawn_egg
+    gamma_creatures:narcotic_spear
+    gamma_creatures:narcotics
+    gamma_creatures:pangolin_saddle
+    gamma_creatures:pangolin_spawn_egg
+    gamma_creatures:plate_maker
+    gamma_creatures:plate_maker_1
+    gamma_creatures:polished_scolecite
+    gamma_creatures:polished_scolecite_stairs
+    gamma_creatures:pomace
+    gamma_creatures:prehnite
+    gamma_creatures:prehnite_armor_boots
+    gamma_creatures:prehnite_armor_chestplate
+    gamma_creatures:prehnite_armor_helmet
+    gamma_creatures:prehnite_armor_leggings
+    gamma_creatures:prehnite_axe
+    gamma_creatures:prehnite_block
+    gamma_creatures:prehnite_hoe
+    gamma_creatures:prehnite_ore
+    gamma_creatures:prehnite_pickaxe
+    gamma_creatures:prehnite_shovel
+    gamma_creatures:prehnite_sword
+    gamma_creatures:protective_suit_boots
+    gamma_creatures:protective_suit_chestplate
+    gamma_creatures:protective_suit_helmet
+    gamma_creatures:protective_suit_leggings
+    gamma_creatures:radioactive_bear_saddle
+    gamma_creatures:radioactive_bear_spawn_egg
+    gamma_creatures:radioactive_bee_saddle
+    gamma_creatures:radioactive_bee_spawn_egg
+    gamma_creatures:radioactive_hyena_spawn_egg
+    gamma_creatures:radioactive_muscari
+    gamma_creatures:radioactive_mushrooms
+    gamma_creatures:radioactive_owl_saddle
+    gamma_creatures:radioactive_owl_spawn_egg
+    gamma_creatures:radioactive_shark_saddle
+    gamma_creatures:radioactive_shark_spawn_egg
+    gamma_creatures:radioactive_wolf_spawn_egg
+    gamma_creatures:radioactive_zombie_spawn_egg
+    gamma_creatures:radioative_hyena_saddle
+    gamma_creatures:raw_fluorite
+    gamma_creatures:red_maple_button
+    gamma_creatures:red_maple_fence
+    gamma_creatures:red_maple_fence_gate
+    gamma_creatures:red_maple_leaves
+    gamma_creatures:red_maple_log
+    gamma_creatures:red_maple_planks
+    gamma_creatures:red_maple_pressure_plate
+    gamma_creatures:red_maple_slab
+    gamma_creatures:red_maple_stairs
+    gamma_creatures:red_maple_trap
+    gamma_creatures:red_maple_wood
+    gamma_creatures:red_pomace
+    gamma_creatures:redmaple_door
+    gamma_creatures:redstone_plate
+    gamma_creatures:redstone_plate_block
+    gamma_creatures:redstone_sabugalite_ore
+    gamma_creatures:redthunder_egg
+    gamma_creatures:redthunder_saddle
+    gamma_creatures:redthunder_spawn_egg
+    gamma_creatures:rock_crystal
+    gamma_creatures:rock_rot
+    gamma_creatures:rot
+    gamma_creatures:rot_crystal
+    gamma_creatures:sabugalita
+    gamma_creatures:sabugalita_cobble
+    gamma_creatures:saddle_template
+    gamma_creatures:saggiupale_button
+    gamma_creatures:saggiupale_door
+    gamma_creatures:saggiupale_fence
+    gamma_creatures:saggiupale_fence_gate
+    gamma_creatures:saggiupale_leaves
+    gamma_creatures:saggiupale_log
+    gamma_creatures:saggiupale_planks
+    gamma_creatures:saggiupale_pressure_plate
+    gamma_creatures:saggiupale_slab
+    gamma_creatures:saggiupale_stairs
+    gamma_creatures:saggiupale_trapdoor
+    gamma_creatures:saggiupale_wood
+    gamma_creatures:salmon_steak
+    gamma_creatures:scolecite_block
+    gamma_creatures:scolecite_brick
+    gamma_creatures:sculk_silverfish_spawn_egg
+    gamma_creatures:sculk_spider_spawn_egg
+    gamma_creatures:shecko_saddle
+    gamma_creatures:shecko_spawn_egg
+    gamma_creatures:skinno_saddle
+    gamma_creatures:skinno_spawn_egg
+    gamma_creatures:snovy_spawn_egg
+    gamma_creatures:spear
+    gamma_creatures:special_seed
+    gamma_creatures:spider_saddle
+    gamma_creatures:spider_spawn_egg
+    gamma_creatures:spine
+    gamma_creatures:sppinto_saddle
+    gamma_creatures:sppinto_spawn_egg
+    gamma_creatures:stamina_capsule
+    gamma_creatures:stripped_catalpa_log
+    gamma_creatures:stripped_maple_wood
+    gamma_creatures:stripped_saggiupale_log
+    gamma_creatures:super_crystalball
+    gamma_creatures:taru_saddle
+    gamma_creatures:taru_spawn_egg
+    gamma_creatures:toixic_creeper_spawn_egg
+    gamma_creatures:toxic_slime_spawn_egg
+    gamma_creatures:toxic_zombie_spawn_egg
+    gamma_creatures:treasure_key
+    gamma_creatures:tree_spawn_egg
+    gamma_creatures:treefish_bucket
+    gamma_creatures:trefish_spawn_egg
+    gamma_creatures:turlan_saddle
+    gamma_creatures:turlan_spawn_egg
+    gamma_creatures:venus_flytraps
+    gamma_creatures:vigilant_enderman_spawn_egg
+    gamma_creatures:wild_wolf_spawn_egg
+    gamma_creatures:xendah_spawn_egg
+    gamma_creatures:yellow_mushroom
+    gamma_creatures:zatlah_saddle
+    gamma_creatures:zatlah_spawn_egg
+    gamma_creatures:zombie_06_f_1_spawn_egg
 
 Missing minecraft:block:
-    customnpcs:npcborder
-    customnpcs:npcbuilderblock
-    customnpcs:npccarpentybench
-    customnpcs:npccopyblock
-    customnpcs:npcmailbox
-    customnpcs:npcmailbox2
-    customnpcs:npcmailbox3
-    customnpcs:npcredstoneblock
-    customnpcs:npcscripted
-    customnpcs:npcscripteddoor
-    customnpcs:npcwaypoint
+    gamma_creatures:acid
+    gamma_creatures:activador_raid
+    gamma_creatures:adamite_block
+    gamma_creatures:adamite_ore
+    gamma_creatures:almandine
+    gamma_creatures:almandine_slab
+    gamma_creatures:almandine_stairs
+    gamma_creatures:amanita
+    gamma_creatures:ancient_granite_block
+    gamma_creatures:b_1
+    gamma_creatures:b_10
+    gamma_creatures:b_11
+    gamma_creatures:b_12
+    gamma_creatures:b_13
+    gamma_creatures:b_14
+    gamma_creatures:b_15
+    gamma_creatures:b_16
+    gamma_creatures:b_17
+    gamma_creatures:b_18
+    gamma_creatures:b_19
+    gamma_creatures:b_2
+    gamma_creatures:b_20
+    gamma_creatures:b_3
+    gamma_creatures:b_4
+    gamma_creatures:b_5
+    gamma_creatures:b_6
+    gamma_creatures:b_7
+    gamma_creatures:b_8
+    gamma_creatures:b_9
+    gamma_creatures:black_stone
+    gamma_creatures:blue_mushroom
+    gamma_creatures:blue_mushroom_2
+    gamma_creatures:blue_mushroom_3
+    gamma_creatures:catalpa_button
+    gamma_creatures:catalpa_door
+    gamma_creatures:catalpa_fence
+    gamma_creatures:catalpa_fence_gate
+    gamma_creatures:catalpa_leaves
+    gamma_creatures:catalpa_log
+    gamma_creatures:catalpa_planks
+    gamma_creatures:catalpa_pressure_plate
+    gamma_creatures:catalpa_slab
+    gamma_creatures:catalpa_stairs
+    gamma_creatures:catalpa_trapdoor
+    gamma_creatures:catalpa_wood
+    gamma_creatures:chiseled_scolecite
+    gamma_creatures:coal_sabugalite_ore
+    gamma_creatures:cobbled_almandine
+    gamma_creatures:cobbled_almandine_slab
+    gamma_creatures:cobbled_almandine_stairs
+    gamma_creatures:copper_plate_block
+    gamma_creatures:corrupt_dirt
+    gamma_creatures:corrupt_dirt_2
+    gamma_creatures:crystal
+    gamma_creatures:dahlia
+    gamma_creatures:deepslate_prehnite_ore
+    gamma_creatures:diamond_block_spawn
+    gamma_creatures:diamond_sabugalite
+    gamma_creatures:dirt
+    gamma_creatures:epider_egg
+    gamma_creatures:flat_scolecite
+    gamma_creatures:flat_scolite_stairs
+    gamma_creatures:fluorite_block
+    gamma_creatures:fluorite_ore
+    gamma_creatures:gamma_chest
+    gamma_creatures:gamma_dimension_portal
+    gamma_creatures:gold_plate_block
+    gamma_creatures:gold_sabugalite_ore
+    gamma_creatures:green_chrysanthemum
+    gamma_creatures:iron_plate_block
+    gamma_creatures:mortar_and_pestle
+    gamma_creatures:plate_maker
+    gamma_creatures:plate_maker_1
+    gamma_creatures:polished_scolecite
+    gamma_creatures:polished_scolecite_stairs
+    gamma_creatures:prehnite_block
+    gamma_creatures:prehnite_ore
+    gamma_creatures:radioactive_muscari
+    gamma_creatures:radioactive_mushrooms
+    gamma_creatures:red_maple_button
+    gamma_creatures:red_maple_fence
+    gamma_creatures:red_maple_fence_gate
+    gamma_creatures:red_maple_leaves
+    gamma_creatures:red_maple_log
+    gamma_creatures:red_maple_planks
+    gamma_creatures:red_maple_pressure_plate
+    gamma_creatures:red_maple_slab
+    gamma_creatures:red_maple_stairs
+    gamma_creatures:red_maple_trap
+    gamma_creatures:red_maple_wood
+    gamma_creatures:redmaple_door
+    gamma_creatures:redstone_plate_block
+    gamma_creatures:redstone_sabugalite_ore
+    gamma_creatures:redthunder_egg
+    gamma_creatures:rock_crystal
+    gamma_creatures:rock_rot
+    gamma_creatures:rot
+    gamma_creatures:rot_crystal
+    gamma_creatures:sabugalita
+    gamma_creatures:sabugalita_cobble
+    gamma_creatures:saggiupale_button
+    gamma_creatures:saggiupale_door
+    gamma_creatures:saggiupale_fence
+    gamma_creatures:saggiupale_fence_gate
+    gamma_creatures:saggiupale_leaves
+    gamma_creatures:saggiupale_log
+    gamma_creatures:saggiupale_planks
+    gamma_creatures:saggiupale_pressure_plate
+    gamma_creatures:saggiupale_slab
+    gamma_creatures:saggiupale_stairs
+    gamma_creatures:saggiupale_trapdoor
+    gamma_creatures:saggiupale_wood
+    gamma_creatures:scolecite_block
+    gamma_creatures:scolecite_brick
+    gamma_creatures:stripped_catalpa_log
+    gamma_creatures:stripped_maple_wood
+    gamma_creatures:stripped_saggiupale_log
+    gamma_creatures:venus_flytraps
+
+Missing minecraft:point_of_interest_type:
+    gamma_creatures:gamma_dimension_portal
+
+Missing minecraft:mob_effect:
+    gamma_creatures:bloqueador
+    gamma_creatures:dream
+    gamma_creatures:drowning
+    gamma_creatures:frog_attack
+    gamma_creatures:gamma_abeam_potion
+    gamma_creatures:headmost
+    gamma_creatures:honeyed
+    gamma_creatures:inmune
+    gamma_creatures:redstone_potion
+    gamma_creatures:rompe_piedra
+    gamma_creatures:romper_bloque
+    gamma_creatures:run_punch
+    gamma_creatures:runner
+    gamma_creatures:stamine_potion
+    gamma_creatures:toxicity
+
+Missing minecraft:fluid:
+    gamma_creatures:acid
+    gamma_creatures:flowing_acid
 
 Missing minecraft:entity_type:
-    customnpcs:customnpc
-    customnpcs:customnpc64x32
-    customnpcs:customnpcalex
-    customnpcs:customnpcchairmount
-    customnpcs:customnpcclassic
-    customnpcs:customnpcprojectile
-    customnpcs:npccrystal
-    customnpcs:npcdragon
-    customnpcs:npcgolem
-    customnpcs:npcpony
-    customnpcs:npcslime
+    gamma_creatures:alubis
+    gamma_creatures:banndu
+    gamma_creatures:basic_turret
+    gamma_creatures:big_piglin
+    gamma_creatures:bomb
+    gamma_creatures:careyatros
+    gamma_creatures:cg_001
+    gamma_creatures:cg_001_cd
+    gamma_creatures:cg_002
+    gamma_creatures:cg_002_cd
+    gamma_creatures:cg_003
+    gamma_creatures:cg_003_cd
+    gamma_creatures:cg_004
+    gamma_creatures:cg_004_cd
+    gamma_creatures:cg_005
+    gamma_creatures:cg_005_cd
+    gamma_creatures:cg_005_gs
+    gamma_creatures:cg_006
+    gamma_creatures:cg_006_cd
+    gamma_creatures:cg_007
+    gamma_creatures:cg_007_cd
+    gamma_creatures:cg_008
+    gamma_creatures:cg_008_cd
+    gamma_creatures:cg_009
+    gamma_creatures:cg_009_cd
+    gamma_creatures:cg_010
+    gamma_creatures:cg_010_cd
+    gamma_creatures:cg_011
+    gamma_creatures:cg_011_cd
+    gamma_creatures:cg_015_cd
+    gamma_creatures:cg_022
+    gamma_creatures:cg_0222
+    gamma_creatures:cg_023
+    gamma_creatures:cg_030
+    gamma_creatures:cg_030_cd
+    gamma_creatures:cg_031
+    gamma_creatures:cg_031_cd
+    gamma_creatures:crasu
+    gamma_creatures:darknix
+    gamma_creatures:diamond_golem
+    gamma_creatures:dogishi
+    gamma_creatures:dosmo
+    gamma_creatures:drazor
+    gamma_creatures:fabricator
+    gamma_creatures:flying_hoglin
+    gamma_creatures:gc_012
+    gamma_creatures:gc_012_cd
+    gamma_creatures:gc_013
+    gamma_creatures:gc_013_cd
+    gamma_creatures:gc_014
+    gamma_creatures:gc_014_cd
+    gamma_creatures:gc_015
+    gamma_creatures:gc_016
+    gamma_creatures:gc_016_cd
+    gamma_creatures:gc_017
+    gamma_creatures:gc_017_cd
+    gamma_creatures:gc_018
+    gamma_creatures:gc_018_cd
+    gamma_creatures:gc_019
+    gamma_creatures:gc_020
+    gamma_creatures:gc_021
+    gamma_creatures:gc_021_cd
+    gamma_creatures:gc_024
+    gamma_creatures:gc_025
+    gamma_creatures:gc_026
+    gamma_creatures:gc_026_cd
+    gamma_creatures:gc_027
+    gamma_creatures:gc_027_cd
+    gamma_creatures:gc_028
+    gamma_creatures:gc_028_cd
+    gamma_creatures:gc_029
+    gamma_creatures:gc_029_cd
+    gamma_creatures:gc_032
+    gamma_creatures:gc_032_cd
+    gamma_creatures:gc_20_cd
+    gamma_creatures:golem_attack
+    gamma_creatures:grudels
+    gamma_creatures:gusnow
+    gamma_creatures:juvex
+    gamma_creatures:lennat
+    gamma_creatures:ltoloxa
+    gamma_creatures:meloron
+    gamma_creatures:molluto
+    gamma_creatures:muba
+    gamma_creatures:mutant_hoglin
+    gamma_creatures:mutant_hoglin_0
+    gamma_creatures:mutant_warden
+    gamma_creatures:mutant_warden_0
+    gamma_creatures:owl
+    gamma_creatures:pangolin
+    gamma_creatures:projectile_banndu
+    gamma_creatures:projectile_bubbles_projectile
+    gamma_creatures:projectile_bullet
+    gamma_creatures:projectile_energy_gamma
+    gamma_creatures:projectile_flash_lightning_projectile
+    gamma_creatures:projectile_gamma_abeam_projectile
+    gamma_creatures:projectile_gamma_wave_proyectile
+    gamma_creatures:projectile_honey_proyectile
+    gamma_creatures:projectile_mega_sonic_boom
+    gamma_creatures:projectile_meloron
+    gamma_creatures:projectile_red_fire_projectile
+    gamma_creatures:projectile_red_ray
+    gamma_creatures:projectile_spear_narcotic_projectile
+    gamma_creatures:projectile_spear_projectile
+    gamma_creatures:projectile_spine_projectile
+    gamma_creatures:projectile_tela_projectile
+    gamma_creatures:projectile_turret_projectile
+    gamma_creatures:projectile_watermelon_seed
+    gamma_creatures:radio_active_zombie_0
+    gamma_creatures:radioactive_bear
+    gamma_creatures:radioactive_bee
+    gamma_creatures:radioactive_hyena
+    gamma_creatures:radioactive_owl
+    gamma_creatures:radioactive_shark
+    gamma_creatures:radioactive_wolf
+    gamma_creatures:radioactive_zombie
+    gamma_creatures:redthunder
+    gamma_creatures:sculk_silverfish
+    gamma_creatures:sculk_spider
+    gamma_creatures:shecko
+    gamma_creatures:skinno
+    gamma_creatures:snovy
+    gamma_creatures:sonic_wave
+    gamma_creatures:spider
+    gamma_creatures:sppinto
+    gamma_creatures:taru
+    gamma_creatures:toixic_creeper
+    gamma_creatures:toxic_slime
+    gamma_creatures:toxic_zombie
+    gamma_creatures:tree
+    gamma_creatures:trefish
+    gamma_creatures:turlan
+    gamma_creatures:vigilant_enderman
+    gamma_creatures:wild_wolf
+    gamma_creatures:xendah
+    gamma_creatures:zatlah
+    gamma_creatures:zombie_06
+    gamma_creatures:zombie_06_f_1
 
 
-[05Jul2025 04:25:43.938] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
-[05Jul2025 04:25:49.564] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23227!/assets/.mcassetsroot' uses unexpected schema
-[05Jul2025 04:25:49.564] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23227!/data/.mcassetsroot' uses unexpected schema
-[05Jul2025 04:25:49.732] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:customnpcs
-[05Jul2025 04:25:49.732] [main/INFO] [net.minecraft.server.MinecraftServer/]: Found new data pack file/supreme_measure_replacer.zip, loading it automatically
-[05Jul2025 04:25:51.543] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.554] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.556] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.598] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.599] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.600] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.600] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.601] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.601] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
-[05Jul2025 04:25:51.601] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[05Jul2025 04:25:57.357] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[05Jul2025 04:25:57.358] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[05Jul2025 04:25:57.359] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[05Jul2025 04:25:57.629] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
-com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
-	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
-	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
+[05Jul2025 04:54:01.962] [main/ERROR] [net.minecraftforge.registries.GameData/REGISTRIES]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[05Jul2025 04:54:07.610] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23219!/assets/.mcassetsroot' uses unexpected schema
+[05Jul2025 04:54:07.611] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23219!/data/.mcassetsroot' uses unexpected schema
+[05Jul2025 04:54:07.731] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:gamma_creatures
+[05Jul2025 04:54:07.731] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:sonicraft_lively_zones
+[05Jul2025 04:54:07.732] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:tenshilib
+[05Jul2025 04:54:07.732] [main/WARN] [net.minecraft.server.MinecraftServer/]: Missing data pack mod:improvedmobs
+[05Jul2025 04:54:08.957] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.967] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.968] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.996] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.997] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.998] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.998] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.999] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[05Jul2025 04:54:08.999] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
+[05Jul2025 04:54:09.000] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[05Jul2025 04:54:11.906] [main/ERROR] [net.minecraft.world.level.storage.LevelStorageSource/]: WorldGenSettings: No key preset in MapLike[{biomes:[{biome:"gamma_creatures:ivys_biome",parameters:{continentalness:[0.2992f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5072f],offset:0.0f,temperature:[-0.5043f,0.4966f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:luminous_biome",parameters:{continentalness:[0.2981f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5f],offset:0.0f,temperature:[-0.5017f,0.5f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:red_maple_biome",parameters:{continentalness:[-0.2f,0.1f],depth:0.0f,erosion:[-1.0f,0.1f],humidity:[-0.5f,1.0f],offset:0.0f,temperature:[-1.0f,1.0f],weirdness:[-1.0f,0.05f]}}],type:"minecraft:multi_noise"}]; Failed to get element ResourceKey[minecraft:dimension_type / gamma_creatures:gamma_dimension] missed input: {"gamma_creatures:gamma_dimension":{generator:{biome_source:{biomes:[{biome:"gamma_creatures:ivys_biome",parameters:{continentalness:[0.2992f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5072f],offset:0.0f,temperature:[-0.5043f,0.4966f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:luminous_biome",parameters:{continentalness:[0.2981f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5f],offset:0.0f,temperature:[-0.5017f,0.5f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:red_maple_biome",parameters:{continentalness:[-0.2f,0.1f],depth:0.0f,erosion:[-1.0f,0.1f],humidity:[-0.5f,1.0f],offset:0.0f,temperature:[-1.0f,1.0f],weirdness:[-1.0f,0.05f]}}],type:"minecraft:multi_noise"},settings:{aquifers_enabled:1b,default_block:{Name:"gamma_creatures:sabugalita"},default_fluid:{Name:"gamma_creatures:acid",Properties:{level:"0"}},disable_mob_generation:0b,legacy_random_source:0b,noise:{height:384,min_y:-64,size_horizontal:1,size_vertical:2},noise_router:{barrier:{noise:"minecraft:aquifer_barrier",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.5d},continents:"minecraft:overworld/continents",depth:"minecraft:overworld/depth",erosion:"minecraft:overworld/erosion",final_density:{argument1:{argument:{argument1:0.64d,argument2:{argument:{argument:{argument1:0.1171875d,argument2:{argument1:{from_value:0.0d,from_y:-64,to_value:1.0d,to_y:-40,type:"minecraft:y_clamped_gradient"},argument2:{argument1:-0.1171875d,argument2:{argument1:-0.078125d,argument2:{argument1:{from_value:1.0d,from_y:240,to_value:0.0d,to_y:256,type:"minecraft:y_clamped_gradient"},argument2:{argument1:0.078125d,argument2:{input:"minecraft:overworld/sloped_cheese",max_exclusive:1.5625d,min_inclusive:-1000000.0d,type:"minecraft:range_choice",when_in_range:{argument1:"minecraft:overworld/sloped_cheese",argument2:{argument1:5.0d,argument2:"minecraft:overworld/caves/entrances",type:"minecraft:mul"},type:"minecraft:min"},when_out_of_range:{argument1:{argument1:{argument1:{argument1:{argument1:4.0d,argument2:{argument:{noise:"minecraft:cave_layer",type:"minecraft:noise",xz_scale:1.0d,y_scale:8.0d},type:"minecraft:square"},type:"minecraft:mul"},argument2:{argument1:{input:{argument1:0.27d,argument2:{noise:"minecraft:cave_cheese",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.6666666666666666d},type:"minecraft:add"},max:1.0d,min:-1.0d,type:"minecraft:clamp"},argument2:{input:{argument1:1.5d,argument2:{argument1:-0.64d,argument2:"minecraft:overworld/sloped_cheese",type:"minecraft:mul"},type:"minecraft:add"},max:0.5d,min:0.0d,type:"minecraft:clamp"},type:"minecraft:add"},type:"minecraft:add"},argument2:"minecraft:overworld/caves/entrances",type:"minecraft:min"},argument2:{argument1:"minecraft:overworld/caves/spaghetti_2d",argument2:"minecraft:overworld/caves/spaghetti_roughness_function",type:"minecraft:add"},type:"minecraft:min"},argument2:{input:"minecraft:overworld/caves/pillars",max_exclusive:0.03d,min_inclusive:-1000000.0d,type:"minecraft:range_choice",when_in_range:-1000000.0d,when_out_of_range:"minecraft:overworld/caves/pillars"},type:"minecraft:max"}},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:blend_density"},type:"minecraft:interpolated"},type:"minecraft:mul"},type:"minecraft:squeeze"},argument2:"minecraft:overworld/caves/noodle",type:"minecraft:min"},fluid_level_floodedness:{noise:"minecraft:aquifer_fluid_level_floodedness",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.67d},fluid_level_spread:{noise:"minecraft:aquifer_fluid_level_spread",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.7142857142857143d},initial_density_without_jaggedness:{argument1:0.1171875d,argument2:{argument1:{from_value:0.0d,from_y:-64,to_value:1.0d,to_y:-40,type:"minecraft:y_clamped_gradient"},argument2:{argument1:-0.1171875d,argument2:{argument1:-0.078125d,argument2:{argument1:{from_value:1.0d,from_y:240,to_value:0.0d,to_y:256,type:"minecraft:y_clamped_gradient"},argument2:{argument1:0.078125d,argument2:{input:{argument1:-0.703125d,argument2:{argument1:4.0d,argument2:{argument:{argument1:"minecraft:overworld/depth",argument2:{argument:"minecraft:overworld/factor",type:"minecraft:cache_2d"},type:"minecraft:mul"},type:"minecraft:quarter_negative"},type:"minecraft:mul"},type:"minecraft:add"},max:64.0d,min:-64.0d,type:"minecraft:clamp"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},lava:{noise:"minecraft:aquifer_lava",type:"minecraft:noise",xz_scale:1.0d,y_scale:1.0d},ridges:"minecraft:overworld/ridges",temperature:{noise:"minecraft:temperature",shift_x:"minecraft:shift_x",shift_y:0.0d,shift_z:"minecraft:shift_z",type:"minecraft:shifted_noise",xz_scale:0.25d,y_scale:0.0d},vegetation:{noise:"minecraft:vegetation",shift_x:"minecraft:shift_x",shift_y:0.0d,shift_z:"minecraft:shift_z",type:"minecraft:shifted_noise",xz_scale:0.25d,y_scale:0.0d},vein_gap:{noise:"minecraft:ore_gap",type:"minecraft:noise",xz_scale:1.0d,y_scale:1.0d},vein_ridged:{argument1:-0.07999999821186066d,argument2:{argument1:{argument:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_vein_a",type:"minecraft:noise",xz_scale:4.0d,y_scale:4.0d},when_out_of_range:0.0d},type:"minecraft:interpolated"},type:"minecraft:abs"},argument2:{argument:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_vein_b",type:"minecraft:noise",xz_scale:4.0d,y_scale:4.0d},when_out_of_range:0.0d},type:"minecraft:interpolated"},type:"minecraft:abs"},type:"minecraft:max"},type:"minecraft:add"},vein_toggle:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_veininess",type:"minecraft:noise",xz_scale:1.5d,y_scale:1.5d},when_out_of_range:0.0d},type:"minecraft:interpolated"}},ore_veins_enabled:1b,sea_level:63,spawn_target:[],surface_rule:{sequence:[{if_true:{false_at_and_above:{above_bottom:5},random_name:"minecraft:bedrock_floor",true_at_and_below:{above_bottom:0},type:"minecraft:vertical_gradient"},then_run:{result_state:{Name:"minecraft:bedrock"},type:"minecraft:block"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:ivys_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"gamma_creatures:corrupt_dirt"},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:sabugalita_cobble"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:sabugalita"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:luminous_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"gamma_creatures:corrupt_dirt_2"},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:sabugalita_cobble"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:sabugalita"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:red_maple_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"minecraft:grass_block",Properties:{snowy:"false"}},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:cobbled_almandine"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:almandine"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"}],type:"minecraft:sequence"}},type:"minecraft:noise"},type:"gamma_creatures:gamma_dimension"}}
+[05Jul2025 04:54:11.907] [main/WARN] [net.minecraft.server.Main/]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.RuntimeException: No key preset in MapLike[{biomes:[{biome:"gamma_creatures:ivys_biome",parameters:{continentalness:[0.2992f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5072f],offset:0.0f,temperature:[-0.5043f,0.4966f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:luminous_biome",parameters:{continentalness:[0.2981f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5f],offset:0.0f,temperature:[-0.5017f,0.5f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:red_maple_biome",parameters:{continentalness:[-0.2f,0.1f],depth:0.0f,erosion:[-1.0f,0.1f],humidity:[-0.5f,1.0f],offset:0.0f,temperature:[-1.0f,1.0f],weirdness:[-1.0f,0.05f]}}],type:"minecraft:multi_noise"}]; Failed to get element ResourceKey[minecraft:dimension_type / gamma_creatures:gamma_dimension] missed input: {"gamma_creatures:gamma_dimension":{generator:{biome_source:{biomes:[{biome:"gamma_creatures:ivys_biome",parameters:{continentalness:[0.2992f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5072f],offset:0.0f,temperature:[-0.5043f,0.4966f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:luminous_biome",parameters:{continentalness:[0.2981f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5f],offset:0.0f,temperature:[-0.5017f,0.5f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:red_maple_biome",parameters:{continentalness:[-0.2f,0.1f],depth:0.0f,erosion:[-1.0f,0.1f],humidity:[-0.5f,1.0f],offset:0.0f,temperature:[-1.0f,1.0f],weirdness:[-1.0f,0.05f]}}],type:"minecraft:multi_noise"},settings:{aquifers_enabled:1b,default_block:{Name:"gamma_creatures:sabugalita"},default_fluid:{Name:"gamma_creatures:acid",Properties:{level:"0"}},disable_mob_generation:0b,legacy_random_source:0b,noise:{height:384,min_y:-64,size_horizontal:1,size_vertical:2},noise_router:{barrier:{noise:"minecraft:aquifer_barrier",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.5d},continents:"minecraft:overworld/continents",depth:"minecraft:overworld/depth",erosion:"minecraft:overworld/erosion",final_density:{argument1:{argument:{argument1:0.64d,argument2:{argument:{argument:{argument1:0.1171875d,argument2:{argument1:{from_value:0.0d,from_y:-64,to_value:1.0d,to_y:-40,type:"minecraft:y_clamped_gradient"},argument2:{argument1:-0.1171875d,argument2:{argument1:-0.078125d,argument2:{argument1:{from_value:1.0d,from_y:240,to_value:0.0d,to_y:256,type:"minecraft:y_clamped_gradient"},argument2:{argument1:0.078125d,argument2:{input:"minecraft:overworld/sloped_cheese",max_exclusive:1.5625d,min_inclusive:-1000000.0d,type:"minecraft:range_choice",when_in_range:{argument1:"minecraft:overworld/sloped_cheese",argument2:{argument1:5.0d,argument2:"minecraft:overworld/caves/entrances",type:"minecraft:mul"},type:"minecraft:min"},when_out_of_range:{argument1:{argument1:{argument1:{argument1:{argument1:4.0d,argument2:{argument:{noise:"minecraft:cave_layer",type:"minecraft:noise",xz_scale:1.0d,y_scale:8.0d},type:"minecraft:square"},type:"minecraft:mul"},argument2:{argument1:{input:{argument1:0.27d,argument2:{noise:"minecraft:cave_cheese",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.6666666666666666d},type:"minecraft:add"},max:1.0d,min:-1.0d,type:"minecraft:clamp"},argument2:{input:{argument1:1.5d,argument2:{argument1:-0.64d,argument2:"minecraft:overworld/sloped_cheese",type:"minecraft:mul"},type:"minecraft:add"},max:0.5d,min:0.0d,type:"minecraft:clamp"},type:"minecraft:add"},type:"minecraft:add"},argument2:"minecraft:overworld/caves/entrances",type:"minecraft:min"},argument2:{argument1:"minecraft:overworld/caves/spaghetti_2d",argument2:"minecraft:overworld/caves/spaghetti_roughness_function",type:"minecraft:add"},type:"minecraft:min"},argument2:{input:"minecraft:overworld/caves/pillars",max_exclusive:0.03d,min_inclusive:-1000000.0d,type:"minecraft:range_choice",when_in_range:-1000000.0d,when_out_of_range:"minecraft:overworld/caves/pillars"},type:"minecraft:max"}},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:blend_density"},type:"minecraft:interpolated"},type:"minecraft:mul"},type:"minecraft:squeeze"},argument2:"minecraft:overworld/caves/noodle",type:"minecraft:min"},fluid_level_floodedness:{noise:"minecraft:aquifer_fluid_level_floodedness",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.67d},fluid_level_spread:{noise:"minecraft:aquifer_fluid_level_spread",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.7142857142857143d},initial_density_without_jaggedness:{argument1:0.1171875d,argument2:{argument1:{from_value:0.0d,from_y:-64,to_value:1.0d,to_y:-40,type:"minecraft:y_clamped_gradient"},argument2:{argument1:-0.1171875d,argument2:{argument1:-0.078125d,argument2:{argument1:{from_value:1.0d,from_y:240,to_value:0.0d,to_y:256,type:"minecraft:y_clamped_gradient"},argument2:{argument1:0.078125d,argument2:{input:{argument1:-0.703125d,argument2:{argument1:4.0d,argument2:{argument:{argument1:"minecraft:overworld/depth",argument2:{argument:"minecraft:overworld/factor",type:"minecraft:cache_2d"},type:"minecraft:mul"},type:"minecraft:quarter_negative"},type:"minecraft:mul"},type:"minecraft:add"},max:64.0d,min:-64.0d,type:"minecraft:clamp"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},lava:{noise:"minecraft:aquifer_lava",type:"minecraft:noise",xz_scale:1.0d,y_scale:1.0d},ridges:"minecraft:overworld/ridges",temperature:{noise:"minecraft:temperature",shift_x:"minecraft:shift_x",shift_y:0.0d,shift_z:"minecraft:shift_z",type:"minecraft:shifted_noise",xz_scale:0.25d,y_scale:0.0d},vegetation:{noise:"minecraft:vegetation",shift_x:"minecraft:shift_x",shift_y:0.0d,shift_z:"minecraft:shift_z",type:"minecraft:shifted_noise",xz_scale:0.25d,y_scale:0.0d},vein_gap:{noise:"minecraft:ore_gap",type:"minecraft:noise",xz_scale:1.0d,y_scale:1.0d},vein_ridged:{argument1:-0.07999999821186066d,argument2:{argument1:{argument:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_vein_a",type:"minecraft:noise",xz_scale:4.0d,y_scale:4.0d},when_out_of_range:0.0d},type:"minecraft:interpolated"},type:"minecraft:abs"},argument2:{argument:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_vein_b",type:"minecraft:noise",xz_scale:4.0d,y_scale:4.0d},when_out_of_range:0.0d},type:"minecraft:interpolated"},type:"minecraft:abs"},type:"minecraft:max"},type:"minecraft:add"},vein_toggle:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_veininess",type:"minecraft:noise",xz_scale:1.5d,y_scale:1.5d},when_out_of_range:0.0d},type:"minecraft:interpolated"}},ore_veins_enabled:1b,sea_level:63,spawn_target:[],surface_rule:{sequence:[{if_true:{false_at_and_above:{above_bottom:5},random_name:"minecraft:bedrock_floor",true_at_and_below:{above_bottom:0},type:"minecraft:vertical_gradient"},then_run:{result_state:{Name:"minecraft:bedrock"},type:"minecraft:block"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:ivys_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"gamma_creatures:corrupt_dirt"},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:sabugalita_cobble"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:sabugalita"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:luminous_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"gamma_creatures:corrupt_dirt_2"},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:sabugalita_cobble"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:sabugalita"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:red_maple_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"minecraft:grass_block",Properties:{snowy:"false"}},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:cobbled_almandine"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:almandine"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"}],type:"minecraft:sequence"}},type:"minecraft:noise"},type:"gamma_creatures:gamma_dimension"}}
+	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at net.minecraft.server.Main.main(Main.java:195) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
@@ -260,176 +1693,17 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[05Jul2025 04:25:57.699] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
-[05Jul2025 04:25:57.704] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
-java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
-	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
-	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) ~[?:?]
-	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
-	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
-	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
-	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
-	at net.minecraft.commands.CommandFunction.m_77984_(CommandFunction.java:63) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23227!/:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	... 6 more
-[05Jul2025 04:25:57.760] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[05Jul2025 04:25:58.005] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[05Jul2025 04:25:58.060] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[05Jul2025 04:25:58.080] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[05Jul2025 04:25:58.180] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4552 advancements
-[05Jul2025 04:25:58.251] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
-[05Jul2025 04:25:58.260] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
-[05Jul2025 04:25:58.324] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[05Jul2025 04:26:04.006] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[05Jul2025 04:26:04.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[05Jul2025 04:26:04.009] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[05Jul2025 04:26:04.009] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[05Jul2025 04:26:04.167] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[05Jul2025 04:26:04.219] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[05Jul2025 04:26:04.360] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05Jul2025 04:26:04.360] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[05Jul2025 04:26:04.361] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05Jul2025 04:26:04.363] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[05Jul2025 04:26:04.455] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
-[05Jul2025 04:26:04.456] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
-[05Jul2025 04:26:04.459] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
-[05Jul2025 04:26:04.847] [Server thread/INFO] [Explorations/]: Config 'explorations.json' was successfully loaded.
-[05Jul2025 04:26:04.849] [Server thread/INFO] [Explorations/]: Added statues to vanilla villages
-[05Jul2025 04:26:04.935] [Server thread/INFO] [Framework/]: Loading server configs...
-[05Jul2025 04:26:04.963] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[05Jul2025 04:26:05.362] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[05Jul2025 04:26:05.366] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[05Jul2025 04:26:07.339] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg|jeg:holy_shotgun,jeg:blossom_rifle]
-[05Jul2025 04:26:17.416] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
-[05Jul2025 04:26:17.418] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[05Jul2025 04:26:26.262] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:26.331] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:26.413] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:26.512] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:26.552] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.087] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.192] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.196] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.199] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.200] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.201] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.202] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.203] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.205] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.207] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.207] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.208] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.209] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.424] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[05Jul2025 04:26:27.919] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
-[05Jul2025 04:26:28.418] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[05Jul2025 04:26:28.855] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 11438 ms
-[05Jul2025 04:26:28.856] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (24.468s)! For help, type "help"
-[05Jul2025 04:26:28.955] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[05Jul2025 04:26:28.962] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[05Jul2025 04:26:28.963] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[05Jul2025 04:26:32.182] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[05Jul2025 04:27:03.836] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[05Jul2025 04:27:04.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: MirsWATF[/127.137.229.16:59577] logged in with entity id 1054 at (936.7877491501448, 98.0, -1357.6463206024562)
-[05Jul2025 04:27:04.346] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF joined the game
-[05Jul2025 04:27:06.040] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: MirsWATF lost connection: Disconnected
-[05Jul2025 04:27:06.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: MirsWATF left the game
-[05Jul2025 04:29:28.073] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[05Jul2025 04:29:28.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[05Jul2025 04:29:28.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[05Jul2025 04:29:28.121] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[05Jul2025 04:29:28.349] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[05Jul2025 04:29:28.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_carnival_night_zone
-[05Jul2025 04:29:28.469] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_emerald_hill_zone
-[05Jul2025 04:29:28.470] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[05Jul2025 04:29:28.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:null_space_dimension
-[05Jul2025 04:29:28.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:angel_island
-[05Jul2025 04:29:28.476] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_sandopolis_zone
-[05Jul2025 04:29:28.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_night_carnival_zone
-[05Jul2025 04:29:28.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/gamma_creatures:gamma_dimension
-[05Jul2025 04:29:28.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_press_garden_zone
-[05Jul2025 04:29:28.481] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[05Jul2025 04:29:28.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_casino_night_zone
-[05Jul2025 04:29:28.484] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_chemical_plant_zone
-[05Jul2025 04:29:28.486] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[05Jul2025 04:29:28.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[05Jul2025 04:29:28.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_lava_reef_zone
-[05Jul2025 04:29:28.489] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_ice_cap_zone
-[05Jul2025 04:29:28.491] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_mushroom_hill_zone
-[05Jul2025 04:29:28.492] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_star_light_zone
-[05Jul2025 04:29:28.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:mobius
-[05Jul2025 04:29:28.495] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_launch_base_zone
-[05Jul2025 04:29:28.497] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[05Jul2025 04:29:28.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_aquatic_ruin_zone
-[05Jul2025 04:29:28.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[05Jul2025 04:29:28.500] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_marble_zone
-[05Jul2025 04:29:28.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[05Jul2025 04:29:28.502] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_spring_yard_zone
-[05Jul2025 04:29:28.503] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_angel_island_zone
-[05Jul2025 04:29:28.504] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[05Jul2025 04:29:28.505] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_marble_garden_zone
-[05Jul2025 04:29:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_seaside_hill
-[05Jul2025 04:29:28.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_scorched_angel_island_zone
-[05Jul2025 04:29:28.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[05Jul2025 04:29:28.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[05Jul2025 04:29:28.509] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_scrap_brain_zone
-[05Jul2025 04:29:28.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:crisis_city
-[05Jul2025 04:29:28.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_green_hill_zone
-[05Jul2025 04:29:28.511] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[05Jul2025 04:29:28.513] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[05Jul2025 04:29:28.514] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[05Jul2025 04:29:28.515] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[05Jul2025 04:29:28.516] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/sonicraft:level_select_studiopolis_zone
-[05Jul2025 04:29:28.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[05Jul2025 04:29:28.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_carnival_night_zone): All chunks are saved
-[05Jul2025 04:29:28.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_emerald_hill_zone): All chunks are saved
-[05Jul2025 04:29:28.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[05Jul2025 04:29:28.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (null_space_dimension): All chunks are saved
-[05Jul2025 04:29:28.743] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (angel_island): All chunks are saved
-[05Jul2025 04:29:28.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_sandopolis_zone): All chunks are saved
-[05Jul2025 04:29:28.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_night_carnival_zone): All chunks are saved
-[05Jul2025 04:29:28.744] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gamma_dimension): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_press_garden_zone): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_casino_night_zone): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_chemical_plant_zone): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[05Jul2025 04:29:28.745] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_lava_reef_zone): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_ice_cap_zone): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_mushroom_hill_zone): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_star_light_zone): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mobius): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_launch_base_zone): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_aquatic_ruin_zone): All chunks are saved
-[05Jul2025 04:29:28.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_marble_zone): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_spring_yard_zone): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_angel_island_zone): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_marble_garden_zone): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_seaside_hill): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_scorched_angel_island_zone): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[05Jul2025 04:29:28.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[05Jul2025 04:29:28.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_scrap_brain_zone): All chunks are saved
-[05Jul2025 04:29:28.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (crisis_city): All chunks are saved
-[05Jul2025 04:29:28.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_green_hill_zone): All chunks are saved
-[05Jul2025 04:29:28.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[05Jul2025 04:29:28.748] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[05Jul2025 04:29:28.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[05Jul2025 04:29:28.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[05Jul2025 04:29:28.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (level_select_studiopolis_zone): All chunks are saved
-[05Jul2025 04:29:28.749] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[05Jul2025 04:29:28.782] [Server thread/INFO] [Framework/]: Unloading server configs...
-[05Jul2025 04:29:28.784] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[05Jul2025 04:29:28.786] [Server thread/INFO] [Framework/]: Finished unloading server configs
+Caused by: java.lang.RuntimeException: No key preset in MapLike[{biomes:[{biome:"gamma_creatures:ivys_biome",parameters:{continentalness:[0.2992f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5072f],offset:0.0f,temperature:[-0.5043f,0.4966f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:luminous_biome",parameters:{continentalness:[0.2981f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5f],offset:0.0f,temperature:[-0.5017f,0.5f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:red_maple_biome",parameters:{continentalness:[-0.2f,0.1f],depth:0.0f,erosion:[-1.0f,0.1f],humidity:[-0.5f,1.0f],offset:0.0f,temperature:[-1.0f,1.0f],weirdness:[-1.0f,0.05f]}}],type:"minecraft:multi_noise"}]; Failed to get element ResourceKey[minecraft:dimension_type / gamma_creatures:gamma_dimension] missed input: {"gamma_creatures:gamma_dimension":{generator:{biome_source:{biomes:[{biome:"gamma_creatures:ivys_biome",parameters:{continentalness:[0.2992f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5072f],offset:0.0f,temperature:[-0.5043f,0.4966f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:luminous_biome",parameters:{continentalness:[0.2981f,1.0f],depth:0.0f,erosion:[-0.5f,0.5f],humidity:[-0.5f,0.5f],offset:0.0f,temperature:[-0.5017f,0.5f],weirdness:[-1.0f,1.0f]}},{biome:"gamma_creatures:red_maple_biome",parameters:{continentalness:[-0.2f,0.1f],depth:0.0f,erosion:[-1.0f,0.1f],humidity:[-0.5f,1.0f],offset:0.0f,temperature:[-1.0f,1.0f],weirdness:[-1.0f,0.05f]}}],type:"minecraft:multi_noise"},settings:{aquifers_enabled:1b,default_block:{Name:"gamma_creatures:sabugalita"},default_fluid:{Name:"gamma_creatures:acid",Properties:{level:"0"}},disable_mob_generation:0b,legacy_random_source:0b,noise:{height:384,min_y:-64,size_horizontal:1,size_vertical:2},noise_router:{barrier:{noise:"minecraft:aquifer_barrier",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.5d},continents:"minecraft:overworld/continents",depth:"minecraft:overworld/depth",erosion:"minecraft:overworld/erosion",final_density:{argument1:{argument:{argument1:0.64d,argument2:{argument:{argument:{argument1:0.1171875d,argument2:{argument1:{from_value:0.0d,from_y:-64,to_value:1.0d,to_y:-40,type:"minecraft:y_clamped_gradient"},argument2:{argument1:-0.1171875d,argument2:{argument1:-0.078125d,argument2:{argument1:{from_value:1.0d,from_y:240,to_value:0.0d,to_y:256,type:"minecraft:y_clamped_gradient"},argument2:{argument1:0.078125d,argument2:{input:"minecraft:overworld/sloped_cheese",max_exclusive:1.5625d,min_inclusive:-1000000.0d,type:"minecraft:range_choice",when_in_range:{argument1:"minecraft:overworld/sloped_cheese",argument2:{argument1:5.0d,argument2:"minecraft:overworld/caves/entrances",type:"minecraft:mul"},type:"minecraft:min"},when_out_of_range:{argument1:{argument1:{argument1:{argument1:{argument1:4.0d,argument2:{argument:{noise:"minecraft:cave_layer",type:"minecraft:noise",xz_scale:1.0d,y_scale:8.0d},type:"minecraft:square"},type:"minecraft:mul"},argument2:{argument1:{input:{argument1:0.27d,argument2:{noise:"minecraft:cave_cheese",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.6666666666666666d},type:"minecraft:add"},max:1.0d,min:-1.0d,type:"minecraft:clamp"},argument2:{input:{argument1:1.5d,argument2:{argument1:-0.64d,argument2:"minecraft:overworld/sloped_cheese",type:"minecraft:mul"},type:"minecraft:add"},max:0.5d,min:0.0d,type:"minecraft:clamp"},type:"minecraft:add"},type:"minecraft:add"},argument2:"minecraft:overworld/caves/entrances",type:"minecraft:min"},argument2:{argument1:"minecraft:overworld/caves/spaghetti_2d",argument2:"minecraft:overworld/caves/spaghetti_roughness_function",type:"minecraft:add"},type:"minecraft:min"},argument2:{input:"minecraft:overworld/caves/pillars",max_exclusive:0.03d,min_inclusive:-1000000.0d,type:"minecraft:range_choice",when_in_range:-1000000.0d,when_out_of_range:"minecraft:overworld/caves/pillars"},type:"minecraft:max"}},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:blend_density"},type:"minecraft:interpolated"},type:"minecraft:mul"},type:"minecraft:squeeze"},argument2:"minecraft:overworld/caves/noodle",type:"minecraft:min"},fluid_level_floodedness:{noise:"minecraft:aquifer_fluid_level_floodedness",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.67d},fluid_level_spread:{noise:"minecraft:aquifer_fluid_level_spread",type:"minecraft:noise",xz_scale:1.0d,y_scale:0.7142857142857143d},initial_density_without_jaggedness:{argument1:0.1171875d,argument2:{argument1:{from_value:0.0d,from_y:-64,to_value:1.0d,to_y:-40,type:"minecraft:y_clamped_gradient"},argument2:{argument1:-0.1171875d,argument2:{argument1:-0.078125d,argument2:{argument1:{from_value:1.0d,from_y:240,to_value:0.0d,to_y:256,type:"minecraft:y_clamped_gradient"},argument2:{argument1:0.078125d,argument2:{input:{argument1:-0.703125d,argument2:{argument1:4.0d,argument2:{argument:{argument1:"minecraft:overworld/depth",argument2:{argument:"minecraft:overworld/factor",type:"minecraft:cache_2d"},type:"minecraft:mul"},type:"minecraft:quarter_negative"},type:"minecraft:mul"},type:"minecraft:add"},max:64.0d,min:-64.0d,type:"minecraft:clamp"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},type:"minecraft:add"},type:"minecraft:mul"},type:"minecraft:add"},lava:{noise:"minecraft:aquifer_lava",type:"minecraft:noise",xz_scale:1.0d,y_scale:1.0d},ridges:"minecraft:overworld/ridges",temperature:{noise:"minecraft:temperature",shift_x:"minecraft:shift_x",shift_y:0.0d,shift_z:"minecraft:shift_z",type:"minecraft:shifted_noise",xz_scale:0.25d,y_scale:0.0d},vegetation:{noise:"minecraft:vegetation",shift_x:"minecraft:shift_x",shift_y:0.0d,shift_z:"minecraft:shift_z",type:"minecraft:shifted_noise",xz_scale:0.25d,y_scale:0.0d},vein_gap:{noise:"minecraft:ore_gap",type:"minecraft:noise",xz_scale:1.0d,y_scale:1.0d},vein_ridged:{argument1:-0.07999999821186066d,argument2:{argument1:{argument:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_vein_a",type:"minecraft:noise",xz_scale:4.0d,y_scale:4.0d},when_out_of_range:0.0d},type:"minecraft:interpolated"},type:"minecraft:abs"},argument2:{argument:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_vein_b",type:"minecraft:noise",xz_scale:4.0d,y_scale:4.0d},when_out_of_range:0.0d},type:"minecraft:interpolated"},type:"minecraft:abs"},type:"minecraft:max"},type:"minecraft:add"},vein_toggle:{argument:{input:"minecraft:y",max_exclusive:51.0d,min_inclusive:-60.0d,type:"minecraft:range_choice",when_in_range:{noise:"minecraft:ore_veininess",type:"minecraft:noise",xz_scale:1.5d,y_scale:1.5d},when_out_of_range:0.0d},type:"minecraft:interpolated"}},ore_veins_enabled:1b,sea_level:63,spawn_target:[],surface_rule:{sequence:[{if_true:{false_at_and_above:{above_bottom:5},random_name:"minecraft:bedrock_floor",true_at_and_below:{above_bottom:0},type:"minecraft:vertical_gradient"},then_run:{result_state:{Name:"minecraft:bedrock"},type:"minecraft:block"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:ivys_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"gamma_creatures:corrupt_dirt"},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:sabugalita_cobble"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:sabugalita"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:luminous_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"gamma_creatures:corrupt_dirt_2"},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:sabugalita_cobble"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:sabugalita"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"},{if_true:{biome_is:["gamma_creatures:red_maple_biome"],type:"minecraft:biome"},then_run:{if_true:{type:"minecraft:above_preliminary_surface"},then_run:{sequence:[{if_true:{add_surface_depth:0b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{sequence:[{if_true:{add_stone_depth:0b,offset:-1,surface_depth_multiplier:0,type:"minecraft:water"},then_run:{result_state:{Name:"minecraft:grass_block",Properties:{snowy:"false"}},type:"minecraft:block"},type:"minecraft:condition"},{result_state:{Name:"gamma_creatures:cobbled_almandine"},type:"minecraft:block"}],type:"minecraft:sequence"},type:"minecraft:condition"},{if_true:{add_surface_depth:1b,offset:0,secondary_depth_range:0,surface_type:"floor",type:"minecraft:stone_depth"},then_run:{result_state:{Name:"gamma_creatures:almandine"},type:"minecraft:block"},type:"minecraft:condition"}],type:"minecraft:sequence"},type:"minecraft:condition"},type:"minecraft:condition"}],type:"minecraft:sequence"}},type:"minecraft:noise"},type:"gamma_creatures:gamma_dimension"}}
+	at com.mojang.serialization.DataResult.lambda$getOrThrow$5(DataResult.java:101) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.datafixers.util.Either$Right.map(Either.java:99) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at com.mojang.serialization.DataResult.getOrThrow(DataResult.java:93) ~[datafixerupper-6.0.8.jar%2377!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_264027_(LevelStorageSource.java:244) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource.m_230817_(LevelStorageSource.java:202) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.world.level.storage.LevelStorageSource$LevelStorageAccess.m_246049_(LevelStorageSource.java:439) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.server.Main.lambda$main$1(Main.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.server.WorldLoader.m_214362_(WorldLoader.java:35) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.server.Main.lambda$main$2(Main.java:167) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:777) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23219!/:?]
+	... 15 more
