@@ -11186,11 +11186,5 @@
     },
     "done": true
   },
-  "sonicraft:soni_craft_advancement": {
-    "criteria": {
-      "soni_craft_advancement_0": "2025-07-05 03:54:00 +0000"
-    },
-    "done": true
-  },
   "DataVersion": 3465
 }
