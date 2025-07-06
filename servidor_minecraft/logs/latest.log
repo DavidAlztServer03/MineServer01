@@ -1,52 +1,53 @@
-[06Jul2025 02:01:02.065] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[06Jul2025 02:01:02.071] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
-[06Jul2025 02:01:03.469] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[06Jul2025 02:01:03.531] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MineServer01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[06Jul2025 02:01:03.954] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jul2025 02:01:03.958] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jul2025 02:01:03.960] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jul2025 02:01:03.961] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[06Jul2025 02:01:04.201] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[06Jul2025 02:01:04.203] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
-[06Jul2025 02:01:07.158] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[06Jul2025 02:01:07.381] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[06Jul2025 02:01:07.493] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Jul2025 02:01:07.510] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Jul2025 02:01:07.512] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Jul2025 02:01:07.752] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Jul2025 02:01:07.765] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
-[06Jul2025 02:01:07.953] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
-[06Jul2025 02:01:07.953] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
-[06Jul2025 02:01:10.685] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
-[06Jul2025 02:01:12.596] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zja000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[06Jul2025 02:01:20.221] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[06Jul2025 02:11:59.452] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[06Jul2025 02:11:59.457] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1027-azure
+[06Jul2025 02:12:00.056] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[06Jul2025 02:12:00.116] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/MineServer01/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[06Jul2025 02:12:00.433] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 02:12:00.434] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 02:12:00.435] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 02:12:00.437] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/MineServer01/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[06Jul2025 02:12:00.662] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[06Jul2025 02:12:00.667] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 9 dependencies adding them to mods collection
+[06Jul2025 02:12:03.031] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[06Jul2025 02:12:03.254] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[06Jul2025 02:12:03.322] [main/WARN] [mixin/]: Reference map 'graveyard-FORGE-forge-refmap.json' for graveyard-forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 02:12:03.335] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 02:12:03.337] [main/WARN] [mixin/]: Reference map 'bno.refmap.json' for bno.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 02:12:03.504] [main/WARN] [mixin/]: Reference map 'justhammers-common-refmap.json' for justhammers-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 02:12:03.519] [main/WARN] [mixin/]: Reference map 'cristellib-forge-refmap.json' for cristellib.mixins.json could not be read. If this is a development environment you can ignore this message
+[06Jul2025 02:12:03.598] [main/WARN] [mixin/]: Error loading class: xyz/przemyk/simpleplanes/upgrades/shooter/ShooterUpgrade (java.lang.ClassNotFoundException: xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade)
+[06Jul2025 02:12:03.599] [main/WARN] [mixin/]: @Mixin target xyz.przemyk.simpleplanes.upgrades.shooter.ShooterUpgrade was not found cgm.mixins.json:common.simpleplanes.ShooterUpgradeMixin
+[06Jul2025 02:12:05.737] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.2).
+[06Jul2025 02:12:06.975] [main/WARN] [mixin/]: @Inject(@At("INVOKE")) Shift.BY=1 on crittersandcompanions.mixins.json:LivingEntityMixin::handler$zja000$onDie exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[06Jul2025 02:12:11.977] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[06Jul2025 02:01:21.177] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[06Jul2025 02:01:21.217] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[06Jul2025 02:01:21.804] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
-[06Jul2025 02:01:22.838] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[06Jul2025 02:01:22.839] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[06Jul2025 02:01:25.228] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
-[06Jul2025 02:01:25.462] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
-[06Jul2025 02:01:25.740] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[06Jul2025 02:01:27.560] [main/INFO] [BasicNetherOres/]: BNO - Block Registered
-[06Jul2025 02:01:32.128] [main/INFO] [BasicNetherOres/]: BNO - Block Items Registered
-[06Jul2025 02:01:32.279] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
-[06Jul2025 02:01:33.467] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[06Jul2025 02:01:33.481] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[06Jul2025 02:01:33.483] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[06Jul2025 02:01:33.486] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[06Jul2025 02:01:33.641] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[06Jul2025 02:01:33.654] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
-[06Jul2025 02:01:33.854] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
-[06Jul2025 02:01:33.864] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
-[06Jul2025 02:01:34.030] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
-[06Jul2025 02:01:34.094] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
-[06Jul2025 02:01:34.099] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
-[06Jul2025 02:01:34.102] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[06Jul2025 02:01:34.206] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
-[06Jul2025 02:01:34.215] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
-[06Jul2025 02:01:34.297] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+[06Jul2025 02:12:12.670] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[06Jul2025 02:12:12.689] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[06Jul2025 02:12:13.090] [modloading-worker-0/INFO] [graveyard/]: Registered JSON trade offer adapter.
+[06Jul2025 02:12:13.930] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[06Jul2025 02:12:13.930] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[06Jul2025 02:12:15.566] [modloading-worker-0/INFO] [Spartan Shields/]: Constructing Mod: Spartan Shields
+[06Jul2025 02:12:15.715] [modloading-worker-0/INFO] [fonnymunkey.simplehats.SimpleHats/]: Loaded 293 hat entries from simplehats.json
+[06Jul2025 02:12:15.895] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[06Jul2025 02:12:17.466] [main/INFO] [BasicNetherOres/]: BNO - Block Registered
+[06Jul2025 02:12:20.821] [main/INFO] [BasicNetherOres/]: BNO - Block Items Registered
+[06Jul2025 02:12:20.954] [main/INFO] [fonnymunkey.simplehats.SimpleHats/]: Generated 293 hat items from hat entries.
+[06Jul2025 02:12:22.101] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
+[06Jul2025 02:12:22.118] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
+[06Jul2025 02:12:22.121] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
+[06Jul2025 02:12:22.123] [main/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
+[06Jul2025 02:12:22.293] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[06Jul2025 02:12:22.306] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.mcreator.borninchaosv.entity.BabySpiderEntity from class net.mcreator.borninchaosv.entity.MotherSpiderEntity
+[06Jul2025 02:12:22.495] [main/INFO] [Spartan Shields/]: Loading config spartanshields-common.toml
+[06Jul2025 02:12:22.508] [main/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-common.toml
+[06Jul2025 02:12:22.594] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
+[06Jul2025 02:12:22.636] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Starting version check at https://raw.githubusercontent.com/MrCrayfish/ModUpdates/master/cgm/update.json
+[06Jul2025 02:12:22.699] [modloading-worker-0/INFO] [Spartan Shields/]: Setting up Spartan Shields!
+[06Jul2025 02:12:22.723] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cgm] Found status: BETA Current: 1.4.18 Target: null
+[06Jul2025 02:12:22.724] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[06Jul2025 02:12:22.783] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Tom's Storage Setup starting
+[06Jul2025 02:12:22.800] [modloading-worker-0/INFO] [com.tom.storagemod.StorageMod/]: Initilaized Network Handler
+[06Jul2025 02:12:22.864] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
 com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
 	at com.google.gson.Gson.fromJson(Gson.java:1226) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1124) ~[gson-2.10.jar%2372!/:?]
@@ -61,65 +62,65 @@ Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING
 	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:144) ~[gson-2.10.jar%2372!/:?]
 	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
 	... 6 more
-[06Jul2025 02:01:34.304] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Starting version check at https://api.modrinth.com/updates/UMmSTwE0/forge_updates.json
-[06Jul2025 02:01:34.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Found status: OUTDATED Current: 1.2 Target: 1.2+mod
-[06Jul2025 02:01:34.445] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[06Jul2025 02:01:34.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
-[06Jul2025 02:01:34.508] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
-[06Jul2025 02:01:34.542] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
-[06Jul2025 02:01:34.542] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Jul2025 02:01:34.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
-[06Jul2025 02:01:34.684] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
-[06Jul2025 02:01:34.774] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
-[06Jul2025 02:01:34.774] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
-[06Jul2025 02:01:34.774] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
-[06Jul2025 02:01:34.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
-[06Jul2025 02:01:34.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
-[06Jul2025 02:01:34.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
-[06Jul2025 02:01:34.803] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
-[06Jul2025 02:01:34.848] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[06Jul2025 02:01:34.849] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[06Jul2025 02:01:34.849] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[06Jul2025 02:01:34.849] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[06Jul2025 02:01:34.851] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
-[06Jul2025 02:01:34.852] [main/INFO] [ribbits/]: Registering Ribbit professions...
-[06Jul2025 02:01:34.852] [main/INFO] [ribbits/]: Registering Ribbit instruments...
-[06Jul2025 02:01:34.857] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
-[06Jul2025 02:01:34.893] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[06Jul2025 02:01:34.893] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[06Jul2025 02:01:34.893] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
-[06Jul2025 02:01:34.894] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
-[06Jul2025 02:01:34.894] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
-[06Jul2025 02:01:34.992] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
-[06Jul2025 02:01:34.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
-[06Jul2025 02:01:35.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.3.0 Target: 5.4.2
-[06Jul2025 02:01:35.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
-[06Jul2025 02:01:35.238] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
-[06Jul2025 02:01:35.239] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
-[06Jul2025 02:01:35.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
-[06Jul2025 02:01:35.295] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
-[06Jul2025 02:01:35.313] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
-[06Jul2025 02:01:35.314] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
-[06Jul2025 02:01:35.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
-[06Jul2025 02:01:35.329] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
-[06Jul2025 02:01:35.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
-[06Jul2025 02:01:51.486] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Jul2025 02:01:59.660] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/assets/.mcassetsroot' uses unexpected schema
-[06Jul2025 02:01:59.660] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/data/.mcassetsroot' uses unexpected schema
-[06Jul2025 02:02:01.627] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.635] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.637] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.671] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.672] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.672] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.673] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.674] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.675] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
-[06Jul2025 02:02:01.676] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
-[06Jul2025 02:02:09.913] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Jul2025 02:02:09.914] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Jul2025 02:02:09.914] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Jul2025 02:02:10.215] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
+[06Jul2025 02:12:22.865] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Starting version check at https://api.modrinth.com/updates/UMmSTwE0/forge_updates.json
+[06Jul2025 02:12:23.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_blossom_blade] Found status: OUTDATED Current: 1.2 Target: 1.2+mod
+[06Jul2025 02:12:23.041] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[06Jul2025 02:12:23.104] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: AHEAD Current: 9.1.38 Target: null
+[06Jul2025 02:12:23.106] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Starting version check at https://api.modrinth.com/updates/OhduvhIc/forge_updates.json
+[06Jul2025 02:12:23.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_veinminer] Found status: OUTDATED Current: 1.1.0 Target: 1.1.0+mod
+[06Jul2025 02:12:23.204] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Jul2025 02:12:23.265] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:aiming for minecraft:player
+[06Jul2025 02:12:23.266] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:reloading for minecraft:player
+[06Jul2025 02:12:23.266] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key cgm:shooting for minecraft:player
+[06Jul2025 02:12:23.286] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[06Jul2025 02:12:23.286] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[06Jul2025 02:12:23.286] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[06Jul2025 02:12:23.287] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[06Jul2025 02:12:23.330] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[06Jul2025 02:12:23.331] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[06Jul2025 02:12:23.331] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[06Jul2025 02:12:23.331] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[06Jul2025 02:12:23.339] [main/INFO] [ribbits/]: Registering Ribbit umbrella types...
+[06Jul2025 02:12:23.340] [main/INFO] [ribbits/]: Registering Ribbit professions...
+[06Jul2025 02:12:23.341] [main/INFO] [ribbits/]: Registering Ribbit instruments...
+[06Jul2025 02:12:23.343] [main/INFO] [ribbits/]: Registering Ribbit data serializers...
+[06Jul2025 02:12:23.392] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[06Jul2025 02:12:23.393] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[06Jul2025 02:12:23.394] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[06Jul2025 02:12:23.395] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[06Jul2025 02:12:23.395] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[06Jul2025 02:12:23.412] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[06Jul2025 02:12:23.413] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Starting version check at http://changelogs.moddinglegacy.com/structure-gel.json
+[06Jul2025 02:12:23.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [structure_gel] Found status: BETA Current: 2.16.2 Target: null
+[06Jul2025 02:12:23.731] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Starting version check at https://raw.githubusercontent.com/Ametrin-Studios/DungeonsEnhanced/refs/heads/master/update.json
+[06Jul2025 02:12:23.754] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [dungeons_enhanced] Found status: OUTDATED Current: 5.3.0 Target: 5.4.2
+[06Jul2025 02:12:23.755] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[06Jul2025 02:12:23.995] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[06Jul2025 02:12:23.996] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Starting version check at https://api.modrinth.com/updates/critters-and-companions/forge_updates.json
+[06Jul2025 02:12:32.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [crittersandcompanions] Found status: UP_TO_DATE Current: 2.2.2 Target: null
+[06Jul2025 02:12:32.154] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[06Jul2025 02:12:32.169] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 8.9.6 Target: 9.0.1
+[06Jul2025 02:12:32.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Starting version check at https://raw.githubusercontent.com/tom5454/Toms-Storage/master/version-check.json
+[06Jul2025 02:12:32.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [toms_storage] Found status: BETA Current: 1.7.1 Target: 1.7.1
+[06Jul2025 02:12:32.185] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[06Jul2025 02:12:32.292] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[06Jul2025 02:12:34.741] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Jul2025 02:12:40.341] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/assets/.mcassetsroot' uses unexpected schema
+[06Jul2025 02:12:40.341] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/MineServer01/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23225!/data/.mcassetsroot' uses unexpected schema
+[06Jul2025 02:12:41.788] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:brigantine/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.795] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_large/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.799] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:frigate_medium/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.826] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_cage/start_pool`: { spacing: 50, separation: 25, salt: 40842806, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.831] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_quad/start_pool`: { spacing: 50, separation: 25, salt: 254835856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.831] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_pillager/start_pool`: { spacing: 50, separation: 25, salt: 254145856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.831] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_ruin_vanilla_temple/start_pool`: { spacing: 50, separation: 25, salt: 25482856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.832] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_temple_quad/start_pool`: { spacing: 50, separation: 25, salt: 35482856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.832] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_the_column_temple/start_pool`: { spacing: 50, separation: 25, salt: 15482856, useValueFromConfiguration: true}
+[06Jul2025 02:12:41.833] [main/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Structure placement for `awesomedungeonocean:ocean_warn_temple/start_pool`: { spacing: 50, separation: 25, salt: 45482856, useValueFromConfiguration: true}
+[06Jul2025 02:12:47.970] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Jul2025 02:12:47.970] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Jul2025 02:12:47.971] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:born_in_chaos_v1:entities/pumpkinhead}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Jul2025 02:12:48.260] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ballistix:item2item/mineral_grinder/poison_dust_from_rotten_flesh
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electrodynamics:mineral_grinder_recipe'
 	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
@@ -148,8 +149,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'electro
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
 	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Jul2025 02:02:10.292] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
-[06Jul2025 02:02:10.293] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
+[06Jul2025 02:12:48.316] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 24 recipes
+[06Jul2025 02:12:48.317] [main/ERROR] [net.minecraft.server.ServerFunctionLibrary/]: Failed to load function custom:replace_item
 java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Unknown item 'minecraft:' at position 8: give @s <--[HERE]
 	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
 	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
@@ -165,141 +166,132 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 	at net.minecraft.server.ServerFunctionLibrary.m_214320_(ServerFunctionLibrary.java:83) ~[server-1.20.1-20230612.114412-srg.jar%23225!/:?]
 	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
 	... 6 more
-[06Jul2025 02:02:10.360] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
-[06Jul2025 02:02:10.559] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
-[06Jul2025 02:02:10.625] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
-[06Jul2025 02:02:10.665] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
-[06Jul2025 02:02:10.787] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
-[06Jul2025 02:02:10.853] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
-[06Jul2025 02:02:10.862] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
-[06Jul2025 02:02:10.963] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
-[06Jul2025 02:02:19.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[06Jul2025 02:02:19.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[06Jul2025 02:02:19.174] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[06Jul2025 02:02:19.174] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Jul2025 02:02:19.353] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[06Jul2025 02:02:19.430] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[06Jul2025 02:02:19.637] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[06Jul2025 02:02:19.638] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[06Jul2025 02:02:19.639] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[06Jul2025 02:02:19.641] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[06Jul2025 02:02:19.756] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
-[06Jul2025 02:02:19.757] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
-[06Jul2025 02:02:19.774] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
-[06Jul2025 02:02:20.366] [Server thread/INFO] [Explorations/]: Config 'explorations.json' was successfully loaded.
-[06Jul2025 02:02:20.373] [Server thread/INFO] [Explorations/]: Added statues to vanilla villages
-[06Jul2025 02:02:20.693] [Server thread/INFO] [Framework/]: Loading server configs...
-[06Jul2025 02:02:22.226] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[06Jul2025 02:02:22.229] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[06Jul2025 02:02:22.231] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[06Jul2025 02:02:25.358] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg|jeg:holy_shotgun,jeg:blossom_rifle]
-[06Jul2025 02:02:37.862] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
-[06Jul2025 02:02:37.867] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Jul2025 02:02:46.415] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.437] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.765] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.769] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.779] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.782] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.783] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.784] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.787] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.800] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.804] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.805] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.805] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.810] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.812] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.814] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:46.990] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.712] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.719] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.720] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.720] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.721] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.722] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.722] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:50.870] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Jul2025 02:02:51.371] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
-[06Jul2025 02:02:51.870] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[06Jul2025 02:02:52.376] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[06Jul2025 02:02:52.936] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 15067 ms
-[06Jul2025 02:02:52.937] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (33.264s)! For help, type "help"
-[06Jul2025 02:02:53.160] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
-[06Jul2025 02:02:53.161] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
-[06Jul2025 02:02:53.161] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
-[06Jul2025 02:02:53.161] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
-[06Jul2025 02:02:53.161] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
-[06Jul2025 02:02:53.162] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
-[06Jul2025 02:02:53.162] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
-[06Jul2025 02:02:53.162] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
-[06Jul2025 02:02:53.162] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
-[06Jul2025 02:02:53.163] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
-[06Jul2025 02:02:53.163] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
-[06Jul2025 02:02:53.163] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
-[06Jul2025 02:02:53.344] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
-[06Jul2025 02:02:53.344] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
-[06Jul2025 02:02:53.345] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
-[06Jul2025 02:02:53.345] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
-[06Jul2025 02:02:53.346] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
-[06Jul2025 02:02:53.347] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
-[06Jul2025 02:02:53.347] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
-[06Jul2025 02:02:53.347] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
-[06Jul2025 02:02:53.348] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
-[06Jul2025 02:02:53.348] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
-[06Jul2025 02:02:53.349] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
-[06Jul2025 02:02:53.349] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
-[06Jul2025 02:02:53.350] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
-[06Jul2025 02:02:53.359] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
-[06Jul2025 02:02:53.363] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
-[06Jul2025 02:02:53.365] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
-[06Jul2025 02:02:53.366] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
-[06Jul2025 02:02:53.366] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
-[06Jul2025 02:02:53.371] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
-[06Jul2025 02:02:53.372] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Jul2025 02:02:53.424] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[06Jul2025 02:02:53.621] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
-[06Jul2025 02:02:53.625] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
-[06Jul2025 02:02:56.130] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2194ms or 43 ticks behind
-[06Jul2025 02:03:49.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
-[06Jul2025 02:03:49.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[06Jul2025 02:03:49.295] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[06Jul2025 02:03:49.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[06Jul2025 02:03:50.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[06Jul2025 02:03:51.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
-[06Jul2025 02:03:51.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
-[06Jul2025 02:03:51.072] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
-[06Jul2025 02:03:51.074] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
-[06Jul2025 02:03:51.075] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
-[06Jul2025 02:03:51.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
-[06Jul2025 02:03:51.077] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
-[06Jul2025 02:03:51.080] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[06Jul2025 02:03:51.081] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[06Jul2025 02:03:51.082] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
-[06Jul2025 02:03:51.083] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
-[06Jul2025 02:03:51.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
-[06Jul2025 02:03:51.085] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
-[06Jul2025 02:03:51.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/gamma_creatures:gamma_dimension
-[06Jul2025 02:03:51.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
-[06Jul2025 02:03:51.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[06Jul2025 02:03:51.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
-[06Jul2025 02:03:51.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
-[06Jul2025 02:03:51.318] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
-[06Jul2025 02:03:51.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
-[06Jul2025 02:03:51.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
-[06Jul2025 02:03:51.319] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
-[06Jul2025 02:03:51.323] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
-[06Jul2025 02:03:51.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[06Jul2025 02:03:51.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[06Jul2025 02:03:51.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
-[06Jul2025 02:03:51.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
-[06Jul2025 02:03:51.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
-[06Jul2025 02:03:51.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
-[06Jul2025 02:03:51.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gamma_dimension): All chunks are saved
-[06Jul2025 02:03:51.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
-[06Jul2025 02:03:51.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
-[06Jul2025 02:03:51.354] [Server thread/INFO] [Framework/]: Unloading server configs...
-[06Jul2025 02:03:51.357] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
-[06Jul2025 02:03:51.360] [Server thread/INFO] [Framework/]: Finished unloading server configs
+[06Jul2025 02:12:48.393] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_basic_shield: Unknown item id 'enderio:octadic_capacitor'
+[06Jul2025 02:12:48.624] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_tower_shield: Unknown item id 'mekanism:energy_tablet'
+[06Jul2025 02:12:48.716] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/dark_steel_riot_tower_shield: Unknown item id 'enderio:octadic_capacitor'
+[06Jul2025 02:12:48.742] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement spartanshields:recipes/basic_mekanists_basic_shield: Unknown item id 'mekanism:energy_tablet'
+[06Jul2025 02:12:48.859] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4522 advancements
+[06Jul2025 02:12:48.948] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 12 curio slots
+[06Jul2025 02:12:48.966] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 24 curio entities
+[06Jul2025 02:12:49.037] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: minecraft:is_plains
+[06Jul2025 02:12:53.755] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[06Jul2025 02:12:53.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[06Jul2025 02:12:53.757] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[06Jul2025 02:12:53.758] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Jul2025 02:12:53.931] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[06Jul2025 02:12:53.998] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[06Jul2025 02:12:54.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[06Jul2025 02:12:54.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[06Jul2025 02:12:54.145] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[06Jul2025 02:12:54.146] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[06Jul2025 02:12:54.231] [Server thread/INFO] [com.tom.storagemod.StorageMod/]: Loaded Tom's Simple Storage config file toms_storage-server.toml
+[06Jul2025 02:12:54.234] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
+[06Jul2025 02:12:54.238] [Thread-3/INFO] [com.tom.storagemod.StorageMod/]: Tom's Simple Storage config just got changed on the file system!
+[06Jul2025 02:12:54.913] [Server thread/INFO] [Explorations/]: Config 'explorations.json' was successfully loaded.
+[06Jul2025 02:12:54.916] [Server thread/INFO] [Explorations/]: Added statues to vanilla villages
+[06Jul2025 02:12:55.079] [Server thread/INFO] [Framework/]: Loading server configs...
+[06Jul2025 02:12:56.007] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[06Jul2025 02:12:56.008] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[06Jul2025 02:12:56.008] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[06Jul2025 02:12:58.100] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg|jeg:holy_shotgun,jeg:blossom_rifle]
+[06Jul2025 02:13:07.734] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[06Jul2025 02:13:07.737] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Jul2025 02:13:15.851] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:15.926] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:15.943] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:15.973] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.433] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.434] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.436] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.437] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.438] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.438] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.438] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.439] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.440] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.442] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.445] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.446] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.447] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.452] [Worker-Main-4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:16.738] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Jul2025 02:13:17.238] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[06Jul2025 02:13:17.741] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[06Jul2025 02:13:17.882] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 10145 ms
+[06Jul2025 02:13:17.888] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (23.722s)! For help, type "help"
+[06Jul2025 02:13:18.233] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: CustomNPC PermissionNode<Boolean>s available:
+[06Jul2025 02:13:18.234] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.blocks
+[06Jul2025 02:13:18.235] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.edit.villager
+[06Jul2025 02:13:18.235] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.bank
+[06Jul2025 02:13:18.235] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.dialog
+[06Jul2025 02:13:18.235] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.faction
+[06Jul2025 02:13:18.237] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.linked
+[06Jul2025 02:13:18.237] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.naturalspawn
+[06Jul2025 02:13:18.238] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.playerdata
+[06Jul2025 02:13:18.238] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.quest
+[06Jul2025 02:13:18.239] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.recipe
+[06Jul2025 02:13:18.240] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.global.transport
+[06Jul2025 02:13:18.240] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.advanced
+[06Jul2025 02:13:18.242] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.ai
+[06Jul2025 02:13:18.244] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.clone
+[06Jul2025 02:13:18.244] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.create
+[06Jul2025 02:13:18.244] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.delete
+[06Jul2025 02:13:18.245] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.display
+[06Jul2025 02:13:18.245] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.freeze
+[06Jul2025 02:13:18.245] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.gui
+[06Jul2025 02:13:18.245] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.inventory
+[06Jul2025 02:13:18.245] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.reset
+[06Jul2025 02:13:18.246] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.npc.stats
+[06Jul2025 02:13:18.246] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.scenes
+[06Jul2025 02:13:18.246] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.soulstone.all
+[06Jul2025 02:13:18.251] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.create
+[06Jul2025 02:13:18.251] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.spawner.mob
+[06Jul2025 02:13:18.251] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.mounter
+[06Jul2025 02:13:18.254] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.nbtbook
+[06Jul2025 02:13:18.254] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.pather
+[06Jul2025 02:13:18.255] [Server thread/INFO] [noppes.npcs.CustomNpcs/]: customnpcs.tool.scripter
+[06Jul2025 02:13:18.256] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Jul2025 02:13:18.272] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[06Jul2025 02:13:18.370] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[06Jul2025 02:13:18.370] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[06Jul2025 02:13:21.116] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[06Jul2025 02:17:41.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[06Jul2025 02:17:41.115] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[06Jul2025 02:17:41.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[06Jul2025 02:17:41.116] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[06Jul2025 02:17:41.618] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[06Jul2025 02:17:41.901] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury
+[06Jul2025 02:17:41.902] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus_orbit
+[06Jul2025 02:17:41.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:venus
+[06Jul2025 02:17:41.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:earth_orbit
+[06Jul2025 02:17:41.905] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars
+[06Jul2025 02:17:41.906] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon
+[06Jul2025 02:17:41.907] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/graveyard:past
+[06Jul2025 02:17:41.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mars_orbit
+[06Jul2025 02:17:41.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio
+[06Jul2025 02:17:41.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[06Jul2025 02:17:41.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:glacio_orbit
+[06Jul2025 02:17:41.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:mercury_orbit
+[06Jul2025 02:17:41.915] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ad_astra:moon_orbit
+[06Jul2025 02:17:41.916] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/gamma_creatures:gamma_dimension
+[06Jul2025 02:17:41.917] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[06Jul2025 02:17:42.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[06Jul2025 02:17:42.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury): All chunks are saved
+[06Jul2025 02:17:42.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus_orbit): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (venus): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (earth_orbit): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (past): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mars_orbit): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (glacio_orbit): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (mercury_orbit): All chunks are saved
+[06Jul2025 02:17:42.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (moon_orbit): All chunks are saved
+[06Jul2025 02:17:42.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (gamma_dimension): All chunks are saved
+[06Jul2025 02:17:42.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[06Jul2025 02:17:42.112] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[06Jul2025 02:17:42.136] [Server thread/INFO] [Framework/]: Unloading server configs...
+[06Jul2025 02:17:42.138] [Server thread/INFO] [Framework/]: Sending config unload event for goblintraders-entities.toml
+[06Jul2025 02:17:42.140] [Server thread/INFO] [Framework/]: Finished unloading server configs
